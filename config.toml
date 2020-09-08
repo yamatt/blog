@@ -2,7 +2,7 @@
 # Site Settings
 baseURL = "https://yamatt.github.io/blog"
 languageCode = "en-gb"
-title = "Test Hugo Site"
+title = "The Broader Picture Blog"
 
 hasCJKLanguage = false
 # Copyright information (Markdown supported)
@@ -94,17 +94,17 @@ uglyURLs = false
 # Author’s information
 [author]
     # Name
-    name = "reuixiy"
+    name = "Matt Copperwaite"
     # Email
-    email = "reuixiy@gmail.com"
+    email = "matt@copperwaite.net"
     # Motto or introduction
-    motto = "Viva La Vida"
+    motto = "All opinions expressed are my own views and in no way representative of my employer"
     # Avatar
-    avatar = "/icons/apple-touch-icon.png"
+    #avatar = "/icons/apple-touch-icon.png"
     # Personal website, default: baseURL
-    website = "https://io-oi.me/"
+    #website = "https://github.com/yamatt"
     # Twitter
-    twitter = "reuixiy"
+    #twitter = "mattcopp"
 
 # Related content
 [related]
@@ -151,7 +151,7 @@ uglyURLs = false
 
 # Maximum number of items in the Atom & RSS feed
 [services.rss]
-    limit = -1
+    limit = 10
 
 
 

@@ -1,0 +1,75 @@
+---
+name: The Broader Picture Blog
+
+on:
+  push:
+    branches:
+    - master
+  pull_request:
+    branches:
+    - master
+
+jobs:
+  test-language:
+    name: Test for biased language
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js 12
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.18.2
+      - name: Install Alex 8.x
+        run: npm install alex --global
+      - name: Test content with alex
+        run: alex ./content
+  test-complexity:
+    name: Get report on language complexity
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.7
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+      - name: Install language complexity tools
+        run: python3 -m pip install textstat-cli==1.0.0
+      - name: Get language complexity report
+        run: python3 -m textstat_cli ./content
+  test-spelling:
+    name: Use GrammarBot to check for spelling and grammar
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.7
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+      - name: Install grammaerbot CLI tool
+        run: python3 -m pip install hemoglobin=0.0.1
+      - name: Get grammarbot report
+        run: python3 -m hemoglobin ${{ secrets.GRAMMARBOT_APIKEY }} ./content
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    needs:
+        - test-language
+        - test-complexity
+        - test-spelling
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.74.1'
+          extended: true
+      - name: Build
+        run: hugo --minify
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
