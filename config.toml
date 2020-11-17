@@ -1,6 +1,6 @@
 ##########################################
 # Site Settings
-baseURL = "https://yamatt.github.io/blog"
+baseURL = "https://blog.copperwaite.net"
 languageCode = "en-gb"
 title = "The Broader Picture Blog"
 
