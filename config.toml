@@ -2,7 +2,7 @@
 # Site Settings
 baseURL = "https://blog.copperwaite.net"
 languageCode = "en-gb"
-title = "The Broader Picture Blog"
+title = "The Broader Picture"
 
 hasCJKLanguage = false
 # Copyright information (Markdown supported)
