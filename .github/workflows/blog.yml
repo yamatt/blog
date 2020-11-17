@@ -33,7 +33,7 @@ jobs:
         with:
           python-version: 3.7
       - name: Install language complexity tools
-        run: python3 -m pip install textstat-cli==1.1.1
+        run: python3 -m pip install textstat-cli==1.1.2
       - name: Get language complexity report
         run: python3 -m textstat_cli ./content
   test-spelling:
