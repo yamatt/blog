@@ -198,7 +198,7 @@ uglyURLs = false
        pre = "internal"
        post = "home"
     [[menu.main]]
-        url = "/posts/"
+        url = "/blog/"
         name = "Blog"
         weight = 2
         pre = "internal"
