@@ -1,6 +1,6 @@
 ##########################################
 # Site Settings
-baseURL = "https://blog.copperwaite.net"
+baseURL = "https://matt.copperwaite.net"
 languageCode = "en-gb"
 title = "The Broader Picture"
 
