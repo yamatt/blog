@@ -68,6 +68,8 @@ jobs:
           extended: true
       - name: Build
         run: hugo --minify
+      - name: Recreate CNAME file
+        run: echo "matt.copperwaite.net" > CNAME
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
