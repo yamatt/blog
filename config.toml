@@ -2,7 +2,7 @@
 # Site Settings
 baseURL = "https://matt.copperwaite.net"
 languageCode = "en-gb"
-title = "The Broader Picture"
+title = "Matt Copperwaite"
 
 hasCJKLanguage = false
 # Copyright information (Markdown supported)
