@@ -1,3 +1,3 @@
 ---
-heading: "The Bigger Picture Blog"
+title: "The Bigger Picture Blog"
 ---
