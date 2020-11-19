@@ -203,6 +203,24 @@ uglyURLs = false
         weight = 2
         pre = "internal"
         post = "archive"
+     [[menu.network]]
+         url = "https://www.linkedin.com/in/matthew-copperwaite-44319b26"
+         name = "LinkedIn"
+         weight = 3
+         pre = "internal"
+         post = "archive"
+      [[menu.network]]
+          url = "https://github.com/yaMatt"
+          name = "GitHub"
+          weight = 4
+          pre = "internal"
+          post = "archive"
+       [[menu.network]]
+           url = "https://keybase.io/mattcopp"
+           name = "Keybase"
+           weight = 5
+           pre = "internal"
+           post = "archive"
 
 
 
@@ -210,6 +228,15 @@ uglyURLs = false
 # Theme Settings
 
 [params]
+
+    # social networks
+    github = "https://github.com/yaMatt"
+    linkedin = "https://www.linkedin.com/in/matthew-copperwaite-44319b26"
+    keybase = "https://keybase.io/mattcopp"
+
+    iconOrder = ["GitHub", "LinkedIn", "Keybase"]
+
+
     ######################################
     # Header
 
