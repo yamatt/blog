@@ -6,7 +6,7 @@ title = "Matt Copperwaite"
 
 hasCJKLanguage = false
 # Copyright information (Markdown supported)
-copyright = "[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)"
+copyright = "CC BY-SA 4.0"
 
 # Name of theme
 theme = "hugo-theme-codex"
