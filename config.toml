@@ -145,7 +145,7 @@ uglyURLs = false
 [outputs]
     page = ["HTML"]
     home = ["HTML", "SectionsAtom", "SectionsRSS", "SearchIndex"]
-    section = ["HTML", "Atom", "RSS", "SectionsAtom", "SectionsRSS", "SearchIndex"]
+    section = ["HTML", "SectionsAtom", "SectionsRSS", "SearchIndex"]
     taxonomy = ["HTML"]
     term = ["HTML"]
 
