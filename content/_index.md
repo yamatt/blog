@@ -1,4 +1,4 @@
 ---
 heading: "Matt Copperwaite"
-subheading: "IT Security through Agile delivery."
+subheading: "Secure IT through Agile delivery."
 ---
