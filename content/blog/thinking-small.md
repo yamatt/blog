@@ -24,6 +24,7 @@ But the cause is only academic and an interesting artefact.
 
 There's a [quote attributed to Bill Gates](https://www.goodreads.com/quotes/568877-i-choose-a-lazy-person-to-do-a-hard-job) that says
 
+<!--alex ignore easy-->
 > “I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it.”
 
 It can be mean, and seems unfair, but my first approach is always "Taking this task strictly by the words provided, no extra definitions or external input, how can I achieve this with the minimal amount of effort and lines of code." Or another way "How quickly can I get this off my task list and move on to something else".

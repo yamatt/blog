@@ -24,7 +24,7 @@ That also gave us the opportunity to document the process to share with future t
 
 As you might expect the Sprint didn't go entirely smoothly. We were open with the business that what we weren't delivering wasn't anything of any immediate value and we were subsequently offered (more than once) to shortcut the normal process. As this wouldn't have helped identify the process so we turned those offers down whenever they arose, but it did set us back to end up in those discussions.
 
-There is also an interesting discussion at this point that once we get our foot in the door, whats to stop us building out from there, with less oversight. The gatekeepers took our word that this was a simple app. But how do they know that?
+There is also an interesting discussion at this point that once we get our foot in the door, whats to stop us building out from there, with less oversight. The gatekeepers took our word that this was a basic app. But how do they know that?
 
 Anyway, for Sprint 1 we decided to run roughly the same tasks again but expand on the "Hello World" to something meaningful and tangible so those shortcuts that we were less likely to be offered.
 
