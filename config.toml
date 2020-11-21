@@ -126,28 +126,6 @@ uglyURLs = false
 [mediaTypes."application/atom+xml"]
     suffixes = ["xml"]
 
-# Custom Atom template of MemE
-[outputFormats.SectionsAtom]
-    mediaType = "application/atom+xml"
-    baseName = "atom"
-
-# Custom RSS template of MemE
-[outputFormats.SectionsRSS]
-    mediaType = "application/rss+xml"
-    baseName = "rss"
-
-# Search index for lunr.js
-[outputFormats.SearchIndex]
-    mediaType = "application/json"
-    baseName = "search"
-
-# Hugo’s output control
-[outputs]
-    page = ["HTML"]
-    home = ["HTML", "SectionsAtom", "SectionsRSS", "SearchIndex"]
-    section = ["HTML", "SectionsAtom", "SectionsRSS", "SearchIndex"]
-    taxonomy = ["HTML"]
-    term = ["HTML"]
 
 # Maximum number of items in the Atom & RSS feed
 [services.rss]
