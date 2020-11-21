@@ -2,7 +2,7 @@
 title: "Assessing Security Practices of 3rd Party products"
 date: 2020-11-20T18:10:32+01:00
 slug: ""
-description: ""
+description: "How should you identify the risks of using 3rd party products"
 keywords: []
 draft: false
 tags: []
