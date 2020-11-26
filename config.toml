@@ -1305,3 +1305,8 @@ uglyURLs = false
     fofVideoMp4 = ""
     # Note: you can leave these two
     #       options empty("")
+
+  [outputFormats]
+    [outputFormats.RSS]
+      mediatype = "application/rss"
+      baseName = "rss"
