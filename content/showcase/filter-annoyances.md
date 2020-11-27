@@ -21,7 +21,7 @@ I did use [_I don't care about cookies_](https://addons.mozilla.org/en-GB/firefo
 
 I'm kind of curious about ways you can test and validate uBlock Origin filters. It seems kind of difficult.
 
-I also found that the [filter syntax used in uBlock Origin comes from Adblock Plus](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax), and they can be very imprecise. But the uBlock Origin element picker tool is amazing. Some of the time I just use that then copy the generated rule in to this repo.
+I also found that the [filter syntax used in uBlock Origin comes from Adblock Plus](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax), and they can be very imprecise. But the uBlock Origin element picker tool is amazing. Some of the time I use it then copy the generated rule in to this repo.
 
 I chose (rather unusually for me) the CC0 license for these filters because I wanted to put them as much in to the public domain as possible, and because they are not really programmatic scripts.
 
