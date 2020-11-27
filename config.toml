@@ -187,6 +187,12 @@ uglyURLs = false
          weight = 3
          pre = "internal"
          post = "archive"
+      [[menu.main]]
+          url = "/about-me/"
+          name = "About Me"
+          weight = 4
+          pre = "internal"
+          post = "archive"
 
 
 
