@@ -27,4 +27,4 @@ I chose (rather unusually for me) the CC0 license for these filters because I wa
 
 The distractions list is purely for things that take me away being productive on sites I use day-to-day. Kind of dark patterns really that keep you on their site.
 
-The aggressive filter I've moved away from because it was too difficult to maintain and I kept having to switch off uBlock to see if the page worked, which then meant I saw adds.
+The aggressive filter I've moved away from because it was too difficult to maintain and I kept having to switch off uBlock to see if the page worked, which then meant I saw ads.
