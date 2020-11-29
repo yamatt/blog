@@ -11,7 +11,7 @@
     <div class="showcase">
       {{ range .Pages }}
       <div class="showcase-item">
-        <img class="showcase-image" src="{{ .Params.imageurl }}" title="Sample image for {{ .Title }}">
+        <div class="showcase-image" style="background-image:url('' {{- .Params.imageurl }} '')"></div>
           <h2 class="post__title">
             <a href="{{.RelPermalink}}">{{ .Title }}</a>
           </h2>
