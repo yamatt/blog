@@ -4,7 +4,7 @@
 }
 .showcase-item {
   padding: 1em;
-  width: 100%;
+  width: 25vw;
 }
 
 .showcase-image {
@@ -34,4 +34,6 @@
 .link-icon {
   width: 1.4rem;
   height: 1.4rem;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
