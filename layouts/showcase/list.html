@@ -1,0 +1,33 @@
+{{ define "styles" }}
+    {{ $.Scratch.Set "style_opts" (dict "src" "scss/pages/posts.scss" "dest" "css/posts.css") }}
+{{ end }}
+
+{{ define "main" }}
+
+{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}
+<div class="post-list__container">
+  <div>
+    <h1>{{ .Title }}</h1>
+    <div class="showcase">
+      {{ range .Pages }}
+      <div class="post">
+        <div class="post-image" style="background-image: url('{{ .Image_url }}');"></div>
+          <h2 class="post__title">
+            <a href="{{.RelPermalink}}">{{ .Title }}</a>
+          </h2>
+          <p>{{ .Description }}</p>
+          <ul class="pills">
+            <li class="pill">{{ .License }}</li>
+            <li class="pill">
+              <a class="social-icons__link" href="{{ .Link }}" rel="noopener">
+                <div class="social-icons__icon" style="background-image:url(/svg/link.svg)"></div>
+              </a>
+            </li>
+          </ul>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+{{ end }}
