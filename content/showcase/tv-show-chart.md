@@ -1,6 +1,6 @@
 ---
 title: "TV Show Chart"
-imageurl: /static/img/tv-show-chart.png
+imageurl: /img/tv-show-chart.png
 date: 2020-11-28T17:14:32+01:00
 slug: ""
 description: "Visualise the popularity ratings of TV shows from IMDb data"

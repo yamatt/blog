@@ -1,6 +1,6 @@
 ---
 title: "Filter Annoyances"
-imageurl: /static/img/filter-annoyances.png
+imageurl: /img/filter-annoyances.png
 date: 2020-11-27T17:14:32+01:00
 slug: ""
 description: "uBlock Origin filters to remove annoying things about the web."
