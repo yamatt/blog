@@ -11,15 +11,15 @@
     <div class="showcase">
       {{ range .Pages }}
       <div class="post">
-        <div class="post-image" style="background-image: url('{{ .imageurl }}');"></div>
+        <div class="post-image" style="background-image: url('{{ .Params.imageurl }}');"></div>
           <h2 class="post__title">
             <a href="{{.RelPermalink}}">{{ .Title }}</a>
           </h2>
           <p>{{ .Description }}</p>
           <ul class="pills">
-            <li class="pill">{{ .License }}</li>
+            <li class="pill">{{ .Params.License }}</li>
             <li class="pill">
-              <a class="social-icons__link" href="{{ .Link }}" rel="noopener">
+              <a class="social-icons__link" href="{{ .Params.Link }}" rel="noopener">
                 <div class="social-icons__icon" style="background-image:url(/svg/link.svg)"></div>
               </a>
             </li>
