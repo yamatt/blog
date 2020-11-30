@@ -3,7 +3,7 @@ title: "CharDiff"
 imageurl: /img/chardiff.png
 date: 2020-11-30T10:24:32+01:00
 slug: ""
-description: "."
+description: "CharDiff lets you compare 2 strings at a character level on the command line."
 link: https://github.com/yamatt/python3-chardiff
 license: AGPLv3
 keywords: []
