@@ -7,13 +7,13 @@ description: "."
 link: https://github.com/yamatt/python3-chardiff
 license: AGPLv3
 keywords: []
-draft: true
+draft: false
 tags: []
 math: false
 toc: false
 ---
 
-CharDiff is an easy to use tool to compare 2 strings and highlight the characters in them that are different.
+CharDiff is an easy-to-use tool to compare 2 strings and highlight the characters in them that are different.
 
 This came about for a couple reasons.
 
@@ -25,4 +25,4 @@ I even already have some [nice feedback from some users](https://github.com/yama
 
 I have seen subsequent posts around the web of tools like this, and there are [definitely better ones out there](https://github.com/johannhof/difference.rs).
 
-But it wasn't to be the best, just to expand my knowledge. I now have a template for future projects.
+But it wasn't to be the best but to expand my knowledge. I now have a template for future projects.
