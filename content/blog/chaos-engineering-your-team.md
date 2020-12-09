@@ -15,7 +15,7 @@ Mountain Goat Software runs possibly one of my favourite blogs at the moment. Th
 <!--alex ignore of-course-->
 I read an article while back, but of course I cannot find now, about how you might want to consider applying [Chaos Engineering](https://en.wikipedia.org/wiki/Chaos_engineering), not only to your technology, but also your people. A random person gets selected maybe once a week, to take the day off. Simulating a sick-leave like situation.
 
-I'm a a huge proponent of the idea that no single person should be critical to your business, and in fact they become a massive risk to your business that is only realised once they leave. It also creates an uncollaborative working environment because you will have a lot of different pressures from different people on one person. This is covered a lot in [The Phoenix Project](https://www.amazon.co.uk/Phoenix-Project-DevOps-Helping-Business-ebook/dp/B00AZRBLHO).
+I'm a huge proponent of the idea that no single person should be critical to your business, and in fact they become a massive risk to your business that is only realised once they leave. It also creates an uncollaborative working environment because you will have a lot of different pressures from different people on one person. This is covered a lot in [The Phoenix Project](https://www.amazon.co.uk/Phoenix-Project-DevOps-Helping-Business-ebook/dp/B00AZRBLHO).
 
 Using the principles behind Chaos Engineering you can build in expectations in to your team that you should be able to survive the loss of a person.
 
