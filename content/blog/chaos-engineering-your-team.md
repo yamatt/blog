@@ -4,7 +4,7 @@ date: 2020-12-09T18:10:32+01:00
 slug: ""
 description: "Have a day off"
 keywords: []
-draft: true
+draft: false
 tags: []
 math: false
 toc: false
