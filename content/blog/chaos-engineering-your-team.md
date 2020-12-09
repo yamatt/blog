@@ -31,7 +31,7 @@ Now don't get me wrong, I'm not saying you need two (or more) executives in the 
 
 Instead the major discussions should happen before the meeting, on your preferred collaboration tool. Any reading material can be distributed before hand and consumed at your leisure. If someone has a vested interest, such as an executive authoriser, they can raise any concerns before anyone steps in the room.
 
-The meeting becomes a formality to say "a decision needs to be made by this date and time". It's more like that cliche moment in weddings in movies where the vicar says "Speak now or forever hold your piece". The meeting should be 5 minutes tops.
+The meeting becomes a formality to say "a decision needs to be made by this date and time". It's more like that cliche moment in weddings in movies where the vicar says "Speak now or forever hold your peace". The meeting should be 5 minutes tops.
 
 The only other time people might want to meet at the same time is if something was being presented, such as a town hall or a sprint review. In those situations you should ensure that those meetings are recorded and published so that others can view and ask questions later if they were interested, but weren't able to attend.
 
