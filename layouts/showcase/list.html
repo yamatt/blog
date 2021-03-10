@@ -14,7 +14,9 @@
         <h2 class="post__title">
           <a href="{{.RelPermalink}}">{{ .Title }}</a>
         </h2>
+        <a href="{{.RelPermalink}}">
         <div class="showcase-image" style="background-image:url(' {{- .Params.imageurl }} ')"></div>
+        </a>
           <p>{{ .Description }}</p>
           <ul class="pills">
             <li class="pill">{{ .Params.License }}</li>
