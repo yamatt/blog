@@ -1,5 +1,5 @@
 ---
-name: The Broader Picture Blog
+name: Deploy The Broader Picture Blog
 
 on:
   push:
