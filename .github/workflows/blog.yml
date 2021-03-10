@@ -4,7 +4,7 @@ name: The Broader Picture Blog
 on:
   push:
     branches:
-    - master
+    - main
 
 jobs:
   test-language:
