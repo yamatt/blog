@@ -13,7 +13,7 @@ math: false
 toc: false
 ---
 
-[This blog](https://matt.copperwaite.net) is my attempt as consolidating my IT security knowledge using Agile methodology.
+[This blog](https://matt.copperwaite.net) is my attempt at consolidating my IT security knowledge using Agile methodology.
 
 I had a couple of requirements:
 
@@ -25,7 +25,7 @@ I had a couple of requirements:
 
 I really enjoy this sort of thinking. It left me with a couple of options. My first thought was a public S3 bucket, but after a lot of thinking I realised the tool that filled all of these options was GitHub Pages.
 
-Now GitHub Pages does have it's own static page generator, but after a bit of searching I settled on Hugo having the most widely used and best documentation. I also found a GitHub Action that could automatically build Hugo sites which saved me a lot of time.
+Now GitHub Pages does have its own static page generator, but after a bit of searching I settled on Hugo having the most widely used and best documentation. I also found a GitHub Action that could automatically build Hugo sites which saved me a lot of time.
 
 That is not to say my journey in to Hugo was fun, things like using submodules in git makes me squirm, but I'm super happy with the results. I've also set it up in a way which means if I wanted to set up other blogs it would be very little effort to get it going.
 
@@ -45,9 +45,9 @@ Another things I did want to include was something like Grammarly to improve the
 
 ### Reading complexity and length
 
-The other thing I wanted to do to improve content quality was to ensure my use of language was not too complex and that the reading length is not too long. I really struggled to find many tools here. There one I found is a Python library called textstat, which reads plain text files and derives lots of stats about complexity. I haven't taken the time to study in detail what the numbers mean, but I figured if the numbers were at least reasonably consistent I'm probably doing ok.
+The other thing I wanted to do to improve content quality was to ensure my use of language was not too complex and that the reading length is not too long. I really struggled to find many tools here. The one I found is a Python library called textstat, which reads plain text files and derives lots of stats about complexity. I haven't taken the time to study in detail what the numbers mean, but I figured if the numbers were at least reasonably consistent I'm probably doing OK.
 
-However since textstat is a library I needed to [write a wrapper](https://github.com/yamatt/python3-textstat-cli) that allowed it to be included in a CI/CD pipeline and be human readable.
+However, since textstat is a library I needed to [write a wrapper](https://github.com/yamatt/python3-textstat-cli) that allowed it to be included in a CI/CD pipeline and be human readable.
 
 One of the other things I wanted to do was to ensure the reading length of the text was no more than 10 minutes. I use Firefox's Reader view quite a lot. At the top it gives you an approximate reading time. My upper bound on that is 10 minutes. It's partly a free time thing, but also I feel like if you can't explain a problem within a reasonable time-frame you either needed to break it out in to separate posts, or you're not very effective at explaining a problem.
 
