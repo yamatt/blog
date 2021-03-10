@@ -13,7 +13,7 @@ math: false
 toc: false
 ---
 
-CharDiff is an easy-to-use tool to compare 2 strings and highlight the characters in them that are different.
+[CharDiff](https://github.com/yamatt/python3-chardiff) is an easy-to-use tool to compare 2 strings and highlight the characters in them that are different.
 
 This came about for a couple reasons.
 

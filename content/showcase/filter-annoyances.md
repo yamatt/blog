@@ -12,8 +12,9 @@ tags: []
 math: false
 toc: false
 ---
+[Filter Annoyances](https://yamatt.github.io/filter-annoyances/) is some filters for uBlock Origin that I did not find in other filter lists.
 
-This is my first foray in to making uBlock origin. I was at the time, and still do, wanted to remove the cookie and GDPR pop-ups but still use the site. These filters help facilitate that.
+This is my first foray in to making uBlock Origin. I was at the time, and still do, wanted to remove the cookie and GDPR pop-ups but still use the site. These filters help facilitate that.
 
 There are a couple of built-in ones to uBlock such as [easylist cookie](https://github.com/easylist/easylist) and uBlock Annoyances, but these looked difficult to contribute to.
 

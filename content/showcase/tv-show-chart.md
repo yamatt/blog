@@ -13,6 +13,8 @@ math: false
 toc: false
 ---
 
+[TV Show Chart](https://yamatt.github.io/tv-show-chart/) allows you to visualise the popularity of TV Show episodes across seasons using IMDb data and GitHub Actions.
+
 There used to be a website that did this for you. It seemed to go away. So I decided to write some quick hacks to make my own. It is really bare minimum to get it working.
 
 It started off being nothing good or professional about the code behind the repo. I am not a front-end person at all, other than I like doing a bit of JavaScript from time to time.
