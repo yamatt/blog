@@ -27,11 +27,11 @@ I really enjoy this sort of thinking. It left me with a couple of options. My fi
 
 Now GitHub Pages does have it's own static page generator, but after a bit of searching I settled on Hugo having the most widely used and best documentation. I also found a GitHub Action that could automatically build Hugo sites which saved me a lot of time.
 
-That is not to say my journey in to Hugo was easy, things like using submodules in git makes me squirm, but I'm super happy with the results. I've also set it up in a way which means if I wanted to set up other blogs it would be very little effort to get it going.
+That is not to say my journey in to Hugo was fun, things like using submodules in git makes me squirm, but I'm super happy with the results. I've also set it up in a way which means if I wanted to set up other blogs it would be very little effort to get it going.
 
 ## Content Quality
 
-I used to have (or more accurately abandoned) a Twitter account, but after seeing the Twitter backlash one of the things that concerns me is my ability to explain complex problems in a concise way. A blog was the obvious answer to me. I read a lot of blog posts via [lobste.rs](https://losbte.rs) (there's a whole separate post required about why I don't read Hacker News) I also wanted to be as inclusive as possible in my writing and bringing in content quality tooling in much the same way you would bring in linters and tests to bring in code quality, seemed the best way of doing that.
+I used to have (or more accurately abandoned) a Twitter account, but after seeing the Twitter backlash one of the things that concerns me is my ability to explain complex problems in a concise way. A blog was the best answer to me. I read a lot of blog posts via [lobste.rs](https://losbte.rs) (there's a whole separate post required about why I don't read Hacker News) I also wanted to be as inclusive as possible in my writing and bringing in content quality tooling in much the same way you would bring in linters and tests to bring in code quality, seemed the best way of doing that.
 
 After some discussions with colleagues I gathered some tooling that I wanted to incline in a CI/CD pipeline. I don't think this is the extent of tools that could be included but enough tooling to make me comfortable with writing a blog.
 
@@ -51,7 +51,7 @@ However since textstat is a library I needed to [write a wrapper](https://github
 
 One of the other things I wanted to do was to ensure the reading length of the text was no more than 10 minutes. I use Firefox's Reader view quite a lot. At the top it gives you an approximate reading time. My upper bound on that is 10 minutes. It's partly a free time thing, but also I feel like if you can't explain a problem within a reasonable time-frame you either needed to break it out in to separate posts, or you're not very effective at explaining a problem.
 
-This reading length requirement is actually a really simple bit of maths to detect the number of words and then divide that by a variety of people's reading speeds. It was so quick to do I actually bundled it in to [textstat-cli](https://github.com/yamatt/python3-textstat-cli).
+This reading length requirement is actually a really quick bit of maths to detect the number of words and then divide that by a variety of people's reading speeds. It was so quick to do I actually bundled it in to [textstat-cli](https://github.com/yamatt/python3-textstat-cli).
 
 ## Future
 
