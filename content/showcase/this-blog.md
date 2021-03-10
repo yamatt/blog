@@ -7,7 +7,7 @@ description: "Static blog using Hugo that is built using GitHub Actions."
 link: https://matt.copperwaite.net
 license: CC BY-SA 4.0
 keywords: []
-draft: true
+draft: false
 tags: []
 math: false
 toc: false
