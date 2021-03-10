@@ -37,7 +37,7 @@ After some discussions with colleagues I gathered some tooling that I wanted to 
 
 ### AlexJS
 
-Using GitHub Actions allowed me to inline the assessment of the quality of my content. One of the tools I chose was [AlexJS](https://alexjs.com/). I was already a little familiar with it anyway, having been referred it by a friend. AlexJS that looks to improve the equality in your use of language and is super cool and it's been fascinating how it's been teaching me to adapt my language. I looked for similar products that I could also include, but I wasn't very successful.
+Using GitHub Actions allowed me to inline the assessment of the quality of my content. One of the tools I chose was [AlexJS](https://alexjs.com/). I was already a little familiar with it anyway, having been referred it by a friend. AlexJS looks to improve the equality in your use of language and is super cool and it's been fascinating how it's been teaching me to adapt my language. I looked for similar products that I could also include, but I wasn't very successful.
 
 ### Make words better
 
