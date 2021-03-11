@@ -7,7 +7,7 @@ description: "My first published book"
 link: https://www.amazon.co.uk/Learning-Flask-Framework-data-driven-applications/dp/1783983361
 license: CC BY-SA 4.0
 keywords: []
-draft: true
+draft: false
 tags: []
 math: false
 toc: false
