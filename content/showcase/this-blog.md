@@ -68,4 +68,4 @@ I did want to include comments on blog posts as a proxy for page impressions and
 
 ### Link Validation
 
-Another thing I'm thinking of doing is to also validate any links I use in my posts. If I link to something that page needs to exist, and be stored in the Way Back Machine. This is kind of harder to achieve than I was expecting, so something for another time.
+Another thing I'm thinking of doing is to also validate any links I use in my posts. If I link to something that page needs to exist, and be stored in the Way Back Machine. This is more difficult to achieve than I was expecting, so something for another time.
