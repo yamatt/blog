@@ -36,11 +36,11 @@ That is not to say my journey in to Hugo was fun, things like using submodules i
 
 I used to have (or more accurately abandoned) a Twitter account after seeing the Twitter backlash and decided I didn't feel comfortable with my own writing. One of the things that concerned me is my ability to explain complex problems in a concise way. I saw a lot of people revert to blogs when Twitter didn't fill the gap, so I figured a blog was the best answer. I also wanted to minimize my own biases in my writing and wanted to be as inclusive as possible with the aim to minimise backlash. To me the only way of doing that was to bring in content quality tooling in much the same way you would bring in linters and tests to bring in code quality, seemed the best way of doing that.
 
-After some discussions with colleagues I gathered some tooling that I wanted to incline in a CI/CD pipeline. I don't think this is the extent of tools that could be included but enough tooling to make me comfortable with writing a blog.
+After some discussions with colleagues I gathered some tooling that I wanted to include in a CI/CD pipeline. I don't think this is the extent of tools that could be included but enough tooling to make me comfortable with writing a blog.
 
 ### AlexJS
 
-Using GitHub Actions allowed me to inline the assessment of the quality of my content. One of the tools I chose was [AlexJS](https://alexjs.com/). I was already a little familiar with it anyway, having been referred it by a friend. AlexJS looks to improve the equality in your use of language and is super cool and it's been fascinating how it's been teaching me to adapt my language. I looked for similar products that I could also include, but I wasn't very successful.
+One of the tools I chose to check this quality was [AlexJS](https://alexjs.com/). I was already a little familiar with it anyway, having been referred it by a friend. AlexJS looks to improve the equality in your use of language and is super cool and it's been fascinating how it's been teaching me to adapt my language. I looked for similar products that I could also include, but I wasn't very successful.
 
 ### Make words better
 
@@ -48,7 +48,7 @@ Another things I did want to include was something like Grammarly to improve the
 
 ### Reading complexity and length
 
-The other thing I wanted to do to improve content quality was to ensure that when writing about complex topics I was not alienating anyone  and that the reading length is not too long. I really struggled to find many tools here. The one I found is a Python library called textstat, which reads plain text files and derives lots of stats about complexity. I haven't taken the time to study in detail what the numbers mean, but I figured if the numbers were at least reasonably consistent I'm probably doing OK.
+The other thing I wanted to do to improve content quality was to ensure that when writing about complex topics I was not alienating anyone  and that the reading length is not too long. I really struggled to find many tools here. The one I found is a Python library called [textstat](https://github.com/shivam5992/textstat), which reads plain text files and derives lots of stats about complexity. I haven't taken the time to study in detail what the numbers mean, but I figured if the numbers were at least reasonably consistent I'm probably doing OK.
 
 However, since textstat is a library I needed to [write a wrapper](https://github.com/yamatt/python3-textstat-cli) that allowed it to be included in a CI/CD pipeline and be human readable.
 
@@ -60,7 +60,7 @@ This reading length requirement is actually a really quick bit of maths to detec
 
 ### Stats
 
-One day, once I get enough posts together I will try to see what interesting stats I can find. Since I'm not using analytics I'll never be able to do that end of year blog post that my favourite blog posts do that usually discuss their most popular blog posts. But perhaps for me that will be the time I do my stats reviews.
+One day, once I get enough posts together I will try to see what interesting stats I can find. Since I'm not using analytics I'll never be able to do that end of year blog post that my favourite blog posts do that usually discuss their most popular blog posts. But perhaps for me that will be the time I review the readability and inclusiveness of my posts.
 
 ### Comments on Posts
 
@@ -68,4 +68,4 @@ I did want to include comments on blog posts as a proxy for page impressions and
 
 ### Link Validation
 
-Another thing I'm thinking of doing is to also validate any links I use in my posts. If I link to something that page needs to exist, and be stored in the Way Back Machine. This is more difficult to achieve than I was expecting, so something for another time.
+Another thing I'm thinking of doing is to also validate any links I use in my posts. If I link to something that page needs to exist, and be stored in the [Way Back Machine](https://web.archive.org/). This is more difficult to achieve than I was expecting, so something for another time.
