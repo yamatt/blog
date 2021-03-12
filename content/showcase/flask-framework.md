@@ -3,7 +3,7 @@ title: "Flask Framework"
 imageurl: /img/showcase-flask-framework.png
 date: 2021-03-11T18:30:32+01:00
 slug: ""
-description: "My first published book"
+description: "My first published book that I wrote on the subject of the brilliant Python webservice library Flask"
 link: https://www.amazon.co.uk/Learning-Flask-Framework-data-driven-applications/dp/1783983361
 license: CC BY-SA 4.0
 keywords: []
