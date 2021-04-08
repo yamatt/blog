@@ -1,7 +1,7 @@
 ---
 title: "Scaleway Serverless Container Deploy GitHub Action"
 imageurl: /img/scaleway-serverless-action.png
-date: 2021-03-10T18:50:32+01:00
+date: 2021-04-08T18:50:32+01:00
 slug: ""
 description: "A GitHub Action to deploy images in Scaleways Container Registry to Scaleways Serverless Container"
 link: https://github.com/marketplace/actions/scaleway-serverless-container-deploy
