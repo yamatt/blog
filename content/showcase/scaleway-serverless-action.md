@@ -23,4 +23,4 @@ It doesn't work on its own or isolation. You need to import your images in to Sc
 
 Without much effort I wrapped the API using cURL (and jq for testing) that makes deployment a one step process, and published it to the marketplace for others to use, then promoting it in the Scaleway Slack to get feedback. I also used it in my original test project and it works beautifully.
 
-I licenced this under MIT, which is unusual for me. I wasn't sure if I licenced it under AGPLv3 how much would that screw up the rest of the action, and also limit adoption, which for me was the most important thing.
+I licenced this under MIT, which is unusual for me. I wasn't sure if I licenced it under AGPLv3 how much would that mess up the rest of the action, and also limit adoption, which for me was the most important thing.
