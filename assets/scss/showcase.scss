@@ -5,8 +5,20 @@
 
 .showcase-item {
   padding: 1em;
-  width: 25em;
 }
+
+@media screen and (orientation:portrait) {
+  .showcase-item {
+    width: 90%;
+  }
+}
+/* Landscape */
+@media screen and (orientation:landscape) {
+  .showcase-item {
+    width: 30%;
+  }
+}
+
 
 .showcase-image {
   height: 20vh;
