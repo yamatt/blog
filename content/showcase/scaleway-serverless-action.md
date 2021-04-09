@@ -5,7 +5,7 @@ date: 2021-04-08T18:50:32+01:00
 slug: ""
 description: "A GitHub Action to deploy images in Scaleways Container Registry to Scaleways Serverless Container"
 link: https://github.com/marketplace/actions/scaleway-serverless-container-deploy
-license: CC BY-SA 4.0
+license: MIT
 keywords: []
 draft: false
 tags: []
@@ -22,3 +22,5 @@ The documentation hasn't been brilliant, neither is GitHub Actions, but I did ge
 It doesn't work on its own or isolation. You need to import your images in to Scaleway Container Registry to do that, and there are plenty of good and existing GitHub Actions that can already do that.
 
 Without much effort I wrapped the API using cURL (and jq for testing) that makes deployment a one step process, and published it to the marketplace for others to use, then promoting it in the Scaleway Slack to get feedback. I also used it in my original test project and it works beautifully.
+
+I licenced this under MIT, which is unusual for me. I wasn't sure if I licenced it under AGPLv3 how much would that screw up the rest of the action, and also limit adoption, which for me was the most important thing.
