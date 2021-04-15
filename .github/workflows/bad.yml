@@ -6,8 +6,12 @@ on: pull_request
 jobs:
   run-malware:
     name: simulate malware
-    runs-on: ubuntu-latest
+    runs-on: macos-11.0
     steps:
       - uses: actions/checkout@v2
       - name: runs malware
         run: echo "hello world"
+      - name: Sleep for 60 seconds
+        uses: jakejarvis/wait-action@master
+        with:
+          time: '60s'
