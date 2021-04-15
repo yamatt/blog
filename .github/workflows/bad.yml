@@ -1,0 +1,13 @@
+---
+name: bad
+
+on: pull_request
+
+jobs:
+  run-malware:
+    name: simulate malware
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: runs malware
+        run: echo "hello world"
