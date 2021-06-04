@@ -13,8 +13,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.18.2
-      - name: Install Alex 8.x
-        run: npm install alex --global
+      - name: Install Alex
+        run: npm install alex@9.1.0 --global
       - name: Test content with alex
         run: alex ./content
   test-complexity:
