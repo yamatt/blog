@@ -13,8 +13,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.18.2
-      - name: Install Alex 8.x
-        run: npm install alex --global
+      - name: Install Alex
+        run: npm install alex@9.1.0 --global
       - name: Test content with alex
         run: alex ./content
   test-complexity:
@@ -43,3 +43,16 @@ jobs:
         run: python3 -m pip install hemoglobin==0.0.2
       - name: Get grammarbot report
         run: python3 -m hemoglobin ${{ secrets.GRAMMARBOT_APIKEY }} ./content
+  grammar-check:
+    name: Use write-good to check usage of language
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js 12
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.18.2
+      - name: Install write-good
+        run: npm install write-good@1.0.8 --global
+      - name: Test content with write-good
+        run: true $(write-good --parse ./content/*/*.md)
