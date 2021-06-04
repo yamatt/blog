@@ -55,4 +55,4 @@ jobs:
       - name: Install write-good
         run: npm install write-good@1.0.8 --global
       - name: Test content with write-good
-        run: write-good --help
+        run: write-good ./content/*/*.md
