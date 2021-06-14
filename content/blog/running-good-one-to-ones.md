@@ -30,12 +30,12 @@ In the podcast they refer to the person who works for you as your "direct". I do
 * Your views: 10 minutes
 * The future: 10 minutes
 
-Don't stick to the agenda rigidly. If your direct want to spend more time talking about their views then that's their prerogative. This is their meeting.
+Don't rigidly stick to the agenda. If your direct wants to spend more time talking about their views then that's their prerogative. This is their meeting.
 
 Your views might be about how interactions in the team are working, or not. The future is about where they are heading. Are they looking to move on? Or stay?
 
 ## Review
 
-I'm not sure how I feel about this agenda. I think it leans too heavily on the manager's view. The important thing is that your directs are heard and you understand their wants and needs. If they want to talk for the entire time that's up to them. Ideally it's a two way street anyway and an opportunity for coaching.
+I disagree somewhat with this agenda. It seems to lean towards on the manager's view. The important thing is that your directs have a voice and you understand their wants and needs. If they want to talk for the entire time that's up to them. It's a two way street anyway and an opportunity for coaching.
 
 Other than that I was quite happy to get this insight.
