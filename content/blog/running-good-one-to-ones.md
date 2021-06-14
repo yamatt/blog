@@ -42,6 +42,6 @@ I disagree somewhat with this agenda. It seems to lean towards on the manager's 
 
 I personally would avoid the Joey Tribbiani comparison and possibly ask "How are things?" but has roughly the same meaning.
 
-The other thing to note is that as meetings go, one-to-ones are deceptively simple. They work better when you don't over think them. Other than scheduling you almost let your directs run them themselves.
+The other thing to note is that as meetings go, one-to-ones are deceptively straight-forward. They work better when you don't over think them. Other than scheduling you almost let your directs run them themselves.
 
 Other than that I was quite happy to get this insight.
