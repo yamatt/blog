@@ -10,10 +10,6 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-    needs:
-        - test-language
-        - test-complexity
-        - test-spelling
     steps:
       - uses: actions/checkout@v2
         with:
