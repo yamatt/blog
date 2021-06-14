@@ -12,7 +12,7 @@ toc: false
 
 I've run one-to-ones for a couple years now I realised I didn't have a good plan for how to run them effectively, and weirdly there didn't seem to be a lot of discussion written up about them that I could find online.
 
-After asking some colleagues I was pointed to the [Manager Tools Basics podcast](https://www.manager-tools.com/manager-tools-basics) which has a set of episodes totalling around 90 minutes on the subject at hand. They are however seemingly recorded in 2005 which makes them over 15 years old. This lines up with the banner at the of the webpage. While this does seem old and despite pandemics and changes in technology it seems to hold up for the most part. The issue though is that for one, they are very verbose and second, the information isn't replicated online.
+I spoke with some colleagues who pointed to the [Manager Tools Basics podcast](https://www.manager-tools.com/manager-tools-basics) which has a set of episodes totalling around 90 minutes on the subject at hand. They are however seemingly recorded in 2005 which makes them over 15 years old. This lines up with the banner at the of the webpage. While this does seem old and despite pandemics and changes in technology it seems to hold up for the most part. The issue though is that for one, they are very verbose and second, the information isn't replicated online.
 
 What I wanted to do here is to pull out what I found the most important so that others can run their own effective one-to-ones without having to dedicate 90 minutes to listen to a podcast. This is a condensed view of what to do. If you want the complete explanation of why you do this I would recommend listening to the podcast itself.
 
