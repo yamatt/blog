@@ -34,8 +34,14 @@ Don't rigidly stick to the agenda. If your direct wants to spend more time talki
 
 Your views might be about how interactions in the team are working, or not. The future is about where they are heading. Are they looking to move on? Or stay?
 
+An important note is that you, as a manager, should have a broad opening question. In the podcast they suggest "How's it going?".
+
 ## Review
 
 I disagree somewhat with this agenda. It seems to lean towards on the manager's view. The important thing is that your directs have a voice and you understand their wants and needs. If they want to talk for the entire time that's up to them. It's a two way street anyway and an opportunity for coaching.
+
+I personally would avoid the Joey Tribbiani comparison and possibly ask "How are things?" but has roughly the same meaning.
+
+The other thing to note is that as meetings go, one-to-ones are deceptively simple. They work better when you don't over think them. Other than scheduling you almost let your directs run them themselves.
 
 Other than that I was quite happy to get this insight.
