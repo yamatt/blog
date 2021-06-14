@@ -36,6 +36,6 @@ Your views might be about how interactions in the team are working, or not. The 
 
 ## Review
 
-I'm not sure how I feel about this agenda. I think it leans too heavily on the manager's view. The important thing is that your directs are heard and you understand their wants and desires. If they want to talk for the entire time that's up to them. Ideally it's a two way street anyway and an opportunity for coaching.
+I'm not sure how I feel about this agenda. I think it leans too heavily on the manager's view. The important thing is that your directs are heard and you understand their wants and needs. If they want to talk for the entire time that's up to them. Ideally it's a two way street anyway and an opportunity for coaching.
 
 Other than that I was quite happy to get this insight.
