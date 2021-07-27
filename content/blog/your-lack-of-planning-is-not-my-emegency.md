@@ -21,7 +21,7 @@ The history of it comes from working in IT where often things need to be changed
 
 Other than the toxic nature of these events meaning additional pressure to your carefully planned work, you could also assume it meant that if you helped out, the team who owned the event hasn't learnt anything and will know to go to you every time in future to get stuff fixed.  A single urgent request in isolation is fine, but several are crippling to a team.
 
-However if a task lands on your desk and you use this rule you are making assumptions when dismissing it outright.
+However if a task lands on your desk and you use this rule, to dismissing it outright you will be making assumption.
 
 ## Lack of Planning
 
@@ -31,7 +31,7 @@ I would expect this also means you reduce your chances of being consulted on fut
 
 ## Emergency Exit
 
-The other assumption to check is, how much of an emergency is it? I don't know how many project managers I've spoken to who said "Can you do this by tomorrow?" and when you go back to the engineering team they're happy with it being next May, or just whenever. You may have decided not to participate based on faulty data.
+The other assumption to check is, how much of an emergency is it? I don't know how many project managers I've spoken to who said "Can you do this by tomorrow?" and when you go back to the engineering team they're happy with it being next May, or whenever. You may have decided not to participate based on faulty data.
 
 I always like to check the deadlines. They rarely hold true. Usually there are multiple streams racing to the date, and it's likely someone is going to call out that they won't meet it. Then everyone is relieved because they were working so hard to get there.
 
