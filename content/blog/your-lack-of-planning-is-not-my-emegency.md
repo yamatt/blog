@@ -25,7 +25,7 @@ However if a task lands on your desk and you use this rule you are making assump
 
 ## Lack of Planning
 
-How often in IT are rapid changes caused by a failure to plan? I'm betting in most cases the source of the tasks are incidents, or software patches. If you dismiss the request for assistance, you will be seen as unwilling to help out in an incident, and as someone who is unwilling to participate in urgent changes.
+How often in IT are rapid changes caused by a lack of planning? I'm betting in most cases the source of the tasks are incidents, or software patches. If you dismiss the request for assistance, you will be seen as unwilling to help out in an incident, and as someone who is unwilling to participate in urgent changes.
 
 I would expect this also means you reduce your chances of being consulted on future changes, or those who are making changes don't know to inform you of them because you are not considered on the normal path to release.
 
