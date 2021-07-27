@@ -10,6 +10,7 @@ math: false
 toc: false
 ---
 
+<!--alex ignore he-she-->
 Recently a colleague shared a rule he uses when dealing with urgent requests:
 
 > Your lack of planning is not my emergency
