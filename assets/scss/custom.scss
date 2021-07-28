@@ -7,10 +7,11 @@ li.post{
 }
 
 blockquote {
-  margin-top: 1em !important;
-  margin-bottom: 1em !important;
-  background-color: #ddd;
+  margin: 1em 5em !important;
+  background-color: #eee;
   padding: 1em !important;
+  border-radius: 1em;
+  font-style: italic;
 }
 
 blockquote p {
