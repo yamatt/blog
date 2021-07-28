@@ -17,7 +17,7 @@ toc: false
 
 I forked [Wilson's B2-setup Action](https://github.com/wilsonzlin/setup-b2), figuring I could apply another layer to then upload the file based on arguments to save a bunch of effort because Wilson had already figured out how to get the B2 CLI working on all OS available in GitHub Actions. I ran in to a few problems however.
 
-One was that Wilson's B2-setup action does not have a license. Meaning it was copyrighted and I had concerns about extending the code base. I basically almost started again and built my action using Docker but I still worked in the fork, which looks weird if you look at the commit history
+One was that Wilson's B2-setup action does not have a license. Meaning it was copyrighted and I had concerns about extending the code base. I almost started again and built my action using Docker but I still worked in the fork, which looks weird if you look at the commit history
 
 The other issue was I had difficulties getting the input arguments to work and the project needed npm dependencies built in to the package and it was all starting to get complicated. Which is when I decided to use the [cURL Action](https://github.com/enflo/curl-action) as inspiration switch to Docker.
 
