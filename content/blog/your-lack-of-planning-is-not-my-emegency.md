@@ -19,7 +19,7 @@ My gut instinct was to disagree with it, but I couldn't articulate it properly a
 
 The history of it comes from working in IT where often capabilities need to be updated in a hurry, but the task has a dependency on another team, your team, who does not own that change. Your team now has a bunch of pressure exerted on it because another team encountered something that they hadn't planned for.
 
-The rule is a way to quickly diffuse any expectation that because another team made a mistake, that your team is responsible for fixing it. This is because these events are of toxic in nature causing extra pressure to your own deliveries.You could also reasonably assume if your team helped out, the team who owned the event won't learn anything and will know to go direct to you in future.  A single urgent request in isolation is fine, but happening regularly can be crippling to a team.
+The rule is a way to quickly diffuse any expectation that because another team made a mistake, that your team is responsible for fixing it. This is because these events are toxic in nature causing extra pressure to your own deliveries.You could also reasonably assume if your team helped out, the team who owned the event won't learn anything and will know to go direct to you in future.  A single urgent request in isolation is fine, but happening regularly can be crippling to a team.
 
 Although if this kind of task ends up requiring an urgent response from your team, to dismiss it outright you will be making assumptions. The following is a breakdown of those assumptions.
 
@@ -37,7 +37,7 @@ Often the delivery date has been made up based on guess-work and have no meaning
 
 ## The User Factor
 
-Another consideration is that users are often the cause of these rush jobs. Set aside that telling them 'no' is a path to shadow IT, but perhaps your process aren't slow enough for the demands for the business. If you have users who need software installed today and your SLA is 5 days, then maybe your SLAs are at fault.
+Another consideration is that users are often the cause of these rush jobs. Set aside that telling them 'no' is a path to shadow IT, but it might be an indicator that your process isn't fast enough for the demands for the business. If you have users who need software installed today and your SLA is 5 days, then maybe your SLAs are at fault.
 
 ## Happy to Help
 
