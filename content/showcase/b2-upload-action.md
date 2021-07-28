@@ -15,7 +15,7 @@ toc: false
 
 [This started this project](https://github.com/yamatt/backblaze-b2-upload-action) because I had another project that needed to upload files straight to Backblaze B2. I guess you could use the S3 GitHub Action and point it at your Backblaze bucket, but I forgot and figured I could solve it this way.
 
-I forked [Wilson's B2-setup Action](https://github.com/wilsonzlin/setup-b2), figuring I could apply another layer to then just upload the file based on arguments, and save me a bunch of effort because Wilson had already figured out how to get the B2 CLI working on all OS available in GitHub Actions. Although I ran in to a few problems.
+I forked [Wilson's B2-setup Action](https://github.com/wilsonzlin/setup-b2), figuring I could apply another layer to then simply upload the file based on arguments, and save me a bunch of effort because Wilson had already figured out how to get the B2 CLI working on all OS available in GitHub Actions. Although I ran in to a few problems.
 
 One was that the B2-setup action does not have a license. Meaning it was copyrighted and I had concerned about extending the code base. I still worked in the fork, which looks weird, but if you look at the commit history I actually almost started again and built my action using Docker.
 
