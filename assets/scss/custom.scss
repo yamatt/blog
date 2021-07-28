@@ -7,10 +7,13 @@ li.post{
 }
 
 blockquote {
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 1em !important;
+  margin-bottom: 1em !important;
   background-color: #ddd;
-  padding: 1em;
+  padding: 1em !important;
 }
 
+blockquote p {
+  margin: 0 !important;
+}
 @import 'showcase.scss'
