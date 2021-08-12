@@ -40,7 +40,7 @@ jobs:
         with:
           python-version: 3.7
       - name: Install grammaerbot CLI tool
-        run: python3 -m pip install hemoglobin==0.0.2
+        run: python3 -m pip install hemoglobin==0.0.3
       - name: Get grammarbot report
         run: python3 -m hemoglobin ${{ secrets.GRAMMARBOT_APIKEY }} ./content
   grammar-check:
