@@ -14,14 +14,14 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
+      - name: get all branches
+        run: git pull --all
       - name: Use Node.js 12
         uses: actions/setup-node@v1
         with:
           node-version: 12.18.2
       - name: Install Alex
         run: npm install alex@9.1.0 --global
-      - name: list branches
-        run: git branch -v
       - name: Test content with alex
         run: |
           for file_path in $(git diff --name-only main | grep '^content/'); do
