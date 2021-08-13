@@ -14,10 +14,8 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - name: get main branch
-        run: |
-          git show main
-          git fetch main
+      - name: Really really get everything
+        run: git fetch origin
       - name: Use Node.js 12
         uses: actions/setup-node@v1
         with:
