@@ -1,7 +1,10 @@
 ---
-name: Check any branch for The Broader Picture Blog
+name: Check any new content
 
-on: push
+on:
+  push:
+    paths:
+      - 'content/**.md'
 
 jobs:
   test-language:
@@ -16,7 +19,10 @@ jobs:
       - name: Install Alex
         run: npm install alex@9.1.0 --global
       - name: Test content with alex
-        run: alex ./content
+        run: |
+          for file_path in $(git diff --name-only main | grep '^content/'); do
+            alex "$file_path";
+          done
   test-complexity:
     name: Get report on language complexity
     runs-on: ubuntu-latest
@@ -29,7 +35,10 @@ jobs:
       - name: Install language complexity tools
         run: python3 -m pip install textstat-cli==1.1.3
       - name: Get language complexity report
-        run: python3 -m textstat_cli ./content
+        run:  |
+          for file_path in $(git diff --name-only main | grep '^content/'); do
+            python3 -m textstat_cli "$file_path"
+          done
   test-spelling:
     name: Use GrammarBot to check for spelling and grammar
     runs-on: ubuntu-latest
@@ -42,7 +51,10 @@ jobs:
       - name: Install grammaerbot CLI tool
         run: python3 -m pip install hemoglobin==0.0.3
       - name: Get grammarbot report
-        run: python3 -m hemoglobin ${{ secrets.GRAMMARBOT_APIKEY }} ./content
+        run: |
+          for file_path in $(git diff --name-only main | grep '^content/'); do
+            python3 -m hemoglobin ${{ secrets.GRAMMARBOT_APIKEY }} "$file_path"
+          done
   grammar-check:
     name: Use write-good to check usage of language
     runs-on: ubuntu-latest
@@ -56,4 +68,7 @@ jobs:
         run: npm install write-good@1.0.8 --global
       - name: Test content with write-good
         continue-on-error: true
-        run: write-good --parse ./content/*/*.md
+        run: |
+          for file_path in $(git diff --name-only main | grep '^content/'); do
+            write-good --parse "$file_path"
+          done
