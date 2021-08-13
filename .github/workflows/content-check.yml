@@ -15,11 +15,9 @@ jobs:
         with:
           fetch-depth: 0
 =======
-      - name: get main branch
-        run: |
-          git show main
-          git fetch main
->>>>>>> e184712 (another change)
+      - name: Really really get everything
+        run: git fetch origin
+>>>>>>> fcbb5e4 (get everything)
       - name: Use Node.js 12
         uses: actions/setup-node@v1
         with:
