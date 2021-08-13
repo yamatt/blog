@@ -13,7 +13,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          fetch-depth: '0'
+          fetch-depth: 0
+      - name: Really really get everything
+        run: git fetch origin
       - name: Use Node.js 12
         uses: actions/setup-node@v1
         with:
@@ -22,15 +24,7 @@ jobs:
         run: npm install alex@9.1.0 --global
       - name: Test content with alex
         run: |
-<<<<<<< HEAD
-<<<<<<< HEAD:.github/workflows/content-check.yml
           for file_path in $(git diff --name-only origin/main | grep '^content/'); do
-=======
-          for file_path in $(git diff --name-only main | grep '^content/'); do
->>>>>>> ad12854 (run checks when content changes):.github/workflows/check.yml
-=======
-          for file_path in $(git diff --name-only origin/main | grep '^content/'); do
->>>>>>> 33579dd (how about specifying origin)
             alex "$file_path";
           done
   test-complexity:
@@ -48,11 +42,7 @@ jobs:
         run: python3 -m pip install textstat-cli==1.1.3
       - name: Get language complexity report
         run:  |
-<<<<<<< HEAD:.github/workflows/content-check.yml
           for file_path in $(git diff --name-only origin/main | grep '^content/'); do
-=======
-          for file_path in $(git diff --name-only main | grep '^content/'); do
->>>>>>> ad12854 (run checks when content changes):.github/workflows/check.yml
             python3 -m textstat_cli "$file_path"
           done
   test-spelling:
@@ -70,11 +60,7 @@ jobs:
         run: python3 -m pip install hemoglobin==0.0.11
       - name: Get grammarbot report
         run: |
-<<<<<<< HEAD:.github/workflows/content-check.yml
           for file_path in $(git diff --name-only origin/main | grep '^content/'); do
-=======
-          for file_path in $(git diff --name-only main | grep '^content/'); do
->>>>>>> ad12854 (run checks when content changes):.github/workflows/check.yml
             python3 -m hemoglobin ${{ secrets.GRAMMARBOT_APIKEY }} "$file_path"
           done
   grammar-check:
@@ -93,10 +79,6 @@ jobs:
       - name: Test content with write-good
         continue-on-error: true
         run: |
-<<<<<<< HEAD:.github/workflows/content-check.yml
           for file_path in $(git diff --name-only origin/main | grep '^content/'); do
-=======
-          for file_path in $(git diff --name-only main | grep '^content/'); do
->>>>>>> ad12854 (run checks when content changes):.github/workflows/check.yml
             write-good --parse "$file_path"
           done
