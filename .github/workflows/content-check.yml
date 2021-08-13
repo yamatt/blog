@@ -22,7 +22,7 @@ jobs:
         run: npm install alex@9.1.0 --global
       - name: Test content with alex
         run: |
-          for file_path in $(git diff --name-only main | grep '^content/'); do
+          for file_path in $(git diff --name-only origin/main | grep '^content/'); do
             alex "$file_path";
           done
   test-complexity:
@@ -30,6 +30,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
       - name: Set up Python 3.7
         uses: actions/setup-python@v2
         with:
@@ -38,7 +40,7 @@ jobs:
         run: python3 -m pip install textstat-cli==1.1.3
       - name: Get language complexity report
         run:  |
-          for file_path in $(git diff --name-only main | grep '^content/'); do
+          for file_path in $(git diff --name-only origin/main | grep '^content/'); do
             python3 -m textstat_cli "$file_path"
           done
   test-spelling:
@@ -46,6 +48,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
       - name: Set up Python 3.7
         uses: actions/setup-python@v2
         with:
@@ -54,7 +58,7 @@ jobs:
         run: python3 -m pip install hemoglobin==0.0.3
       - name: Get grammarbot report
         run: |
-          for file_path in $(git diff --name-only main | grep '^content/'); do
+          for file_path in $(git diff --name-only origin/main | grep '^content/'); do
             python3 -m hemoglobin ${{ secrets.GRAMMARBOT_APIKEY }} "$file_path"
           done
   grammar-check:
@@ -62,6 +66,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
       - name: Use Node.js 12
         uses: actions/setup-node@v1
         with:
@@ -71,6 +77,6 @@ jobs:
       - name: Test content with write-good
         continue-on-error: true
         run: |
-          for file_path in $(git diff --name-only main | grep '^content/'); do
+          for file_path in $(git diff --name-only origin/main | grep '^content/'); do
             write-good --parse "$file_path"
           done
