@@ -15,9 +15,8 @@ jobs:
         with:
           fetch-depth: 0
 =======
-      - name: Really really get everything
-        run: git fetch origin
->>>>>>> fcbb5e4 (get everything)
+          fetch-depth: '0'
+>>>>>>> 7f3998c (does it matter if this is a string?)
       - name: Use Node.js 12
         uses: actions/setup-node@v1
         with:
