@@ -15,9 +15,11 @@ jobs:
         with:
           fetch-depth: 0
 =======
-      - name: get all branches
-        run: git pull --all
->>>>>>> 971d09a (get all branches)
+      - name: get main branch
+        run: |
+          git show main
+          git fetch main
+>>>>>>> e184712 (another change)
       - name: Use Node.js 12
         uses: actions/setup-node@v1
         with:
