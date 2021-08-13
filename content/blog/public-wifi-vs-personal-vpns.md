@@ -77,7 +77,7 @@ I have no doubt that large public WiFi providers monetise your traffic by taking
 
 ### Data Leaks
 
-Both [public WiFi services](https://www.bbc.co.uk/news/technology-51682280) and [personal VPN services](https://www.teiss.co.uk/free-vpn-apps-leaked-personal-data/) have leaked personal data in the past. I expect it will happen again. It's the nature of IT, as mentioned though I don't think it's necessarily a reflection of the current IT practices of those services.
+Both [public WiFi services](https://www.bbc.co.uk/news/technology-51682280) and [personal VPN services](https://www.teiss.co.uk/free-vpn-apps-leaked-personal-data/) have leaked personal data in the past. It's an inevitability of time. It's the nature of IT, as mentioned though I don't think it's necessarily a reflection of the current IT practices of those services.
 
 ## Conclusion
 
