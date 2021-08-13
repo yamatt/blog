@@ -24,11 +24,15 @@ jobs:
         run: npm install alex@9.1.0 --global
       - name: Test content with alex
         run: |
+<<<<<<< HEAD
 <<<<<<< HEAD:.github/workflows/content-check.yml
           for file_path in $(git diff --name-only origin/main | grep '^content/'); do
 =======
           for file_path in $(git diff --name-only main | grep '^content/'); do
 >>>>>>> ad12854 (run checks when content changes):.github/workflows/check.yml
+=======
+          for file_path in $(git diff --name-only origin/main | grep '^content/'); do
+>>>>>>> 33579dd (how about specifying origin)
             alex "$file_path";
           done
   test-complexity:
