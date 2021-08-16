@@ -10,6 +10,7 @@ math: false
 toc: false
 ---
 
+
 An IT security group I associate with recently wrote a blog post on [threats and scenarios for securing mobile phones](https://joelgsamuel.medium.com/how-to-keep-your-smartphone-safe-from-spying-d7d50fbed817). It's well worth a read.
 
 One line stood out to me as interesting because I wanted to understand the evidence for that. It _feels_ true, but that's not the same as _being_ true.
