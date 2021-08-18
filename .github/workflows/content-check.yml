@@ -14,8 +14,6 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-=======
->>>>>>> 54870f4 (tidy up)
       - name: Use Node.js 12
         uses: actions/setup-node@v1
         with:
