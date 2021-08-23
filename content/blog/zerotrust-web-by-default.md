@@ -24,4 +24,6 @@ The real solution to that problem is services like Amazon Workspaces, Azure Virt
 
 When done right these tools have huge security gains. You can _Desktop as Code_ the infrastructure so that they always patched. They take installing random software away from the EUDs, and you can put the back-end server in a secure network that can only be reached by the front-end tool.
 
-Often there exists concern that these systems are slow, but in our experimentation we actually found these tools to be faster than running it locally because you can bump up the RAM and CPU more than you can on a laptop, and you are only run it when the users are using it, which saves money.
+Often there exists concern that these systems are slow. Some believe web browsers can be slow, and others that the latency of sending video like this over the internet is slow. Giving them flashbacks to the days of Citrix.
+
+So my team set out to prove it with users, and in our experimentation we actually found these tools to be faster than running it locally because you can bump up the RAM and CPU more than you can on a laptop. The other added benefit is the machines are only running when the users are using it, which saves money over a high powered laptop.
