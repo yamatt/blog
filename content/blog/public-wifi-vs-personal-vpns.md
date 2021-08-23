@@ -1,6 +1,6 @@
 ---
 title: "Is Public Wi-Fi More Secure Than Personal VPN Services?"
-date: 2021-08-13T18:10:32+01:00
+date: 2021-08-22T18:10:32+01:00
 slug: ""
 description: "Challenging commonly held wisdom"
 keywords: []
