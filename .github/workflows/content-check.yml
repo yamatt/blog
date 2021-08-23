@@ -75,6 +75,7 @@ jobs:
       - name: Install write-good
         run: npm install write-good@1.0.8 --global
       - name: Test content with write-good
+        continue-on-error: true
         run: |
           for file_path in $(git diff --name-only origin/main | grep '^content/'); do
             write-good --parse "$file_path"
