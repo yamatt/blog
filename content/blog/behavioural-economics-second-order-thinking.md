@@ -12,7 +12,7 @@ date: 2021-10-27T18:10:32+01:00
 slug: ""
 description: "Seeing in to the future"
 keywords: []
-draft: true
+draft: false
 tags: []
 math: false
 toc: false
