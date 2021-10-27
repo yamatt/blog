@@ -17,7 +17,7 @@ jobs:
       - name: Use Node.js 12
         uses: actions/setup-node@v1
         with:
-          node-version: 12.18.2
+          node-version: 16.13.0
       - name: Install Alex
         run: npm install alex@10.0.0 --global
       - name: Test content with alex
@@ -71,7 +71,7 @@ jobs:
       - name: Use Node.js 12
         uses: actions/setup-node@v1
         with:
-          node-version: 12.18.2
+          node-version: 16.13.0
       - name: Install write-good
         run: npm install write-good@1.0.8 --global
       - name: Test content with write-good
