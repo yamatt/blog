@@ -20,6 +20,7 @@ toc: false
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 I really enjoyed the [article on Chesterton's Fence](https://fs.blog/2020/03/chestertons-fence/) I came across recently. It really made me reflect on [Undercover Economist](https://timharford.com/books/undercovereconomist/) and [Behavioural Economics](https://en.wikipedia.org/wiki/Behavioral_economics) again -- as does so much stuff.
 
@@ -35,6 +36,9 @@ So perhaps the answer the true analogy isn't about the fence being moved, but in
 =======
 I really enjoyed the [article on Chesterton's Fence](https://fs.blog/2020/03/chestertons-fence/) I came across recently. It really made me reflect on [Behavioural Economics](https://en.wikipedia.org/wiki/Behavioral_economics) again -- as does so much stuff I read.
 =======
+=======
+
+>>>>>>> 37b6f7e (trigger a change)
 I really enjoyed the [article on Chesterton's Fence](https://fs.blog/2020/03/chestertons-fence/) I came across recently. It really made me reflect on [Undercover Economist](https://timharford.com/books/undercovereconomist/) and [Behavioural Economics](https://en.wikipedia.org/wiki/Behavioral_economics) again -- as does so much stuff.
 >>>>>>> b24459c (tidying up)
 
