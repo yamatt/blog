@@ -4,14 +4,13 @@ date: 2021-10-27T18:10:32+01:00
 slug: ""
 description: "Seeing in to the future"
 keywords: []
-draft: true
+draft: false
 tags: []
 math: false
 toc: false
 ---
 
-
-I really enjoyed the [article on Chesterton's Fence](https://fs.blog/2020/03/chestertons-fence/) I came across recently. It really made me reflect on [Undercover Economist](https://timharford.com/books/undercovereconomist/) and [Behavioural Economics](https://en.wikipedia.org/wiki/Behavioral_economics) again -- as does so much stuff.
+I really enjoyed the [article on Chesterton's Fence](https://fs.blog/2020/03/chestertons-fence/) I came across recently. It really made me reflect on [Behavioural Economics](https://en.wikipedia.org/wiki/Behavioral_economics) again -- as does so much stuff I read.
 
 The Chesterton's Fence analogy is an excellent description of why challenging assumptions in Agile processes is so important, but the reason I like it is because thinking in a Behavioural Economics way you can use it to inform Second Order Thinking. Or in some ways, start to predict the future about what effects a particular action has.
 
