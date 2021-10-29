@@ -1,4 +1,4 @@
-# Matt Copperwait Blog
+# Matt Copperwaite Blog
 
 This is a site I built using Hugo to generate me a static blog in GitHub.
 
