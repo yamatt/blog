@@ -30,9 +30,9 @@ In this scenario you are a Security Architect, Engineer or similar in a business
 
 As mentioned, the first issue you have is that perhaps the issue you've found has been risk managed. To account for this, the first step is to check the documentation. I would bet that the issue you are seeing is documented, or may be documented under a different name, or if you're lucky documented poorly. Unless you're somewhere that employs enough people and pays well enough to attract good people it is unlikely this is well documented, but lets try to minimise wasting someone else's time first.
 
-In general terms you're trying to identify if your issue is actually an issue. This is just good practice anywhere and is really a good engineering, Agile and scientific mindset.
+In general terms you're trying to identify if your issue is actually an issue. This is good practice anywhere and is really a good engineering, Agile and scientific mindset.
 
-Lets say the documentation doesn't have the information you need. Next is to approach the person responsible. I think it's important to coach your wording correctly. Never make assumptions about the issue you have found. You could be wrong, but were just not able to find the right information. You are now attempting to find the right information. So phrase it as such. Something like:
+Lets say the documentation doesn't have the information you need. Next is to approach the person responsible. I think it's important to coach your wording correctly. Never make assumptions about the issue you have found. You could be wrong, but were not able to find the right information. You are now attempting to find the right information. So phrase it as such. Something like:
 
 > I was looking at your code and I'm trying to identify if something I'm seeing is actually an issue.
 
