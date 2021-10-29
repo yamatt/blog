@@ -1,0 +1,26 @@
+---
+name: Check post can be published
+
+on:
+  pull_request:
+    paths:
+      - 'content/**.md'
+
+jobs:
+  meta-data:
+    name: Check meta data
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Check that the post has been set to publish
+        run: |
+          for file_path in $(git diff --name-only origin/main | grep '^content/'); do
+            grep --regexp='^draft\:\w+true$' "$file_path";
+          done
+      - name: Check that the date is today or later
+        run: |
+          for file_path in $(git diff --name-only origin/main | grep '^content/'); do
+            [[ $(date --date="$1" +$(grep --regexp='^date\:\w+' "$file_path" | cut --delimiter=' ' --fields=2)) > $(date +"%Y-%m-%d") ]]
+          done
