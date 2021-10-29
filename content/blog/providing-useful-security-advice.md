@@ -1,6 +1,6 @@
 ---
 title: "Providing Useful Security Advice"
-date: 2021-10-28T18:10:32+01:00
+date: 2021-10-29T18:10:32+01:00
 slug: ""
 description: "And Armchair Security Experts"
 keywords: []
