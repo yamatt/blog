@@ -18,7 +18,7 @@ And the interesting thing is, it's often not true.
 
 The trouble is it instantly puts you on the defensive. The phrasing "a major issue" creates an information balance and puts you in a position you have to defend, and you may be perfectly fine, but it's stressful and not collaborative.
 
-The trouble is context. You may, in isolation, have something in your environment that isn't ideal. But IT security is entirely about risks and trade-offs. It may well be that you do have an issue, and it may also be that you have managed that already through another control such as alerts for that scenario to happen. Finding that information can sometimes be difficult.
+[As I mentioned twice in my previous post](./armchair-security-experts) security is all about context, and I wanted to expand on that point. You may, in isolation, have something in your environment that isn't ideal. But IT security is entirely about risks and trade-offs. It may well be that you do have an issue, and it may also be that you have managed that already through another control such as alerts for that scenario to happen. Finding that information can sometimes be difficult.
 
 However the person raising the issue creates an an information asymmetry that is hard to develop upon.
 
