@@ -40,7 +40,7 @@ Followed by explaining the issue.
 
 There's no point saying there is a massive security issues because, as mentioned, you put the other person on the defensive, and it may well be that you are wrong. You are reducing your chances that you will be listened to in future, when perhaps there is a genuine issue.
 
-You may discover at this point that they have identified the issue, mitigated it, and the documentation is not something that can be easily pointed to. At this point you may want to suggest making it easier to find the documentation, but you're job is done.
+You may discover at this point that they have identified the issue, mitigated it, and the documentation is not something that can be found quickly. At this point you may want to suggest making it easier to find the documentation, but you're job is done.
 
 Therefore if they have mitigated the issue but they haven't documented it at all or well enough, or they haven't mitigated it at all you have some work to do.
 
@@ -50,4 +50,4 @@ Ideally the next step is to be proactive. If it's a documentation issue then off
 
 It also may well be a genuine unmitigated issue, and much the same way with the documentation. If you're comfortable you should then be proactively fix the problem. Raising a Pull Request for the change and adding or updating tests.
 
-That way the team with the issue are more likely to listen to you and fix the problem next time, which is the ultimate goal: reducing your attack surface.
+That way the team with the issue are more likely to listen to you and fix the problem next time, which is the ultimate goal: reducing the number of vulnerabilities.
