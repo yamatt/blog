@@ -1,0 +1,2 @@
+frontmatter==0.5.0
+PyGithub==1.54
