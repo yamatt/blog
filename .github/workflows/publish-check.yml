@@ -17,7 +17,7 @@ jobs:
       - name: Check that the post has been set to publish
         run: |
           for file_path in $(git diff --name-only origin/main | grep '^content/'); do
-            grep --regexp='^draft\:\w+false$' "$file_path";
+            grep --ignore-case --regexp='^draft\:\s\+false$' "$file_path";
           done
       - name: Check that the date is today or later
         run: |
