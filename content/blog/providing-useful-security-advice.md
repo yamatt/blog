@@ -54,4 +54,4 @@ If it's a documentation issue then offer to update their documents.
 
 It also may well be a genuine unmitigated issue, and much the same way with the documentation, if you're comfortable you should then be proactive in fixing the problem. Raising a Pull Request for the change and adding or updating tests.
 
-That way the team with the issue are more likely to listen to you and fix the problem next time, which is the ultimate goal: reducing the risk of attacks on your system.
+That way the team with the issue are more likely to listen to you and fix the problem next time, which is the ultimate goal: reducing the risk of disruption to your system.
