@@ -10,7 +10,7 @@ math: false
 toc: false
 ---
 
-A  recent [Cyber Weekly](https://cyberweekly.substack.com/p/cyberweekly-174-one-team-two-team) mentioned Green Teams in the context of security and Red Teams and Blue Teams as team who have a security responsibility, and this got me thinking, extending the [Greenfield products](https://en.wikipedia.org/wiki/Greenfield_project) analogy to the [Brownfield](https://en.wikipedia.org/wiki/Brownfield_(software_development%29) terminology, and having _Brown teams_. The idea being of a team that is responsible for an existing, likely legacy product. Although the name is problematic.
+A  recent [Cyber Weekly](https://cyberweekly.substack.com/p/cyberweekly-174-one-team-two-team) mentioned Green Teams in the context of security and Red Teams and Blue Teams as team who have a security responsibility, and this got me thinking, extending the [Greenfield products](https://en.wikipedia.org/wiki/Greenfield_project) analogy to the [Brownfield](https://en.wikipedia.org/wiki/Brownfield_(software_development)) terminology, and having _Brown teams_. The idea being of a team that is responsible for an existing, likely legacy product. Although the name is problematic.
 
 The name isn't so much a description of what they do, but a reflection of their responsibilities. By which I mean you cannot become a Green or Brown Team, you are working on a product that didn't exist before (Green) or a product that has existed for some time and may well be legacy (Brown).
 
