@@ -22,5 +22,5 @@ jobs:
       - name: Check that the date is today or later
         run: |
           for file_path in $(git diff --name-only origin/main | grep '^content/'); do
-            [[ $(date --date="$1" +$(grep --regexp='^date\:\w+' "$file_path" | cut --delimiter=' ' --fields=2)) > $(date +"%Y-%m-%d") ]]
+            [[ $(date --date="$1" +$(grep --regexp='^date\:\s+' "$file_path" | cut --delimiter=' ' --fields=2)) > $(date +"%Y-%m-%d") ]]
           done
