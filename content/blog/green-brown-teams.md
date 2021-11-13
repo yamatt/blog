@@ -11,10 +11,10 @@ toc: false
 ---
 
 
-A  recent [Cyber Weekly](https://cyberweekly.substack.com/p/cyberweekly-174-one-team-two-team) mentioned Green Teams. This is not a term I had heard before, and from having a quick look around I couldn't see this term widely used at least in the context of service delivery. So I wanted to expand on it a bit.
+A recent [Cyber Weekly](https://cyberweekly.substack.com/p/cyberweekly-174-one-team-two-team) mentioned Green Teams. This is not a term I had heard before, and from having a quick look around I couldn't see this term widely used at least in the context of service delivery. I wanted to expand on it.
 
 The name isn't so much a description of what a Green Team do, but a reflection of their responsibilities. By which I mean you cannot become a Green Team, you are working on a product that didn't exist before.
 
-Thinking on the term a little I also realised that there is a missing group here, and that is the teams working on existing deliveries and particularly legacy systems. They also need a name. Extending the analogy of [Greenfield](https://en.wikipedia.org/wiki/Greenfield_project) the term used for projects that have some existing infrastructure is usually [Brownfield](https://en.wikipedia.org/wiki/Brownfield_(software_development)) so we end up having having _Brown teams_. Although that name is problematic.
+Thinking on the term a little I also realised that there is a missing group here, and that is the teams working on existing deliveries and in many cases legacy systems. They also need a name. Extending the analogy of [Greenfield](https://en.wikipedia.org/wiki/Greenfield_project) the term used for projects that have some existing infrastructure is often [Brownfield](https://en.wikipedia.org/wiki/Brownfield_(software_development)) so we end up with _Brown teams_. Although that name is problematic.
 
-Whatever the name the categorisation is useful because, as the article points out, we often don't spend significant time thinking about the issues these teams face, and they require very different working practices to get them to a good place.
+Whatever the name the categorisation is useful because, as the article points out, we often don't spend significant time thinking about the issues these teams face, and they require different working practices to get them to a good place.
