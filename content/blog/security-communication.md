@@ -15,7 +15,7 @@ I've been listening to the [BBC's How They Made Us Doubt Everything](https://www
 
 It's all well worth listening to the whole show if you can get access to it, but one of the episodes that stood out to me was about [climate change communication](https://www.bbc.co.uk/programmes/m000lgk6) and the section with [Susan Hassol](https://twitter.com/ClimateComms) describing the confusing and conflicting words that scientists use. A similar assessment of the poor usage of language used in climate science in [Susan's TEDx talk](https://youtu.be/V-tEmE85QDE).
 
-<!--alex ignore actor -->
+<!--alex ignore actors -->
 How this ties in to IT security is that I think the community has a similar communication problem. I don't see evidence that there are adversarial actors involved, intent on casting doubt on the effectiveness of encryption. We can assume it exists but we should be thinking about these problems before security communication has an even larger problem.
 
 MFA, Authentication, Authorisation, backups, privacy. I know what this means to me. I have a hunch about what these might mean to the readers of this post. But what do these terms mean to those outside the industry, my parents, or my neighbours?
