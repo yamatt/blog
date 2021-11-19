@@ -11,14 +11,14 @@ toc: false
 ---
 
 <!--alex ignore cancer -->
-I've been listening to the [BBC's How They Made Us Doubt Everything](https://www.bbc.co.uk/programmes/m000l7q1) which exposes how the manufacturing of doubt was used to protect first the tobacco industry and their link to lung cancer, and eventually the oil industry and their link to climate change.
+I've been listening to the [BBC's How They Made Us Doubt Everything](https://www.bbc.co.uk/programmes/m000l7q1) which exposes how the manufacturing of doubt was used to protect first the tobacco industry and their link to lung cancer, then the oil industry and their link to climate change.
 
-It's all well worth listening to the whole show if you can get access to it, but one of the episodes that stood out to me was about [climate change communication](https://www.bbc.co.uk/programmes/m000lgk6) and the section with [Susan Hassol](https://twitter.com/ClimateComms) describing the confusing and conflicting words that scientists use. There is a similar assessment of the poor usage of language used in climate science in [Susan's TEDx talk](https://youtu.be/V-tEmE85QDE).
+It's all well worth listening to the whole show if you can get access to it, but one of the episodes that stood out to me was about [climate change communication](https://www.bbc.co.uk/programmes/m000lgk6) and the section with [Susan Hassol](https://twitter.com/ClimateComms) describing the confusing and conflicting words that scientists use. A similar assessment of the poor usage of language used in climate science in [Susan's TEDx talk](https://youtu.be/V-tEmE85QDE).
 
 <!--alex ignore actor -->
-How this ties in to IT security is that I think the community has a similar communication problem. I don't see evidence that there are adversarial actors involved, intent on casting doubt on the effectiveness of encryption. We can assume it exists but let's we should be thinking about these problems before Security communication has an even larger problem.
+How this ties in to IT security is that I think the community has a similar communication problem. I don't see evidence that there are adversarial actors involved, intent on casting doubt on the effectiveness of encryption. We can assume it exists but we should be thinking about these problems before security communication has an even larger problem.
 
-MFA, Authentication, Authorisation, backups, privacy. I know what this means to me. I have a hunch about what these might mean to the readers of this post. But what do these mean to those outside the industry, my parents, or my neighbours?
+MFA, Authentication, Authorisation, backups, privacy. I know what this means to me. I have a hunch about what these might mean to the readers of this post. But what do these terms mean to those outside the industry, my parents, or my neighbours?
 
 I know when I met my neighbours for the first time I inadvertently got in to a conversation about coding and hacking and had to clarify their meaning. As explained by Hassol, having these communication barriers doesn't help make people and their data safer.
 
