@@ -1,10 +1,10 @@
 ---
 title: "Security Communication"
-date: 2021-11-19T10:30:32+01:00
+date: 2021-11-21T10:30:32+01:00
 slug: ""
 description: ""
 keywords: []
-draft: true
+draft: false
 tags: []
 math: false
 toc: false
