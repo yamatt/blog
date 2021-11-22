@@ -7,6 +7,24 @@ on:
       - 'content/**.md'
 
 jobs:
+  markdownlint:
+    name: Check markdown
+    runs-on: ubuntu-20.10
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.13.0
+      - name: Install Alex
+        run: npm install markdownlint-cli@0.30.0 --global
+      - name: Test content with markdownlint
+        run: |
+          for file_path in $(git diff --name-only origin/main | grep '^content/'); do
+            markdownlint "$file_path";
+          done
   test-language:
     name: Test for biased language
     runs-on: ubuntu-latest
