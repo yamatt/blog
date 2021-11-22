@@ -205,10 +205,11 @@ uglyURLs = false
     github = "https://github.com/yaMatt"
     linkedin = "https://www.linkedin.com/in/matthew-copperwaite-44319b26"
     keybase = "https://keybase.io/mattcopp"
+    stackoverflow = "https://meta.stackoverflow.com/users/421159/matt-copperwaite"
     steam = "https://steamcommunity.com/id/yaMatt/home/"
 
 
-    iconOrder = ["GitHub", "LinkedIn", "Keybase", "Steam"]
+    iconOrder = ["GitHub", "LinkedIn", "Keybase", "StackOverflow", "Steam"]
 
 
     ######################################
