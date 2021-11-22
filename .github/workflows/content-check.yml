@@ -23,7 +23,7 @@ jobs:
       - name: Test content with markdownlint
         run: |
           for file_path in $(git diff --name-only origin/main | grep '^content/'); do
-            markdownlint "$file_path";
+            markdownlint --disable MD013 "$file_path";
           done
   test-language:
     name: Test for biased language
