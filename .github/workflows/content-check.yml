@@ -9,7 +9,7 @@ on:
 jobs:
   markdownlint:
     name: Check markdown
-    runs-on: ubuntu-20.10
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
         with:
@@ -27,7 +27,7 @@ jobs:
           done
   test-language:
     name: Test for biased language
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
         with:
@@ -45,7 +45,7 @@ jobs:
           done
   test-complexity:
     name: Get report on language complexity
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
         with:
@@ -63,7 +63,7 @@ jobs:
           done
   test-spelling:
     name: Use GrammarBot to check for spelling and grammar
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
         with:
@@ -81,7 +81,7 @@ jobs:
           done
   grammar-check:
     name: Use write-good to check usage of language
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
         with:
