@@ -1,29 +1,27 @@
 ---
-title: "Common Sense as Bad Practice"
-date: 2020-11-25T13:35:32+01:00
+title: "The Maintenance Cost of Security Controls"
+date: 2021-11-22T13:35:32+01:00
 slug: ""
-description: "Common Sense does not make sense"
+description: "The impact of controls"
 keywords: []
-draft: false
+draft: true
 tags: []
 math: false
 toc: false
 ---
 
-It came to me in conversation recently as to how toxic "Common Sense" is.
+I used to work with a security architect who thought that every risk could be solved by IP white-lists.
 
-Common Sense says "well, everyone uses X, so we should use X" or "Everyone should know this."
+Along with the poor user experience, the speed in which you can over-come the control, especially a properly motivated actor, one of my other concerns that I often don't see discussed is the maintenance impact of such a control.
 
-But those are fallacies and assumptions that aren't tested or rooted in evidence.
+Firstly lets assume that the user realises the reason that a service has been unavailable for hours, or days, is because their IP has changed, you then have to find a second path outside those controls to request that your IP is added to the allow list.
 
-Usually Common Sense comes from asking your mates or colleagues, or assuming they think the same as you. However, by doing that you inherit bias in those assumptions. You make decisions that don't hold true, and at best you are likely going to make poor decisions, and at worst create an exclusionary environment -- locking out people who you will want to include.
+Even with a single user this could be massive over-head if they were using something like a 4G dongle for their internet connection. Multiply that by even a modest number of users and it has a huge maintenance impact. If you created some sort of self service, then why have the request at all?
 
-If you believe it is Common Sense, prove it is Common Sense. Test it out. Trial it, and properly. Don't be part of the problem.
+This post isn't exclusively about bashing IP white-lists, although they are certainly they demonstrate the issues most clearly.
 
-Also, challenge "Common Sense" when it is used.
+Another example is using [AWS's Customer Managed Keys for KMS](https://docs.aws.amazon.com/whitepapers/latest/kms-best-practices/aws-managed-and-customer-managed-cmks.html). By using CMK you now have to manage your own encryption keys. You have to create an entire ecosystem for managing those keys, ensure they're protected, rotated, safely removed. That has a personnel cost, as well as the additional security risk associated with it.
 
-> Why is it common sense?
+Any control proposed to mitigate a risk needs to be adequately weighed up and the impact and implications of that control need to be measured against user experience. However, there is also the secondary effects on how to effectively manage that control, and everything that comes with it.
 
-> Who else thinks they know that as the answer?
-
-You should end up with a better solution that is more open and equitable than your assumptions.
+With IP white-listing there is an interesting asymmetry between the risk and the control. The control is vastly more impactful than the thing you're trying to protect against. To mix metaphors it's like bringing a barn-door to a knife fight.
