@@ -16,7 +16,7 @@ Along with the poor experience, and the speed in which you can over-come the con
 
 Firstly let's assume that the user realises the reason that a service has been unavailable for hours, or days, is because their IP has changed. You then have to find a second path outside those controls to request that your IP gets added to the allow list.
 
-Even with a single user this could be massive over-head if they were using something like a 4G dongle for their internet connection. Multiply that by even a modest number of users and it has ae maintenance impact. If you created some sort of self-service, then why have the control at all? It's just creating bureaucracy.
+Even with a single user this could be massive over-head if they were using something like a 4G dongle for their internet connection. Multiply that by even a modest number of users and it has ae maintenance impact. If you created some sort of self-service, then why have the control at all? All it does is create bureaucracy.
 
 This post isn't entirely about bashing IP allow-lists, although it demonstrates the issues effectively.
 
