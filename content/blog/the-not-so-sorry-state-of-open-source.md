@@ -20,6 +20,6 @@ I'm sure this also applies to those with concerns about the security of Open Sou
 
 Given the broad use and severity of the log4j issues, what does actually concern me is environments that are difficult to update. I do recognise that we are in a time of transition right now. A lot of software is still manually deployed, if the engineers who built it are still working for the company. And even the ones that are automatically deployed may not fully understand the tooling within them. I'm sure much like Heartbleed the fixes will be gradual rather than big bang.
 
-Open Source software, Java, PHP, whatever needs tooling that allows it to be patched quickly, reliably and effectively. I would hypothesise that those who are letting their personal biases lead them to conclusions about whatever technology they hate are actually victims of ineffective tooling.
+Open Source software, Java, PHP, whatever needs tooling that allows it to be patched quickly, reliably and effectively. I would hypothesize that those who are letting their personal biases lead them to conclusions about whatever technology they hate are actually victims of ineffective tooling.
 
 Hopefully this will be another opportunity for businesses to have the discussion "what can we do to prevent this from happening again?" and do some fish-bone analysis rather than listening to the loudest person in the room then being surprised when we run in to the same issues again.
