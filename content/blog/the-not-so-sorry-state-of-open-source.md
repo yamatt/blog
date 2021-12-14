@@ -1,10 +1,10 @@
 ---
 title: "The Not So Sorry State Of Open Source"
-date: 2021-12-13T10:30:32+01:00
+date: 2021-12-14T10:30:32+01:00
 slug: ""
 description: ""
 keywords: []
-draft: true
+draft: false
 tags: []
 math: false
 toc: false
