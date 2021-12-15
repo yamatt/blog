@@ -10,13 +10,13 @@ math: false
 toc: false
 ---
 
-I used to work with a security architect who thought that every risk should be overcome by "IP [white-lists](https://www.ncsc.gov.uk/blog-post/terminology-its-not-black-and-white)".
+I used to work with a security architect who thought that every risk should be mitigated by use of "IP [white-lists](https://www.ncsc.gov.uk/blog-post/terminology-its-not-black-and-white)" for limiting user authentication.
 
-Along with the poor experience, and the speed in which you can over-come the control, one of the other concerns that I often don't see discussed is the maintenance impact of such a control.
+There are some immediate concerns with that approach. The poor user experience, and the speed in which it can be over-come the, but one of the other concerns, that I often don't see discussed, is the support impact of such a control.
 
-Firstly let's assume that the user realises the reason that a service has been unavailable for hours, or days, is because their IP has changed. They then have to find a second path outside those controls to request that their IP gets added to the allow list.
+Firstly let's assume that the user realises the reason that a service has been unavailable for hours, or days, is because their IP has changed. They will then have to find a way to request help outside those to get their new IP added to the allow list.
 
-Even with a single user this could be a big over-head if they were using something like a 4G dongle for their internet connection which changes IP addresses regularly. Multiply that by even a modest number of users and it has a huge maintenance impact. If you created some sort of self-service, then why have the control at all? All it does is create bureaucracy.
+Even with a single user this could be a big over-head. If they were using something like a 4G dongle for their internet connection, which changes IP addresses regularly, they could be making several changes a week. That is an extreme example, but multiply that by even a modest number of users and your support teams quickly become overwhelmed. You could create some sort of self-service, but then why have the control at all? All it does is create bureaucracy.
 
 This post isn't entirely about bashing IP allow-lists, although it demonstrates the issues effectively.
 
