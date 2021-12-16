@@ -1,6 +1,6 @@
 ---
 title: "The Maintenance Cost of Security Controls"
-date: 2021-12-15T13:35:32+01:00
+date: 2021-12-16T13:35:32+01:00
 slug: ""
 description: "The impact of controls"
 keywords: []
