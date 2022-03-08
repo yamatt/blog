@@ -1,6 +1,7 @@
 ---
 title: "About Me"
 draft: false
+date: 2021-01-08T09:00:00+01:00
 ---
 <!--alex ignore servant-->
 Hi, I'm Matt Copperwaite. I was formally employed as a Civil Servant for the United Kingdom Government for more than 10 years. I am current working in Cyber Security for the Financial Times.
