@@ -10,7 +10,7 @@ math: false
 toc: false
 ---
 
-Back in the late 90s and early 2000s there was a portion of the population that were fascinated by the culture of Japan. One thing I remember vividly is how we used to find it so odd that at "celebrities" like [Sylvester Stallone](https://youtu.be/_EnFSwVV-c4) and [Arnold Schwarzenegger](https://youtu.be/6s8qn_PKbiA) were doing adverts for strange products in another language. This even became a part of our own culutre that it was even [parodied in the TV series Friends](https://youtu.be/uOy2lrJqKGY).
+Back in the late 90s and early 2000s there was a portion of the population that were fascinated by the culture of Japan. One thing I remember vividly is how we used to find it so odd that at "celebrities" like [Sylvester Stallone](https://youtu.be/_EnFSwVV-c4) and [Arnold Schwarzenegger](https://youtu.be/6s8qn_PKbiA) were doing adverts for strange products in another language. This even became a part of our own culture that it was even [parodied in the TV series Friends](https://youtu.be/uOy2lrJqKGY).
 
 These days we're not even surprised when "celebrities" like [George Clooney endorsing coffee](https://youtu.be/IeQhtFS8KU0?t=14), or [Snoop Dogg rapping about take-away apps](https://youtu.be/uFPEedHvHqs).
 
