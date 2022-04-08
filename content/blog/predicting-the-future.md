@@ -4,7 +4,7 @@ date: 2022-04-08T18:12:32+01:00
 slug: ""
 description: "Predicting the future"
 keywords: []
-draft: true
+draft: false
 tags: []
 math: false
 toc: false
