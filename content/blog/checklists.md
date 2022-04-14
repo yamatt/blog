@@ -19,7 +19,7 @@ Those changes in my view stem from a couple of areas:
 * A recent [Cautionary Tales podcast episode](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5tZWdhcGhvbmUuZm0vY2F1dGlvbmFyeXRhbGVz/episode/ZmIzNzIyYjYtYTE0Ni0xMWVjLTgyMTUtYzc1MGU2NjVjOGM4?sa=X&ved=0CAUQkfYCahcKEwiIy8LUyZP3AhUAAAAAHQAAAAAQAQ) about architects using checklists
 * A conversation with a colleague about Scuba Diving and [Dive Planning](https://en.wikipedia.org/wiki/Dive_planning) and the checks that they do.
 
-I also realised how checklists are implemented in DevOps. Or as most people practising DevOps would call them, a test suite.
+I also realised how checklists are implemented in DevOps. Or as most people practising DevOps would call them, a test suite. I have checklists for this blog in the form of a suite of tests that look for [insensitive words](https://alexjs.com/), [ensuring sentences make sense](https://github.com/yamatt/python3-hemoglobin), that [the language I use isn't too complex](https://github.com/yamatt/python3-textstat-cli), and a small set of bash scripts that check that when I hit the merge button there is a chance it will actually be published.
 
 Obviously the situations above have different levels of risk. Flying vehicles, architecture, and scuba diving have a higher likelihood of death than software engineering, in general. And I hope in the situations where it doesn't you are using a technique that is less about embracing failure.
 
