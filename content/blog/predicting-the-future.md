@@ -1,6 +1,6 @@
 ---
 title: "What does the future look like"
-date: 2022-04-08T18:12:32+01:00
+date: 2022-04-14T18:12:32+01:00
 slug: ""
 description: "Predicting the future"
 keywords: []
