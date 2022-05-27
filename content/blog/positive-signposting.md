@@ -26,7 +26,7 @@ Where _should_ the paper-towels go? Food waste? Could be. General waste? I'd lik
 
 ## How do we improve this?
 
-The quickest answer is a near identical sticker next to whichever is to the correct hole saying "Paper-towels", or perhaps "Paper-towels here please", or even better "Paper towels yum-yum". But that's not the end of the story.
+The quickest answer is a near identical sticker next to whichever is to the correct opening saying "Paper-towels", or perhaps "Paper-towels here please", or even better "Paper towels yum-yum". But that's not the end of the story.
 
 The other issue is that the messaging doesn't scale. Today it's paper-towels, next week maybe people are incorrectly disposing their used pizza boxes. Where should they go?
 
@@ -36,11 +36,11 @@ But let us not stop there. What if a new technology comes along and messes with 
 
 Now we're getting to the bottom of the underlying issues, and see there being a few answers.
 
-One option I can see is to educate people in the kitchens, not just on what can go in to the bins, but also about the disposal processes that allows everyone to make informed decisions about what should be disposed where, and a service that helps people identify where things should go in those edge cases. This is very context dependant, and potentially expensive.
+One option I can see is to educate people in the kitchens, not only on what can go in to the bins, but also about the disposal processes that allows everyone to make informed decisions about what should be disposed where, and a service that helps people identify where things should go in those edge cases. This is very context dependant, and potentially expensive.
 
  Another option is that there should be a single bin and the sorting takes place in a different place where the proper assessment of the materials can take place, although I'm sure there are issues with the changing of materials by them spending some time in contact with each other. Again, no doubt expensive.
 
-Another option is to use [affordance](https://en.wikipedia.org/wiki/Affordance) that encourages the separation of different kinds of items, such as [Amberol bins that have shaped holes that encourage in particular bottle and paper recycling](https://amberol.co.uk/bins/outdoor-recycling-bins/olympic-dual-bin). This allows people to make minimal effort decisions about where their product should go because they will identify the lowest effort bin to use.
+Another option is to use [affordance](https://en.wikipedia.org/wiki/Affordance) that encourages the separation of different kinds of items, such as [Amberol bins that have shaped openings that encourage in particular bottle and paper recycling](https://amberol.co.uk/bins/outdoor-recycling-bins/olympic-dual-bin). This allows people to make minimal effort decisions about where their product should go because they will identify the lowest effort bin to use.
 
 ## The security angle
 
