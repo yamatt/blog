@@ -36,7 +36,7 @@ But let us not stop there. What if a new technology comes along and messes with 
 
 Now we're getting to the bottom of the underlying issues, and see there being a few answers.
 
-One option I can see is to educate people in the kitchens, not only on what can go in to the bins, but also about the disposal processes that allows everyone to make informed decisions about what should be disposed where, and a service that helps people identify where things should go in those edge cases. This is very context dependant, and potentially expensive.
+One option I can see is to educate people in the kitchens, not only on what can go in to the bins, but also about the disposal processes that allows everyone to make informed decisions about what should be disposed where, and a service that helps people identify where things should go in those edge cases. This is very context dependent, and potentially expensive.
 
  Another option is that there should be a single bin and the sorting takes place in a different place where the proper assessment of the materials can take place, although I'm sure there are issues with the changing of materials by them spending some time in contact with each other. Again, no doubt expensive.
 
@@ -50,6 +50,6 @@ Well, a lot.
 
 What I'm trying to illustrate here is that using ["common sense" is not the answer]({{< ref "./common-sense-as-bad-practice.md" >}}). If you want to create appreciable difference to a problem you are experiencing you need to analyse the problem and come up with solutions that work in all cases, because our first instincts are often bad.
 
-Worried about weak passwords? Lets enforce more complex ones. Worried about phishing? Lets phish our users and blame them for clicking on the links.
+Worried about weak passwords? Let's enforce more complex ones. Worried about phishing? Lets phish our users and blame them for clicking on the links.
 
 Or we could think about the problem and provide helpful guidance and frameworks that allows them to make good decisions.
