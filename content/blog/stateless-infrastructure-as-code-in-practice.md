@@ -28,6 +28,8 @@ The chicken and egg problem with Terraform state files is actually the easiest t
 
 The other thing to do now is to solve the problem of deleting resources you know nothing about. The way I wanted to solve this was to treat AWS Accounts as disposable. Using [Green/Blue Deployments](https://www.redhat.com/en/topics/devops/what-is-blue-green-deployment) we can build the new deployment in one account, then destroy the old account when the new one has been switched over to.
 
+# MEMBER_ACCOUNT_PAYMENT_INSTRUMENT_REQUIRED
+
 There are a few problems with this, and this is pretty much where I gave up. One is that automating the deletion of AWS Accounts is really difficult. The account requires credit card details for an account to be removed, and that in effect makes it a manual step. There is an alternative however, which is what I called the account "black hole". Which is an OU in your AWS Organization that has a policy on it that prevents all roles from being assumed. That way your resources cannot run and your cost will eventually reach zero.
 
 There is another issues with, and that is that there are soft limits on the number of sub-Accounts that an AWS Organization can have. This can definitely be adjusted, but if you are deploying several times a day (and hopefully you are) then you are rinsing your limits pretty quickly. It is a soft limit, so you therefore can ask Amazon for that limit to be raised, but you do the math, and you can see you'll likely have an unhappy Amazon reasonably quickly in a large organisation.
