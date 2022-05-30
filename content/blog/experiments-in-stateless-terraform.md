@@ -10,11 +10,11 @@ math: false
 toc: false
 ---
 
-[This article about the history of statefulness in Terraform](https://www.bejarano.io/terraform-stateless/) really resonated with me. I have recently been toying with the concept of Terraform that no-longer required the storage of the Terraform state file.
+[This article about the history of statefulness in Terraform](https://www.bejarano.io/terraform-stateless/) resonated with me. I have been toying with the concept of Terraform that no-longer required the storage of the Terraform state file.
 
-I wanted to share my observations from my experiments and the linked article because I have found that under the current way AWS works, it is not possible to use Terraform without state, but more than that it is a problem I don't think AWS can fix, but others have.
+I wanted to share my observations from my experiments and the linked article because I have found that under the current way AWS works, it's not possible to use Terraform without state, but more than that it's a problem I don't think AWS can fix, but others have.
 
-The key limitation here is the deletion or removal of resources that are no-longer used. You need some way to discard them without knowing that they exist. The solution I came up with was to use the AWS Account as an ephemeral container for everything that needed to be built and destroyed.
+The key limitation here is the deletion or removal of resources that are no-longer used. You need some way to discard them without knowing that they exist. The solution I came up with was to use the AWS Account as an ephemeral container for everything that is built and destroyed.
 
 ## Becoming stateless
 
@@ -22,21 +22,21 @@ The concept is that everything you need is built in to an AWS Account, then when
 
 ## MEMBER_ACCOUNT_PAYMENT_INSTRUMENT_REQUIRED
 
-There are a few problems with this however, and this is where I think it gets interesting.
+There are a problems with this, and this is where I think it gets interesting.
 
-I do recognise that what I'm attempting to do is a hack, it's not designed to be used that way. Terraform will not have made their decisions to use state files in isolation or for fun, they likely also realised this problem and the complexity state files brought were required. But the limitations are of AWS making, assumptions they made about how their environment works, and that is pretty unusual, not something of Terraform's making.
+I do recognise that what I'm attempting to do is a hack, it's not designed to be used that way. Terraform will not have made their decisions to use state files in isolation or for fun, they will have also realised this problem and the complexity state files brought were the only solution. But the limitations are of AWS making, assumptions they made about how their environment works, and that is pretty unusual, not something of Terraform's making.
 
-The first issue is that automating the deletion of AWS Accounts is really difficult. The sub-account requires credit card details for it to be removed, even if it is part of an AWS Organization. That to me makes it a manual step. A manual step means no automated Green/Blue deployment.
+The primary issue is that automating the deletion of AWS Accounts is difficult. The sub-account requires credit card details for it to be removed from an AWS Organization. That makes it a manual step. A manual step means no automated Green/Blue deployment.
 
 <!--alex ignore black hole-->
-There is an alternative however, which is what I called the "black hole". This is an OU in your AWS Organization that has a policy on it that prevents all roles from being assumed in that Account. That way your resources cannot run and your cost will eventually reach zero.
+There is an alternative, I call it the "black hole". This is an OU in your AWS Organization that has a policy on it that prevents all roles from being assumed in that Account. That way your resources cannot run and your cost will reach zero.
 
-However, this then runs in to another issue, that is that there are soft limits on the number of sub-Accounts that an AWS Organization can have. It is a _soft_ limit, so you can ask Amazon nicely for that limit to be raised, but you do the math on the number of deployments you do a day, and I bet in a short amount of time you will have an unhappy Amazon asking you what you are up to and can you please stop.
+This then runs in to another issue, that is that there are soft limits on the number of sub-Accounts that an AWS Organization can have. It _is_ a _soft_ limit, so you can ask Amazon nicely for an increase of that limit, but you do the math on the number of deployments you do a day, and I bet in a short amount of time you will have an unhappy Amazon asking you what you are up to and can you please stop.
 
 ## Better Solutions
 
-The interesting thing for me here was finding the limits of what was possible in AWS. Not something I encounter often. I don't have a lot of experience in other PaaS services so maybe doing this is possible in Azure or GCP.
+The interesting thing for me here was finding the limits of what was possible in AWS. Not something I encounter often. I don't have a lot of experience in other PaaS services so I would love to hear if doing this is possible in Azure or GCP.
 
-I do wonder if it is something Amazon will fix, but I also think it might be a fundamental limitation in how AWS is built and assumptions that were made at the time.
+I do wonder if its something Amazon will fix, but I also think it might be a fundamental limitation in how AWS is built and assumptions that were made at the time.
 
 A trend I've started to see with services like [Fastly](https://docs.fastly.com/en/guides/working-with-services#editing-and-activating-versions-of-services) and [Doppler](https://docs.doppler.com/docs/versioning) is that they have configuration versioning built right in to their web UI. This looks like services might be tending towards a [ClickOps model](https://www.lastweekinaws.com/blog/clickops/) which has the ability to make Infrastructure as Code redundant. The first PaaS services to do infrastructure versioning is going to get a lot of attention to me. However, I don't see this happening in AWS for a long time.
