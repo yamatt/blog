@@ -31,7 +31,7 @@ The first issue is that automating the deletion of AWS Accounts is really diffic
 <!--alex ignore black hole-->
 There is an alternative however, which is what I called the "black hole". This is an OU in your AWS Organization that has a policy on it that prevents all roles from being assumed in that Account. That way your resources cannot run and your cost will eventually reach zero.
 
-However, this then runs in to another issue, that is that there are soft limits on the number of sub-Accounts that an AWS Organization can have. It is a _soft_ limit, so you can ask Amazon nicely for that limit to be raised, but you do the math on the number of deployments you do a day, and I bet in a short period of time you will have an unhappy Amazon asking you what you are up to and can you please stop.
+However, this then runs in to another issue, that is that there are soft limits on the number of sub-Accounts that an AWS Organization can have. It is a _soft_ limit, so you can ask Amazon nicely for that limit to be raised, but you do the math on the number of deployments you do a day, and I bet in a short amount of time you will have an unhappy Amazon asking you what you are up to and can you please stop.
 
 ## Better Solutions
 
