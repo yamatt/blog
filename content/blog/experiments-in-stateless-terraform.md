@@ -1,10 +1,10 @@
 ---
 title: "Experiments in Stateless Terraform"
-date: 2022-05-28T18:10:32+01:00
+date: 2022-05-31T18:10:32+01:00
 slug: ""
 description: ""
 keywords: []
-draft: true
+draft: false
 tags: []
 math: false
 toc: false
