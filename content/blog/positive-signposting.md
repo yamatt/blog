@@ -24,6 +24,20 @@ Do you see the problem?
 
 Where _should_ the paper-towels go? Food waste? Could be. General waste? I'd like to avoid it if at all possible. It isn't clear.
 
+## Another Example
+
+I recently encountered a similar example on the platforms at my local train station. They have these yellow boxes that contain salt and grit used to de-ice the ground. They are about 50cm tall and their top surface is flat giving them an affordance of a seat. They are however not designed to be sat upon and the weight causes them to break, crack and drop grit, which can in itself be a hazard as the material creates a slippery surface.
+
+The solution the train company had chosen to over-come this? A sign on top of these boxes saying they should not be sat on.
+
+Now imagine you're coming home late at night, drunk, tired, and you've just missed the train. The next one is half an hour away. The platform is busy with other revellers. Are you going to read, understand, or care about a sign on the box?
+
+How do we improve this situation? Well the negative signposting didn't work. Maybe we can go further. The affordance of the box is to resemble a seat. In fact in researching this post if you look up large grit boxes (200L or more) they tend to have tough curved lids that creates an uncomfortable seating surface.
+
+But another way of looking at it is that there is clearly a demand for more seating. Perhaps instead you could make the grit boxes dual use, by making them strong enough to be seating, and once you've reached that point perhaps it would be a better idea to turn the existing seating in to something that can also store grit.
+
+Now there is no doubt that there are other considerations in an environment such as a train station. Things like securing access to storage in case of terrorism, but this is all things that can be worked through with the right considerations. Artefacts like the one described here are the product of single focus thinking. And that is what produces a poor experience for your customers, but also doesn't resolve the underlying problems. 
+
 ## How do we improve this?
 
 The quickest answer is a near identical sticker next to whichever is to the correct opening saying "Paper-towels", or perhaps "Paper-towels here please", or even better "Paper towels yum-yum". But that's not the end of the story.
