@@ -16,7 +16,7 @@ The issue though is that when we are presented with multiple options, negative s
 
 I encountered a real-world example of this in the office recently. There are paper-towels in the office kitchen for drying cutlery, crockery and our hands. We are also provided with a choice of bins to discard our waste items. There is a recycling bin, a food waste bin, and a general bin. Being environmentally conscious, I, and clearly out others, were discarding our paper-towels in the recycling bin. This is apparently incorrect. Now there's a separate question about why this is, which firstly, is interesting, but secondly, way outside the purpose of this blog.
 
-The solution they came up with was to affix a note to each kitchen in the building.
+Anyway, the solution the people who manage the office came up with was to affix a note to each kitchen in the building.
 
 ![A kitchen counter with 3 bins labelled 'General waste', 'Food only', and 'Recycling' with an additional label beside recycling that says 'No paper-towels'](/img/blog-post/positive-signposting/negative-signposting.png)
 
