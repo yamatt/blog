@@ -34,4 +34,4 @@ Worried about weak passwords? Let's enforce more complex ones. Worried about phi
 
 Or we could think about the problem and provide tools our customers want, beyond 'Best Practice' and 'Guidance docs' and in to services that allows them to make good, informed, decisions.
 
-If something has gone wrong, don't mark the action as wrong and control for it, identify what what went wrongand identify how to make it go right.
+If something has gone wrong, don't mark the action as wrong and control for it, identify what went wrong and identify how to make it go right.
