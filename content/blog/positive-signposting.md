@@ -10,15 +10,15 @@ math: false
 toc: false
 ---
 
-As a society we have a tendency to tell people to stop doing something. It's more instinctive to say "Stop doing that!" rather than "Could you do this instead?", possibly because it's easier to know what not to do, than to be creative about what could be done.
+As a society we have a tendency to tell people to stop doing something. It's more instinctive to say "Stop doing that!" rather than "Could you do this instead?". There are many reasons for this. Telling people to stop is the lowest effort solution. It's easier to know what not to do, than to be creative about what the alternatives are.
 
-The issue that I see though is that when we are presented with multiple options, negative signposting only removes one option. This still provides you many alternatives and provides you little information on finding the right solution. This makes for a poor customer experience as those who do not know better don't know what else to do, and those that have other options are not provided any information when looking for a better solution.
+The issue that I see though is that when presented with options, negative signposting only removes one of them. This still provides you with alternatives as well as providing little information on finding the right solution. This makes for a poor customer experience as those who do not know better don't know what else to do, and those that have other options are not provided any information when looking for a better solution.
 
-I encountered a real-world example of this in the office recently. There are paper-towels in the office kitchen for drying cutlery, crockery and our hands. We are also provided with a choice of bins to discard our waste items. There is a recycling bin, a food waste bin, and a general bin. Being environmentally conscious, I, and seemingly many others, were discarding our paper-towels in the recycling bin. This is apparently incorrect.
+I encountered a real-world example of this in the office. There are paper-towels in the office kitchen for drying cutlery, crockery and our hands. We are also provided with a choice of bins to discard our waste items, a recycling bin, a food waste bin, and a general bin. Being environmentally conscious, I, and seemingly others, were discarding our paper-towels in the recycling bin. This is apparently incorrect.
 
 The solution the people who manage the office came up with was to provide a note to each kitchen in the building.
 
-![A kitchen counter with 3 bins labelled 'General waste', 'Food only', and 'Recycling' with an additional label beside recycling that says 'No paper-towels'](/img/blog-post/positive-signposting/negative-signposting.png)
+![A kitchen counter with 3 bins labelled 'General waste', 'Food only', and 'Recycling' with a label beside recycling that says 'No paper-towels'](/img/blog-post/positive-signposting/negative-signposting.png)
 
 Do you see the problem?
 
@@ -34,4 +34,4 @@ Worried about weak passwords? Let's enforce more complex ones. Worried about phi
 
 Or we could think about the problem and provide tools our customers want, beyond 'Best Practice' and 'Guidance docs' and in to services that allows them to make good, informed, decisions.
 
-If something has gone wrong, don't mark the action as wrong and control for it, identify what needs to be done to make it go right.
+If something has gone wrong, don't mark the action as wrong and control for it, identify what what went wrongand identify how to make it go right.
