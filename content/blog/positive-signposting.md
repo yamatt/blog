@@ -12,26 +12,30 @@ toc: false
 
 As a society we have a tendency to tell people to stop doing something. It's more instinctive to say "Stop doing that!" rather than "Could you do this instead?". There are many reasons for this. Telling people to stop is the lowest effort solution. It's easier to know what not to do, than to be creative about what the alternatives are.
 
-The issue that I see though is that when presented with options, negative signposting only removes one of them. This still provides you with alternatives as well as providing little information on finding the right solution. This makes for a poor customer experience as those who do not know better don't know what else to do, and those that have other options are not provided any information when looking for a better solution.
+There are real world examples of this all over the place.
 
-I encountered a real-world example of this in the office. There are paper-towels in the office kitchen for drying cutlery, crockery and our hands. We are also provided with a choice of bins to discard our waste items, a recycling bin, a food waste bin, and a general bin. Being environmentally conscious, I, and seemingly others, were discarding our paper-towels in the recycling bin. This is apparently incorrect.
+In my office there are paper-towels provided in the kitchens to be used for drying cutlery, crockery and our hands. We are also provided with a choice of bins to discard our waste items, a recycling bin, a food waste bin, and a general bin. Being environmentally conscious, I, and seemingly others, were discarding our paper-towels in the recycling bin. Apparently however, this is incorrect.
 
-The solution the people who manage the office came up with was to provide a note to each kitchen in the building.
+The solution the people who manage the office came up with was to provide a note to each kitchen in the building against the recycling bin saying "No paper towels".
 
-![A kitchen counter with 3 bins labelled 'General waste', 'Food only', and 'Recycling' with a label beside recycling that says 'No paper-towels'](/img/blog-post/positive-signposting/negative-signposting.png)
+So where _should_ the paper-towels go? I'd rather it wasn't destined for general waste . Food waste? Is paper made from food-like material? It isn't clear.
 
-Do you see the problem?
+Another example of this is a very common sign you see around the suburbs where I live.
 
-Where _should_ the paper-towels go? Food waste? It does say 'Food only'. Isn't paper made from food-like material though? I'd rather it wasn't General waste? I'd like to avoid it if at all possible. It isn't clear.
+![A sign on the side of a building saying "NO BALL GAMES"'](/img/blog-post/positive-signposting/no-ball-games.png)
+
+Presumably this was put up because those playing football were bouncing the ball off the wall, and the person living on the otherside of that wall wasn't happy about that, perhaps some broken windows, but we don't know.
+
+That means cricket is out too. Badminton? That would be ok. Frisbee should be absolutely fine according to the sign.
+
+The issue that I see in is that when presented with multiple options, negative signposting only removes one of them. That doesn't provide you any information on finding the right solution. This makes for a poor customer experience, and unwanted outcomes.
 
 ## The security angle
 
 What I'm trying to illustrate here is that using ["common sense" is not the answer]({{< ref "./common-sense-as-bad-practice.md" >}}) and neither is blaming your customers, we all own the problem.
 
-If you want to create a difference to a problem you are experiencing you need to analyse the problem and come up with solutions that work in most if not all cases, because our first instincts are often bad.
+If you want to create an impact on a problem, you need to first analyse the problem and come up with solutions that work in most if not all cases, because our initial instincts are often [lead to undesirable outcomes]({{< ref "./behavioural-economics-second-order-thinking.md" >}}).
 
-Worried about weak passwords? Let's enforce more complex ones. Worried about phishing? Lets phish our users and blame them for clicking on the links.
-
-Or we could think about the problem and provide tools our customers want, beyond 'Best Practice' and 'Guidance docs' and in to services that allows them to make good, informed, decisions.
+Or we could think about the problem and provide tools our customers want and in to services that allows them to make good, informed, decisions.
 
 If something has gone wrong, don't mark the action as wrong and control for it, identify what went wrong and identify how to make it go right.
