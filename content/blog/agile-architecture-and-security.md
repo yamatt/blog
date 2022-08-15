@@ -30,6 +30,6 @@ However, these changes are usually the 'v2' solution and are often deemed too ex
 
 What I find interesting though is that the stopage looks like the original gate-keeping policies of any legacy IT security delivery, the security architects lament "you should have come to us sooner". This overlooks that security is an on-going and continuous process and should be able to take over at any stage of the process.
 
-Because of this I have been exploring the same mentality in architecture, and putting myself in the position that architecture can delivered at any point in a delivery, not just in [green-field environments](https://matt.copperwaite.net/blog/green-brown-teams/), and something that can be worked on when it becomes too expensive to not do so.
+Because of this I have been exploring the same mentality in architecture, and putting myself in the position that architecture can delivered at any point in a delivery, not only in [green-field environments](https://matt.copperwaite.net/blog/green-brown-teams/), and something that can be worked on when it becomes too expensive to not do so.
 
 The results have been interesting, but I do believe it can work. I hope to share some lessons in the future.
