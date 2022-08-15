@@ -30,7 +30,7 @@ However, these changes are usually the 'v2' solution and are too expensive to im
 
 What I find interesting though is that the stopage looks like the original gate-keeping policies of any legacy IT security delivery, the security architects lament "you should have come to us sooner". This forgets that security is an on-going and continuous process and should be able to take over at any stage of the process.
 
-Because of this I have been exploring the same challenges in architecture, and putting myself in the position that architecture can delivered at any point in a delivery, not just in [green-field environments](https://matt.copperwaite.net/blog/green-brown-teams/). What I found was that while building green-field gives you more flexibility, and feels faster, it can also work well while the project is running too, and in fact can be faster.
+Because of this I have been exploring the same challenges in architecture, and putting myself in the position that architecture can delivered at any point in a delivery, not just in [green-field environments](https://matt.copperwaite.net/blog/green-brown-teams/). What I found was that while building green-field gives you more flexibility, and feels faster, it can also work well while the project is running too, and in fact work better.
 
 The benefits that have already been discussed is not having to stop and work on just on the architecture. This can often turn your project in to something that cannot be run in parallel because any new features might be replaced later. This means leaving one of your team doing the architecture work, while the others work on something else.
 
