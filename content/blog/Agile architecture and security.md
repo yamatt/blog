@@ -26,8 +26,16 @@ My team are going through this realisation now, where several systems which were
 
 The response to that, including my own, has been that we needed to step away from the every day bug fixing and feature implementation and dedicate some time to better understanding the problem we are trying to solve.
 
-These changes are considered the 'v2' solution and are always over the next horizon. The engineering team are then left performing fixes, or adding new features that are more expensive than they should be. That is until someone decides that the 'v2' is less expensive than the next feature they are trying to build.
+However, these changes are usually the 'v2' solution and are too expensive to implement now, they are therefore always over the next horizon. The engineering team are then left performing fixes, or adding new features that are more expensive than they should be. That is until someone decides that the 'v2' is less expensive than the next feature they are trying to build.
 
 What I find interesting though is that the stopage looks like the original gate-keeping policies of any legacy IT security delivery, the security architects lament "you should have come to us sooner". This forgets that security is an on-going and continuous process and should be able to take over at any stage of the process.
 
-Because of this I have been exploring the same challenges in architecture, and putting myself in the position that architecture can delivered at any point in a delivery, not just in [green-field environments](https://matt.copperwaite.net/blog/green-brown-teams/). What I found was that while building green-field gives you more flexibility, and feels faster, it can also work well while the project is running too, and in fact has several benefits.
+Because of this I have been exploring the same challenges in architecture, and putting myself in the position that architecture can delivered at any point in a delivery, not just in [green-field environments](https://matt.copperwaite.net/blog/green-brown-teams/). What I found was that while building green-field gives you more flexibility, and feels faster, it can also work well while the project is running too, and in fact can be faster.
+
+The benefits that have already been discussed is not having to stop and work on just on the architecture. This can often turn your project in to something that cannot be run in parallel because any new features might be replaced later. This means leaving one of your team doing the architecture work, while the others work on something else.
+
+If however you make incremental steps, such as building a JSON Schema, OpenAPI or gRPC spec in one sprint and adding that to your code in another sprint, you're able to start on your journey. Other ways you can treat this is by starting to make your code idempotent, or your images mutable. This starts you on your journey to making your system repeatable and in-fact easier to switch to other technologies.
+
+In fact generally moving towards standards is a great way of improving your architecture and your collaboration.
+
+Other ways can be to do small bits of refactoring, or breaking out your code in to modules as part of other peices of work. I recently worked on a piece of code where logging was non-existent. So as part of that change I also spent a bit of additional effort getting the code closer to something that was more pythonic. It was necessary for the logging to be effective. I didn't refactor the entire codebase, which would take time and either involve a lot of rebasing or stopping other people on the team working on the code entirely, I did just enough that necessary to improve the logging. At a later stage I or someone else would revisit the code and do the same.
