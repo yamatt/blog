@@ -12,17 +12,17 @@ toc: false
 
 I should point out that while my background is in Cyber security, I have a passion for systems architecture. I also believe that they compliment each other. That good, well reasoned and mature architecture creates an environment where IT security becomes the default, rather than an afterthought. Unfortunately in environments running Agile practices, architecture is often only considered once the current way the system evolves becomes part of the problem, rather than up-front where it can be the help most.
 
-That's why I was excited to see the [Agile meets Architecture](https://www.agile-meets-architecture.com/) conference happening in Berlin at the beginning of next month.
+That's why I am excited to see the [Agile meets Architecture](https://www.agile-meets-architecture.com/) conference happening in Berlin at the beginning of next month.
 
-If it wasn't for having a young family, making spending several days in another country unrealistic for me, I would absolutely be throwing everything at getting myself there. It looks like a really exciting conference to happen and I hope everyone who attends gets a lot out of it.
+If it wasn't for having a young family, making spending days in another country unrealistic for me, I would absolutely be throwing everything at getting myself there. It looks like a really exciting conference to happen and I hope everyone who attends gets a lot out of it.
 
 Despite me not being able to attend, it has made me think about the problem of architecture and security in agile contexts.
 
-There are some separation of concerns at a business level that I've seen a few times now, usually as a DevX team that usually provides things like SIEM integration and ingress detection in addition to the cloud [shared responsibility model](https://aws.amazon.com/compliance/shared-responsibility-model/). But beyond that, systems architecture is left to the individual engineering teams to decide, until they eventually discover how important good up-front architecture could have helped them.
+Most businesses have some separation of concerns, usually as a DevX team that provides things like SIEM integration and ingress detection beyond support in to the cloud [shared responsibility model](https://aws.amazon.com/compliance/shared-responsibility-model/). But beyond that, systems architecture is left to the individual engineering teams to decide, until they eventually discover how important good up-front architecture could have helped them.
 
-My team are going through this realisation now, where several systems which were built by the previous incarnation of the team have bits that have not stood even the short amount of time they were in use.
+My team are going through this realisation now, where services which were built by the previous incarnation of the team have bits that have not stood even the short amount of time they were in use.
 
-The response to that, including my own, has been that we needed to step away from the every day bug fixing and feature implementation and dedicate some time to better understanding the problem we are trying to solve. A focus on technical debt specific to architecture. However this take the development teams away from their day jobs, and make them work on activity that is difficult to run in parallel. Instead leaving engineering team performing fixes, or adding new features that are more difficult, and time consuming than they should be.
+The response to that, including my own, has been that we needed to step away from the everyday bug fixing and feature implementation and dedicate some time to better understanding the problem we are trying to solve. A focus on technical debt specific to architecture. However, this take the development teams away from their day jobs, and make them work on activity that is difficult to run in parallel. Instead, leaving engineering team performing fixes, or adding new features that are more difficult, and time-consuming than they should be.
 
 That is until someone decides that the architectural changes are less expensive than building the next feature
 
