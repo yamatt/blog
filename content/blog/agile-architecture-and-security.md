@@ -1,6 +1,6 @@
 ---
 title: "Agile Architecture And What It Means For Security"
-date: 2022-08-15T18:10:32+00:00
+date: 2022-08-19T18:10:32+00:00
 slug: ""
 description: "Adaptive architecture for better security"
 keywords: []
