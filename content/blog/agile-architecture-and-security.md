@@ -10,23 +10,23 @@ math: false
 toc: false
 ---
 
-I should point out that while my background is in Cyber security, I have a passion for systems architecture. I also believe that they compliment each other. That good, well reasoned and mature architecture creates an environment where IT security becomes the default, rather than an afterthought. Unfortunately in environments running Agile practices, architecture is often only considered once the current way the system evolves becomes part of the problem, rather than up-front where it can be the help most.
+I should point out that while my background is in Cyber security, I have a passion for systems architecture. I also believe that they compliment each other. That good, well reasoned and mature architecture creates an environment where IT security becomes the default, rather than an afterthought. Unfortunately in environments running Agile practices, architecture is often considered once the current way the service has evolved becomes part of the problem. Whereas it can be the most help if considered upfront.
 
 That's why I am excited to see the [Agile meets Architecture](https://www.agile-meets-architecture.com/) conference happening in Berlin at the beginning of next month.
 
-If it wasn't for having a young family, making spending days in another country unrealistic for me, I would absolutely be throwing everything at getting myself there. It looks like a really exciting conference to happen and I hope everyone who attends gets a lot out of it.
+If it wasn't for having a young family, making spending days in another country unrealistic for me, I would be throwing everything at getting myself there. It looks like a very exciting conference to happen and I hope everyone who attends gets a lot out of it.
 
 Despite me not being able to attend, it has made me think about the problem of architecture and security in agile contexts.
 
-Most businesses have some separation of concerns, usually as a DevX team that provides things like SIEM integration and ingress detection beyond support in to the cloud [shared responsibility model](https://aws.amazon.com/compliance/shared-responsibility-model/). But beyond that, systems architecture is left to the individual engineering teams to decide, until they eventually discover how important good up-front architecture could have helped them.
+Most businesses have some separation of concerns, a DevX or Cloud team that provides services like SIEM integration and ingress detection as well as a local way in to the cloud [shared responsibility model](https://aws.amazon.com/compliance/shared-responsibility-model/). But beyond that, systems architecture is down to the individual engineering teams to decide, until they eventually discover how important good, up-front architecture could have helped them.
 
-My team are going through this realisation now, where services which were built by the previous incarnation of the team have bits that have not stood even the short amount of time they were in use.
+My team are going through this realisation now, where services which had been built by the previous incarnation of the team have bits that have not stood even the short amount of time they were in use.
 
-The response to that, including my own, has been that we needed to step away from the everyday bug fixing and feature implementation and dedicate some time to better understanding the problem we are trying to solve. A focus on technical debt specific to architecture. However, this take the development teams away from their day jobs, and make them work on activity that is difficult to run in parallel. Instead, leaving engineering team performing fixes, or adding new features that are more difficult, and time-consuming than they should be.
+The response to that, including my own, has been that we needed to step away from the everyday bug fixing and feature implementation and dedicate some time to better understanding the problem we are trying to solve. A focus on technical debt specific to architecture. This takes the development teams away from their day jobs, and make them work on activity that is difficult to run in parallel. Instead, leaving engineering team performing fixes, or adding new features that are more difficult, and time-consuming than they should be.
 
 That is until someone decides that the architectural changes are less expensive than building the next feature
 
-What I find interesting though is that taking time away to focus on architectural technical debt looks like the legacy gate-keeping policies of last generation IT security delivery, reminding me of the security architects lament "you should have come to us sooner". This overlooks that architecture, much like security, is an on-going and continuous process and should be treated as something that can take over at any stage of the delivery.
+What I find interesting though is that taking time away to focus on architectural technical debt looks like the legacy gate-keeping policies of last generation IT security delivery, reminding me of the security architects lament "you should have come to us sooner". This overlooks that architecture, much like security, is an on-going and continuous process and treated as something that can take over at any stage of the delivery.
 
 This doesn't mean you don't have to do architecture up-front, but instead building with tooling that makes architectural changes easier.
 
