@@ -18,7 +18,7 @@ If it wasn't for having a young family, making spending several days in another 
 
 Despite me not being able to attend, it has made me think about the problem of architecture and security in agile contexts.
 
-There are some separation of concerns at a business level that I've seen a few times now, usually as a DevX team that usually provides things like SEIM integration and ingress detection in addition to the cloud [shared responsibility model](https://aws.amazon.com/compliance/shared-responsibility-model/). But beyond that, systems architecture is left to the individual engineering teams to decide, until they eventually discover how important good up-front architecture could have helped them.
+There are some separation of concerns at a business level that I've seen a few times now, usually as a DevX team that usually provides things like SIEM integration and ingress detection in addition to the cloud [shared responsibility model](https://aws.amazon.com/compliance/shared-responsibility-model/). But beyond that, systems architecture is left to the individual engineering teams to decide, until they eventually discover how important good up-front architecture could have helped them.
 
 My team are going through this realisation now, where several systems which were built by the previous incarnation of the team have bits that have not stood even the short amount of time they were in use.
 
