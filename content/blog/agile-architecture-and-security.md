@@ -26,7 +26,7 @@ The response to that, including my own, has been that we needed to step away fro
 
 That is until someone decides that the architectural changes are less expensive than building the next feature
 
-What I find interesting though is that taking time away to focus on architectural technical debt looks like the legacy gate-keeping policies of last generation IT security delivery, reminding me of the security architects lament "you should have come to us sooner". So this overlooks that architecture, much like security is an on-going and continuous process and should be possible to take over at any stage of the process.
+What I find interesting though is that taking time away to focus on architectural technical debt looks like the legacy gate-keeping policies of last generation IT security delivery, reminding me of the security architects lament "you should have come to us sooner". This overlooks that architecture, much like security, is an on-going and continuous process and should be treated as something that can take over at any stage of the delivery.
 
 This doesn't mean you don't have to do architecture up-front, but instead building with tooling that makes architectural changes easier.
 
