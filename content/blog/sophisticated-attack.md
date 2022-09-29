@@ -11,6 +11,7 @@ toc: false
 ---
 
 <!--alex disable attack-->
+<!--alex disable attacks-->
 
 A trend I and some friends in the industry noticed over the last few years is that whenever a company gets hacked they almost always [call it a "sophisticated attack"](https://www.google.com/search?q=site%3Abbc.co.uk%2Fnews%20%22sophisticated%20attack%22). It kind of became a running joke, no-matter whether the attack was a Denial of Service, or data left in a public S3 bucket they always used that term.
 
@@ -35,8 +36,8 @@ During this search it turns out [I'm not alone](https://www.engadget.com/2016-06
 
 Ok, so let's move on to how we can use the term 'sophisticated attack' better.
 
-The obvious ones to exclude are that open services leaking data and DDoS are not covered. These are things anyone can do with a bit of scripting knowledge. It seems to be that you cannot rely on a single script or action to perform the exploit.
+The ones most people on social media seem to exclude are open services leaking data and DDoS. These can be done by anyone pressing a button on a DDoS service or a scanning tool like Nessus. It seems to me that the exploit cannot rely on a single script or action to perform the exploit.
 
-What it immediately makes me think is that chaining exploits is probably a better way to define it. If the attack involved 2 or more steps to get access to the data that seems like it took effort and skill, therefore sophisticated. It also means as security improves we can say that actually 2 steps is the new norm and 3 steps will be the new 'sophisticated'.
+That means that chaining exploits is probably a better way to define the level of sophistication. If the attack involved 2 or more steps to get access to the data that seems like it took effort and skill, therefore sophisticated. It also means as security improves 2 steps can become norm and 3 steps will be the new 'sophisticated'.
 
 By communicating about these attacks better we can start to have real conversations about how to protect data better. 
