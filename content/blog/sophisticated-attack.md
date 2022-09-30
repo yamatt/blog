@@ -25,10 +25,7 @@ Anyway, I wanted to explore why this term 'sophisticated attack' is being so wid
 
 The first step is to check Google Trends:
 
-  <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3045_RC01/embed_loader.js"></script>
-  <script type="text/javascript">
-    trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"\"sophisticated attack\"","geo":"","time":"2004-01-01 2022-09-29"}],"category":0,"property":""}, {"exploreQuery":"date=all&q=%22sophisticated%20attack%22","guestPath":"https://trends.google.co.uk:443/trends/embed/"});
-  </script>
+[![A chart of Google Trends](/img/blog-post/sophisticated-attack/google-trends.png)](https://trends.google.co.uk/trends/explore?date=all&q=%22sophisticated%20attack%22&hl=en-GB)
 
 Well that was disappointing. I was expecting a linear or exponential increase. If anything it's a decrease. The related queries seem to involve military usage, so perhaps the term originates in the military and that has been transferred to cyber security. It wouldn't be the first time.
 
