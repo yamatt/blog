@@ -6,10 +6,7 @@
 &lt;p>The reason the term is used is because companies want the public to think that the hack wasn&amp;rsquo;t a trivial amount of effort and deflecting criticism that the company were negligent in their responsibilities in finding and patching vulnerabilities. Whereas the reality is that these events are inevitable and we need to plan for and minimise them. Does a mobile service provider need to store people&amp;rsquo;s driving license details?&lt;/p>
 &lt;p>Anyway, I wanted to explore why this term &amp;lsquo;sophisticated attack&amp;rsquo; is being so widely used. Where did it originate? How old is it? Is there a playbook? And lastly, can we improve how it is used?&lt;/p>
 &lt;p>The first step is to check Google Trends:&lt;/p>
-&lt;script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3045_RC01/embed_loader.js">&lt;/script>
-&lt;script type="text/javascript">
-trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"\"sophisticated attack\"","geo":"","time":"2004-01-01 2022-09-29"}],"category":0,"property":""}, {"exploreQuery":"date=all&amp;q=%22sophisticated%20attack%22","guestPath":"https://trends.google.co.uk:443/trends/embed/"});
-&lt;/script>
+&lt;p>&lt;a href="https://trends.google.co.uk/trends/explore?date=all&amp;amp;q=%22sophisticated%20attack%22&amp;amp;hl=en-GB">&lt;img src="https://matt.copperwaite.net/img/blog-post/sophisticated-attack/google-trends.png" alt="A chart of Google Trends">&lt;/a>&lt;/p>
 &lt;p>Well that was disappointing. I was expecting a linear or exponential increase. If anything it&amp;rsquo;s a decrease. The related queries seem to involve military usage, so perhaps the term originates in the military and that has been transferred to cyber security. It wouldn&amp;rsquo;t be the first time.&lt;/p>
 &lt;p>During this research I discovered that &lt;a href="https://www.engadget.com/2016-06-06-dnp-sophisticated-hack-attack-dont-believe-the-hype.html">I&amp;rsquo;m not alone&lt;/a> in trying to look in to the origins. I don&amp;rsquo;t agree with some of the language used, but if a paid journalist can&amp;rsquo;t find the origins I don&amp;rsquo;t think I can either.&lt;/p>
 &lt;p>Ok, so let&amp;rsquo;s finish off by looking at how we can use the term &amp;lsquo;sophisticated attack&amp;rsquo; better.&lt;/p>
