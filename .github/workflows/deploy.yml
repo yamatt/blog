@@ -29,3 +29,10 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+      - name: Wait for GitHub cache to update
+        run: sleep 60
+      - name: Add published pages to WayBack Machine
+        run: |
+          curl 'https://web.archive.org/save/https://matt.copperwaite.net' -X POST -H 'Content-Type: application/x-www-form-urlencoded' --data-raw 'url=https%3A%2F%2Fmatt.copperwaite.net&capture_all=on'
+          curl 'https://web.archive.org/save/https://matt.copperwaite.net/blog' -X POST -H 'Content-Type: application/x-www-form-urlencoded' --data-raw 'url=https%3A%2F%2Fmatt.copperwaite.net%2Fblog&capture_all=on'
+          curl 'https://web.archive.org/save/https://matt.copperwaite.net/showcase' -X POST -H 'Content-Type: application/x-www-form-urlencoded' --data-raw 'url=https%3A%2F%2Fmatt.copperwaite.net%2Fshowcase&capture_all=on'
