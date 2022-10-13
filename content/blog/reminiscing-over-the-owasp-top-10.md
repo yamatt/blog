@@ -11,6 +11,7 @@ toc: false
 ---
 
 <!--alex disable failure-->
+<!--alex disable failures-->
 
 I was having a discussion last night some friends who were mostly in agreement about how [much less useful the OWASP Top 10 list is now](https://web.archive.org/web/20221008005542/https://owasp.org/Top10/), and we realised I couldn't find anything anyone had written who was critical of them.
 
