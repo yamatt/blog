@@ -10,6 +10,8 @@ math: false
 toc: false
 ---
 
+<!--alex disable failure-->
+
 I was having a discussion last night some friends who were mostly in agreement about how [much less useful the OWASP Top 10 list is now](https://web.archive.org/web/20221008005542/https://owasp.org/Top10/), and we realised I couldn't find anything anyone had written who was critical of them.
 
 I should point out that I do understand where the changes have come from, I don't think they have been well explained on the Top 10 page itself as to why the changes were made. To me, the list is dynamic, that's why it's a Top 10, and it has to change over time. However I think they missed out one consideration, the audience. The changes themselves make sense in that it is covering what is the most common from a security perspective, but I used to use the Top 10 as a reference when having a discussion with engineers about what things they should be considering when looking at improving the security of their services. Now, when I look at the list with my engineering hat on, some of the language is difficult, and the areas they cover wouldn't be my responsibility.
@@ -19,7 +21,7 @@ Lets enumerate the noteworthy changes:
 * A02:2021-Cryptographic Failures: This one mostly covers data leaks. Cryptographic failure, crypto, sounds like, if not about Bitcoin, then about encryption. Would gaining access to a public file in S3 that contains sensitive data count as a cryptographic failure?
 * A04:2021-Insecure Design: This one talks about "move left" with [scare quotes](https://en.wikipedia.org/wiki/Scare_quotes) like it's a fad. Insecure Design sounds to me like an upfront task, before any engineer has a look-in, right leaning.
 * A05:2021-Security Misconfiguration: Security Misconfiguration is pretty much the entire list isn't it?
-* A09:2021-Security Logging and Monitoring Failures: Is it a failure? Or does it just not exist?
+* A09:2021-Security Logging and Monitoring Failures: Is it a failure? Or does it not exist?
 * Also have a read of _A06:2021-Vulnerable and Outdated Components_ and _A08:2021-Software and Data Integrity Failures_ work out how they differ.
 
 I think my expectations were wrong. What I'm looking for is guidance for engineers on how to secure their web apps in 2022 that are the minimum things that we should look for. Taking that as the case, let's fix that.
