@@ -4,7 +4,7 @@ date: 2022-10-17T18:10:32+00:00
 slug: ""
 description: "Things were better in my day"
 keywords: []
-draft: true
+draft: false
 tags: []
 math: false
 toc: false
