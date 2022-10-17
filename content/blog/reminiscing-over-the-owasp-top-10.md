@@ -13,11 +13,11 @@ toc: false
 <!--alex disable failure-->
 <!--alex disable failures-->
 
-I was having a discussion with some freinds recently and we realised we were in agreement about how [much less useful the OWASP Top 10 list is now](https://web.archive.org/web/20221008005542/https://owasp.org/Top10/), and I realised there was nothing anyone had written that was critical of the 2021 changes.
+I was having a discussion with some freinds recently and we realised we were in agreement about how [much less useful the OWASP Top 10 list is now](https://web.archive.org/web/20221008005542/https://owasp.org/Top10/), and I discovered there was nothing anyone had written that was critical of the 2021 changes.
 
-The Top 10 used to be a place that engineers could reference when having discussions with security people about what things should be considered when looking at improving the security of their services. Now, when I direct an engineer to it the language is not about securing web services.
+Before the 2021 change the OWASP Top 10 used to be the reference point when engineers were considering how to protect their web services. Now when I direct an engineer to it they're provided confusing wording and subjects that are out of their expected scope.
 
-The issue is that the building of web services has changed since the last Top 10 in 2017, it's understandable to encompas more of the build environment.  though is not well explained on the Top 10 page itself. It also means that engineers looking to cover the basics of how to secure web services now incluide things about their pipelines and architecture, some of which might not be their responsibility.
+The issue is that the building of web services has changed since the last Top 10 in 2017, it's understandable to encompas more of the build environment. It means that engineers looking to cover the basics of how to secure web services do have to consider more, and it's admirable that OWASP want to encourage securing of pipelines and better archiecture. The trouble is that this list has a vast audience, and some of the list might not be the engineers responsibility, which causes friction and makes consuming the list more difficult.
 
 Here are the changes I find interesting:
 
@@ -27,4 +27,4 @@ Here are the changes I find interesting:
 * A09:2021-Security Logging and Monitoring Failures: Is it a failure? Or does it not exist?
 * Also _A06:2021-Vulnerable and Outdated Components_ and _A08:2021-Software and Data Integrity Failures_ are too closely related.
 
-It's a shame. The goal of including securing pipelines is admirable, but if I was looking for advice on that I would not refer to OWASP. I think I will still use the 2017 reference for most conversations.
+The changes and the reasoning for them is not well explained on the Top 10 page itself. If I was looking for advice on how to to secure pipeline I would not refer to OWASP. I think I will still use the [2017 reference for most conversations](https://web.archive.org/web/20210820092716/https://owasp.org/www-project-top-ten/).
