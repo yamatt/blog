@@ -15,9 +15,9 @@ toc: false
 
 I was having a discussion with some freinds recently and we realised we were in agreement about how [much less useful the OWASP Top 10 list is now](https://web.archive.org/web/20221008005542/https://owasp.org/Top10/), and I discovered there was nothing anyone had written that was critical of the 2021 changes.
 
-Before the 2021 change the OWASP Top 10 used to be the reference point when engineers were considering how to protect their web services. Now when I direct an engineer to it they're provided confusing wording and subjects that are out of their expected scope.
+Before the 2021 change the OWASP Top 10 used to be the checklist refernce for when engineers were considering how to protect their web services. Now when I direct an engineer to it they're provided confusing wording and subjects that are out of their expected scope.
 
-The issue is that the building of web services has changed since the last Top 10 in 2017, it's understandable to encompas more of the build environment. It means that engineers looking to cover the basics of how to secure web services do have to consider more, and it's admirable that OWASP want to encourage securing of pipelines and better archiecture. The trouble is that this list has a vast audience, and some of the list might not be the engineers responsibility, which causes friction and makes consuming the list more difficult.
+It's good that OWASP are looking to include more of the delivery pipeline in their Top 10. The delivery of web services has changed significantly since the last Top 10 in 2017. The trouble is that this list has a vast audience, and some of the list might not be the engineers responsibility, and that engineers looking to cover the basics can no-longer find the information they need.
 
 Here are the changes I find interesting:
 
