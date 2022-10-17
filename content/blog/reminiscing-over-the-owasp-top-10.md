@@ -1,6 +1,6 @@
 ---
 title: "Reminiscing over the OWASP Top 10"
-date: 2022-10-13T18:10:32+00:00
+date: 2022-10-17T18:10:32+00:00
 slug: ""
 description: "Things were better in my day"
 keywords: []
@@ -15,9 +15,9 @@ toc: false
 
 I was having a discussion with some freinds recently and we realised we were in agreement about how [much less useful the OWASP Top 10 list is now](https://web.archive.org/web/20221008005542/https://owasp.org/Top10/), and I realised there was nothing anyone had written that was critical of the 2021 changes.
 
-The Top 10 used to be a place that engineers could reference when having discussions with security people about what things should be considered when looking at improving the security of their services. Now, when I direct an engineer to it the language is not expected and likely to decrease understanding.
+The Top 10 used to be a place that engineers could reference when having discussions with security people about what things should be considered when looking at improving the security of their services. Now, when I direct an engineer to it the language is not about securing web services.
 
-The issue is that the building of web services has changed since the last Top 10 in 2017. It's understandable to encompas more of the build environment. That though is not well explained on the Top 10 page itself. It also means that engineers looking to cover the basics now have a list of complex things, some of which might not be their responsibility.
+The issue is that the building of web services has changed since the last Top 10 in 2017, it's understandable to encompas more of the build environment.  though is not well explained on the Top 10 page itself. It also means that engineers looking to cover the basics of how to secure web services now incluide things about their pipelines and architecture, some of which might not be their responsibility.
 
 Here are the changes I find interesting:
 
@@ -27,4 +27,4 @@ Here are the changes I find interesting:
 * A09:2021-Security Logging and Monitoring Failures: Is it a failure? Or does it not exist?
 * Also _A06:2021-Vulnerable and Outdated Components_ and _A08:2021-Software and Data Integrity Failures_ are too closely related.
 
-It's a shame. I think I will still use the 2017 reference for most conversations.
+It's a shame. The goal of including securing pipelines is admirable, but if I was looking for advice on that I would not refer to OWASP. I think I will still use the 2017 reference for most conversations.
