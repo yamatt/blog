@@ -1,6 +1,6 @@
 ---
 title: "Reminiscing over the OWASP Top 10"
-date: 2022-10-17T18:10:32+00:00
+date: 2022-10-22T14:10:32+00:00
 slug: ""
 description: "Things were better in my day"
 keywords: []
