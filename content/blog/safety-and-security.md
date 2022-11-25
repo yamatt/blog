@@ -109,9 +109,9 @@ Many people try and cheat smoke alarms by covering them or taking the battery ou
 
 My carbon monoxide detector won't let you close the battery door if you take the battery out. This makes it a little obvious that the battery has been removed.
 
-It used to be that the guidance in the UK when adding a loft extension, was to ensure all doors are replaced with firedoors that self close.
+It used to be that the regulations in the UK when adding a loft extension, was to ensure all doors are replaced with firedoors that self close.
 
-This lead to people propping the doors open. So the guidance was changed to install smoke alarms that are linked, on all floors.
+This lead to people propping the doors open. So the regulations were changed to install smoke alarms that are linked, on all floors.
 
 This is incredibly sensible and pragmatic advice that responds to people's usage of safety equipment.
 
