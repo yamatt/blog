@@ -75,7 +75,7 @@ Fuck.
 
 At least now you can see how you _would_ get to the draw that holds the battery.
 
-The smoke alarm is slightly closer to the wall and the screwdriver just fits in place.
+The smoke alarm is slightly closer to the wall and the screwdriver almost doesn't fit.
 
 After a bit of prying the draw comes out and the battery drops out of the draw.
 
@@ -107,7 +107,7 @@ When talking about security it's often useful to make analogies to safety featur
 
 Many people try and cheat smoke alarms by covering them or taking the battery out if they go off too often such as with cooking, or if you want to smoke indoors.
 
-My carbon monoxide detector won't let you close the battery door if you take the battery out. This makes it a little obvious that the battery has been removed.
+My carbon monoxide detector won't let you close the battery door if you take the battery out. This makes it obvious that the battery has been removed.
 
 It used to be that the regulations in the UK when adding a loft extension, was to ensure all doors are replaced with firedoors that self close.
 
