@@ -108,15 +108,13 @@ At least you know how to replace the battery now.
 
 ## Coda
 
-Many people make poorly informed risk-based decisions by interfering with their smoke alarms. Covering them or taking the battery out if they go off too often such as when cooking, or if they want to smoke indoors.
-
 For the UK the regulations used to say that, when adding a loft extension to your house, that all doors were replaced with firedoors that self close.
 
 People found all the doors in your house being closed was inconvenient, this lead to people propping the doors open. So the regulations were changed to install smoke alarms in all rooms that are linked.
 
 This is incredibly sensible and pragmatic advice that responds to people's real-world usage of safety equipment.
 
-When talking about security it's often useful to make analogies to the world of safety. Safety is tangible and people like talking about safety. But they're often not directly comparable.
+When talking about security I regularly like to frame it to the world of safety. Safety is tangible and people like talking about safety. But I recognise that they're often not directly comparable.
 
 Safety equipment is often tied to a regulations that can be complex and expensive to change. But safety equipment can also have the same failings as a lot of security products do. Poor documentation. Poor user experience, especially when things go really wrong. Poor quality alerts.
 
