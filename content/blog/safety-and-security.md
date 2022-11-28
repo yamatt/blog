@@ -49,7 +49,7 @@ Your child is asleep in the next room. He doesn't sleep well. You have to fix th
 
 What does the beeping mean? The house is not on fire. You happened to have gone around the house already.
 
-The beeping could mean anything. You don't know the cause. Your mind races. The smoke alarm is mains powered. The smoke alarm could have lost power. Did you do anything recently that might have caused the smoke alarm to have lost power? Could the battery have lost power? Does it have a battery? _Should_ the battery have lost power if it's been running off mains? How would the smoke alarm know the battery is dying if it mains powered, it isn't using it.
+The beeping could mean anything. You don't know the cause. Your mind races. The smoke alarm is mains powered. The smoke alarm could have lost power. Did you do anything recently that might have caused the smoke alarm to have lost power? Has there been a power cut? I don't think so but so much runs on batteries. Could the battery have lost power? Does it have a battery? _Should_ the battery have lost power if it's been running off mains? How would the smoke alarm know the battery is dying if it mains powered, it isn't using it.
 
 You check online for anything else it could be. It's 3 am. You want to sleep, not diagnose a beeping smoke alarm that will wake up your family.
 
