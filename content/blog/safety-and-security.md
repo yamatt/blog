@@ -57,7 +57,7 @@ There are loads of websites giving you multiple options depending on the type of
 
 Apparently it's common for batteries to start failing during the night when the tempurature drops, causing the battery to be less effective.
 
-You could turn the whole thing off and worry about it in the morning. It seems unlikely there would happen to be a fire just then. But would that make things worse? Would the smoke alarm keep working off their batteries and drain them faster causing more of them to beep? Would it set all the smoke alarms off as a failsafe?
+You know all the smoke alarms are on their own fuse. You could turn the whole thing off and worry about it in the morning. It seems unlikely there would happen to be a fire just then. But would that make things worse? Would the smoke alarm keep working off their batteries and drain them faster causing more of them to beep? Would it set all the smoke alarms off as a failsafe?
 
 Your best bet is to replace the battery. [Often people don't know](https://www.bbc.co.uk/programmes/p0c2g9kr) that a beeping smoke alarm means the battery needs replacing.
 
@@ -71,7 +71,7 @@ There is some obscure instruction about pushing a screwdriver in to a hole on th
 
 You follow the instructions. The smoke alarm is slightly too close to the wall and the screwdriver almost doesn't fit. You still cannot work out how to get the old battery out. Your arms are so tired from holding them above my head for so long.
 
-Now you lose it. You pull on the case. Maybe there is a way in. After easing it a bit, it comes away.
+Your frustrated, angry. You lose it. You pull on the case. Maybe there is a way in. After easing it a bit, it comes away.
 
 No access to the battery.
 
@@ -95,19 +95,19 @@ You stay awake until your son wakes at 6.30am.
 
 ## The next morning
 
-Your electrician advises that there are very high voltages in the smoke alarm due to the electronics used to check for smoke. Removing the case was dangerous. We should replace the unit.
+Your electrician advises that there are very high voltages in the smoke alarm due to the electronics used to check for smoke. Removing the case was dangerous. It is best to replace the unit.
 
-Given no one knows the age or history of any of the smoke alarms and that you have a young family it is decided to replace all of them.
+Given no one knows the age or history of any of the smoke alarms and that you have a young family you make the decision to replace them all.
 
-The electrician recommends the most popular brand. It's the exact same ones you already have.
+The electrician recommends the most popular brand. It's the exact same model you already have.
 
 At least you know how to replace the battery now.
 
 ## Coda
 
-Many people make poorly informed risk based decisions by cheating smoke alarms. Covering them or taking the battery out if they go off too often such as when cooking, or if they want to smoke indoors. 
+Many people make poorly informed risk-based decisions by interfering with their smoke alarms. Covering them or taking the battery out if they go off too often such as when cooking, or if they want to smoke indoors.
 
-I have a carbon monoxide detector that won't let you close the battery door if you take the battery out. This makes it obvious that the battery has been removed.
+When we were small my brother and I used to know that dinner was ready because the smoke alarms went off throughout the house. I'm not saying my mum's cooking was bad, but that the smoke alarms were too sensitive.
 
 For the UK the regulations used to say that when adding a loft extension, to ensure all doors are replaced with firedoors that self close.
 
@@ -115,11 +115,13 @@ This lead to people propping the doors open. So the regulations were changed to 
 
 This is incredibly sensible and pragmatic advice that responds to people's real-world usage of safety equipment.
 
+I have a carbon monoxide detector that won't let you close the battery door if you take the battery out. This makes it obvious that the battery has been removed.
+
 When talking about security it's often useful to make analogies to safety features. Safety is tangible and people like talking about safety. But they're often not directly comparable.
 
 Safety equipment is often tied to a regulations that can be complex and expensive to change.
 
-In this scenario safety equipment also has the same failings as a lot of security products do. Poor guidance. Poor user experience, especially when things go really wrong. Poor quality alerts.
+Safety equipment can also have the same failings as a lot of security products do. Poor documentation. Poor user experience, especially when things go really wrong. Poor quality alerts.
 
 If you want to build good, reliable, and accurate equipment you need to think about their failure states and how your users will over-come them.
 
