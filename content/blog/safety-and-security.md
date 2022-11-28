@@ -52,7 +52,7 @@ The beeping could mean anything. You don't know the cause. Your mind races. The 
 
 You check online for anything else it could be. It's 3 am. You want to sleep, not diagnose a beeping smoke alarm that will wake up your family.
 
-There are loads of websites giving you multiple options depending on the type of smoke alarm you have and the kind of beep it's making. You don't know the make and model of my smoke alarm, they came with the house.
+There are loads of websites giving you lots of options depending on the type of smoke alarm you have and the kind of beep it's making. You don't know the make and model of my smoke alarm, they came with the house.
 
 Apparently it's common for batteries to start failing during the night when the tempurature drops, causing the battery to be less effective.
 
@@ -61,7 +61,7 @@ You know all the smoke alarms are on their own fuse. You could turn the whole th
 
 Your best bet is to replace the battery. [Often people don't know](https://www.bbc.co.uk/programmes/p0c2g9kr) that a beeping smoke alarm means the battery needs replacing.
 
-Is there a spare? Yes. Fortunately. Lets not think about what you would do in that situation.
+Is there a spare? Yes. Fortunately. Lets not think about what you would do if that wasn't the case.
 
 It's also fortunate this is not one that needs a massive ladder to reach.
 
@@ -72,7 +72,7 @@ There is some obscure instruction about pushing a screwdriver in to a hole on th
 You follow the instructions. The smoke alarm is slightly too close to the wall and the screwdriver almost doesn't fit. You still cannot work out how to get the old battery out. Your arms are so tired from holding them above my head for so long.
 
 <!--alex ignore angry -->
-Your frustrated, angry. You lose it. You pull on the case. Maybe there is a way in. After easing it a bit, it comes away.
+You're frustrated, angry. You lose it. You pull on the case. Maybe there is a way in. After easing it a bit, it comes away.
 
 No access to the battery.
 
@@ -108,21 +108,15 @@ At least you know how to replace the battery now.
 
 Many people make poorly informed risk-based decisions by interfering with their smoke alarms. Covering them or taking the battery out if they go off too often such as when cooking, or if they want to smoke indoors.
 
-When we were small my brother and I used to know that dinner was ready because the smoke alarms went off throughout the house. I'm not saying my mum's cooking was bad, but that the smoke alarms were too sensitive.
+For the UK the regulations used to say that when adding a loft extension to your house, that all doors were replaced with firedoors that self close.
 
-For the UK the regulations used to say that when adding a loft extension, to ensure all doors are replaced with firedoors that self close.
-
-This lead to people propping the doors open. So the regulations were changed to install smoke alarms that are linked, on all floors.
+This lead to people propping the doors open. So the regulations were changed to install smoke alarms that are linked on all floors.
 
 This is incredibly sensible and pragmatic advice that responds to people's real-world usage of safety equipment.
 
-I have a carbon monoxide detector that won't let you close the battery door if you take the battery out. This makes it obvious that the battery has been removed.
+When talking about security it's often useful to make analogies to the world of safety. Safety is tangible and people like talking about safety. But they're often not directly comparable.
 
-When talking about security it's often useful to make analogies to safety features. Safety is tangible and people like talking about safety. But they're often not directly comparable.
-
-Safety equipment is often tied to a regulations that can be complex and expensive to change.
-
-Safety equipment can also have the same failings as a lot of security products do. Poor documentation. Poor user experience, especially when things go really wrong. Poor quality alerts.
+Safety equipment is often tied to a regulations that can be complex and expensive to change. But safety equipment can also have the same failings as a lot of security products do. Poor documentation. Poor user experience, especially when things go really wrong. Poor quality alerts.
 
 If you want to build good, reliable, and accurate equipment you need to think about how they fail, and how your users will over-come them.
 
