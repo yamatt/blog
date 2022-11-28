@@ -95,7 +95,7 @@ You stay awake until your son wakes at 6.30am.
 
 ## The next morning
 
-Your electrician advises there are very high voltages in the smoke alarm due to the electronics used to check for smoke. Removing the case was dangerous. We should replace the unit.
+Your electrician advises that there are very high voltages in the smoke alarm due to the electronics used to check for smoke. Removing the case was dangerous. We should replace the unit.
 
 Given no one knows the age or history of any of the smoke alarms and that you have a young family it is decided to replace all of them.
 
@@ -105,19 +105,19 @@ At least you know how to replace the battery now.
 
 ## Coda
 
-Many people try and cheat smoke alarms by covering them or taking the battery out if they go off too often such as with cooking, or if you want to smoke indoors.
+Many people make poorly informed risk based decisions by cheating smoke alarms. Covering them or taking the battery out if they go off too often such as when cooking, or if they want to smoke indoors. 
 
 I have a carbon monoxide detector that won't let you close the battery door if you take the battery out. This makes it obvious that the battery has been removed.
 
-It used to be that the regulations in the UK when adding a loft extension, was to ensure all doors are replaced with firedoors that self close.
+For the UK the regulations used to say that when adding a loft extension, to ensure all doors are replaced with firedoors that self close.
 
 This lead to people propping the doors open. So the regulations were changed to install smoke alarms that are linked, on all floors.
 
-This is incredibly sensible and pragmatic advice that responds to people's usage of safety equipment.
+This is incredibly sensible and pragmatic advice that responds to people's real-world usage of safety equipment.
 
 When talking about security it's often useful to make analogies to safety features. Safety is tangible and people like talking about safety. But they're often not directly comparable.
 
-Safety equipment is often tied to a regulated way of working that is complex and expensive to change.
+Safety equipment is often tied to a regulations that can be complex and expensive to change.
 
 In this scenario safety equipment also has the same failings as a lot of security products do. Poor guidance. Poor user experience, especially when things go really wrong. Poor quality alerts.
 
