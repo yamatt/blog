@@ -10,6 +10,11 @@ math: false
 toc: false
 ---
 
+<!--alex disable shit fuck -->
+<!--alex disable he-she daughter-son -->
+<!--alex disable of-course obvious -->
+<!--alex disable uk -->
+<!--alex disable failure -->
 
 It is dark. You hear a beep.
 
