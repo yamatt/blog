@@ -46,6 +46,7 @@ Eventually. A beep above your head. A smoke alarm. Of course it is.
 
 Your child is asleep in the next room. He doesn't sleep well. You have to silence the smoke alarm quickly and quietly.
 
+<!--alex ignore fire -->
 What does the beeping mean? The house is not on fire. You happened to have gone around the house already.
 
 The beeping could mean anything. You don't know the cause. Your mind races. The smoke alarm is mains powered. The smoke alarm could have lost power. Did you do anything recently that might have caused the smoke alarm to have lost power? Has there been a power cut? Could the battery have lost power? Does it have a battery? _Should_ the battery have lost power if it's been running off mains? How would the smoke alarm know the battery is dying if it mains powered, it isn't using it.
@@ -56,7 +57,7 @@ There are loads of websites giving you lots of options depending on the type of 
 
 Apparently it's common for batteries to start failing during the night when the tempurature drops, causing the battery to be less effective.
 
-<!--alex ignore hole fire just -->
+<!--alex ignore fire just -->
 All the smoke alarms are on their own circuit. You could turn the whole thing off and worry about it in the morning. It seems unlikely there would happen to be a fire just then. But would that make things worse? Would the smoke alarm keep working off their batteries and drain them faster causing more of them to beep? Would it set all the smoke alarms off as a failsafe?
 
 Your best bet is to replace the battery. [Often people don't know](https://www.bbc.co.uk/programmes/p0c2g9kr) that a beeping smoke alarm means the battery needs replacing.
@@ -67,6 +68,7 @@ It's also fortunate this is not one that needs a massive ladder to reach.
 
 Now how do you replace the battery? How do you open the smoke alarm?
 
+<!--alex ignore hole -->
 Written on the smoke alarm is an obscure instruction about pushing a screwdriver in to a hole on the side. Looks like you'll need to find a screwdriver then. Why do you need to find a screwdriver at 3.30am? Fortunately you know where one is.
 
 You follow the instructions. The smoke alarm is slightly too close to the wall and the screwdriver almost doesn't fit. You still cannot work out how to get the old battery out. Your arms are so tired from holding them above my head for so long.
