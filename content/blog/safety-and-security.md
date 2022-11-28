@@ -15,6 +15,7 @@ toc: false
 <!--alex disable of-course obvious -->
 <!--alex disable uk -->
 <!--alex disable failure -->
+<!--alex disable fire -->
 
 It is dark. You hear a beep.
 
