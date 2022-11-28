@@ -67,9 +67,9 @@ It's also fortunate this is not one that needs a massive ladder to reach.
 
 Now how do you replace the battery? How do you open the smoke alarm?
 
-There is some obscure instruction on the front about opening from the side. It can't pull directly out or it would slide open. Does it open upwards? Or downwards? Either way it looks like you need a screwdriver to open it. Why do you need to find a screwdriver at 3.30am? Fortunately you have one. 
+There is some obscure instruction about pushing a screwdriver in to a hole on the side. Looks like you'll need to find a screwdriver then. Why do you need to find a screwdriver at 3.30am? Fortunately you know where one is.
 
-You cannot work out how to get the old battery out. Your arms are so tired from holding them above my head for so long.
+You follow the instructions. The smoke alarm is slightly too close to the wall and the screwdriver almost doesn't fit. You still cannot work out how to get the old battery out. Your arms are so tired from holding them above my head for so long.
 
 Now you lose it. You pull on the case. Maybe there is a way in. After easing it a bit, it comes away.
 
@@ -79,9 +79,7 @@ Fuck.
 
 At least now you can see how you _would_ get to the draw that holds the battery.
 
-The smoke alarm is slightly closer to the wall and the screwdriver almost doesn't fit.
-
-After a bit of prying the draw comes out and the battery drops out of the draw.
+After a bit of prying a draw pops out and the battery drops out of the draw.
 
 Replace the battery. Put the draw back in.
 
@@ -89,13 +87,13 @@ No beeping?
 
 Go back to bed.
 
-The adrenhilin is surging.
+The adrenaline is surging.
 
 You're waiting for the next beep. Was that a beep?
 
 You stay awake until your son wakes at 6.30am.
 
-## Some time later
+## The next morning
 
 Your electrician advises there are very high voltages in the smoke alarm due to the electronics used to check for smoke. Removing the case was dangerous. We should replace the unit.
 
