@@ -49,9 +49,9 @@ Your child is asleep in the next room. He doesn't sleep well. You have to fix th
 
 What does the beeping mean? The house is not on fire. You happened to have gone around the house already.
 
-The beeping could mean anything. You don't know the cause. Your mind races. The smoke alarm is mains powered. The smoke alarm could have lost power. Did you do anything recently that might have caused the smoke alarm to have lost power? Could the battery have lost power? _Should_ the battery have lost power if it's been running off mains? How would the smoke alarm know the battery is dying if it mains powered, it isn't using it.
+The beeping could mean anything. You don't know the cause. Your mind races. The smoke alarm is mains powered. The smoke alarm could have lost power. Did you do anything recently that might have caused the smoke alarm to have lost power? Could the battery have lost power? Does it have a battery? _Should_ the battery have lost power if it's been running off mains? How would the smoke alarm know the battery is dying if it mains powered, it isn't using it.
 
-You check online for anything else it could be. It's 3 am. You want to sleep. Not diagnose a beeping smoke alarm that will wake up your family.
+You check online for anything else it could be. It's 3 am. You want to sleep, not diagnose a beeping smoke alarm that will wake up your family.
 
 There are loads of websites giving you multiple options depending on the type of smoke alarm you have and the kind of beep it's making. You don't know the make and model of my smoke alarm, they came with the house.
 
@@ -59,7 +59,7 @@ Apparently it's common for batteries to start failing during the night when the 
 
 You could turn the whole thing off and worry about it in the morning. Would that make things worse? Would the smoke alarm keep working off their batteries and drain them faster causing more of them to beep? Would it set all the smoke alarms off as a failsafe?
 
-Your best bet is to replace the battery. [Many people don't know](https://www.bbc.co.uk/programmes/p0c2g9kr) that a beeping smoke alarm means the battery needs replacing.
+Your best bet is to replace the battery. [Often people don't know](https://www.bbc.co.uk/programmes/p0c2g9kr) that a beeping smoke alarm means the battery needs replacing.
 
 Is there a spare? Yes. Fortunately. Lets not think about what you would do in that situation.
 
@@ -67,7 +67,7 @@ It's also fortunate this is not one that needs a massive ladder to reach.
 
 Now how do you replace the battery? How do you open the smoke alarm?
 
-There is some obscure instruction on the front about opening from the side. Does it open upwards? Or downwards? Either way it looks like you need a screwdriver to open it. Fortunately you have one of those too. Why do you need to find a screwdriver at 3.30am?
+There is some obscure instruction on the front about opening from the side. It can't pull directly out or it would slide open. Does it open upwards? Or downwards? Either way it looks like you need a screwdriver to open it. Why do you need to find a screwdriver at 3.30am? Fortunately you have one. 
 
 You cannot work out how to get the old battery out. Your arms are so tired from holding them above my head for so long.
 
@@ -91,15 +91,15 @@ Go back to bed.
 
 The adrenhilin is surging.
 
-You're waiting for the next beep.
+You're waiting for the next beep. Was that a beep?
 
-You stay awake until your son wakes at 7am.
+You stay awake until your son wakes at 6.30am.
 
 ## Some time later
 
-Your electrician advises a day or so later there are very high voltages in there due to the electronics used to check for smoke. We should replace the unit.
+Your electrician advises there are very high voltages in the smoke alarm due to the electronics used to check for smoke. Removing the case was dangerous. We should replace the unit.
 
-Given no one knows the age or provienence of any of the smoke alarms and that you have a young family it is decided to replace all of them.
+Given no one knows the age or history of any of the smoke alarms and that you have a young family it is decided to replace all of them.
 
 The electrician recommends the most popular brand. It's the exact same ones you already have.
 
@@ -109,7 +109,7 @@ At least you know how to replace the battery now.
 
 Many people try and cheat smoke alarms by covering them or taking the battery out if they go off too often such as with cooking, or if you want to smoke indoors.
 
-The carbon monoxide detector I have won't let you close the battery door if you take the battery out. This makes it obvious that the battery has been removed.
+I have a carbon monoxide detector that won't let you close the battery door if you take the battery out. This makes it obvious that the battery has been removed.
 
 It used to be that the regulations in the UK when adding a loft extension, was to ensure all doors are replaced with firedoors that self close.
 
@@ -117,9 +117,9 @@ This lead to people propping the doors open. So the regulations were changed to 
 
 This is incredibly sensible and pragmatic advice that responds to people's usage of safety equipment.
 
-When talking about security it's often useful to make analogies to safety features. Likely because safety is tangible and people like talking about safety. But they're often not directly comparable.
+When talking about security it's often useful to make analogies to safety features. Safety is tangible and people like talking about safety. But they're often not directly comparable.
 
-Safety equipment is often tied to a particular way of working that is complex and expensive to change.
+Safety equipment is often tied to a regulated way of working that is complex and expensive to change.
 
 In this scenario safety equipment also has the same failings as a lot of security products do. Poor guidance. Poor user experience, especially when things go really wrong. Poor quality alerts.
 
