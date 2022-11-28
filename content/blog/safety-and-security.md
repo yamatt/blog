@@ -57,7 +57,7 @@ There are loads of websites giving you multiple options depending on the type of
 
 Apparently it's common for batteries to start failing during the night when the tempurature drops, causing the battery to be less effective.
 
-You could turn the whole thing off and worry about it in the morning. Would that make things worse? Would the smoke alarm keep working off their batteries and drain them faster causing more of them to beep? Would it set all the smoke alarms off as a failsafe?
+You could turn the whole thing off and worry about it in the morning. It seems unlikely there would happen to be a fire just then. Would that make things worse? Would the smoke alarm keep working off their batteries and drain them faster causing more of them to beep? Would it set all the smoke alarms off as a failsafe?
 
 Your best bet is to replace the battery. [Often people don't know](https://www.bbc.co.uk/programmes/p0c2g9kr) that a beeping smoke alarm means the battery needs replacing.
 
