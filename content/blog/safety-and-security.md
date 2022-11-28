@@ -19,7 +19,7 @@ toc: false
 
 It is dark. You hear a beep.
 
-It is dark. You hear a beep.
+It is dark. Another beep.
 
 You check the time. It's almost 2.30am.
 
