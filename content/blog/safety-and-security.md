@@ -37,7 +37,7 @@ It's not outside. That must mean it's inside. That means it's your problem.
 
 Shit.
 
-There are lots of things it _could_ be. They're all over the house.
+There are lots of things it _could_ be. They're all over the house. From the fridge to the carbon monoxide detectors.
 
 Bleary eyed you stalk around the house, stopping occasionally to see if you can hear the direction of the beep.
 
