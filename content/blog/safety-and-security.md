@@ -45,7 +45,7 @@ Going in to one room, doubling back on yourself.
 
 Eventually. A beep above your head. A smoke alarm. Of course it is. 
 
-Your child is asleep in the next room. He doesn't sleep well. You have to fix this quickly and quietly.
+Your child is asleep in the next room. He doesn't sleep well. You have to fix this beep quickly and quietly.
 
 What does the beeping mean? The house is not on fire. You happened to have gone around the house already.
 
