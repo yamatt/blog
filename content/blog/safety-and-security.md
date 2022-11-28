@@ -44,11 +44,11 @@ Going in to one room, doubling back on yourself.
 
 Eventually. A beep above your head. A smoke alarm. Of course it is. 
 
-Your child is asleep in the next room. He doesn't sleep well. You have to fix this beep quickly and quietly.
+Your child is asleep in the next room. He doesn't sleep well. You have to silence the smoke alarm quickly and quietly.
 
 What does the beeping mean? The house is not on fire. You happened to have gone around the house already.
 
-The beeping could mean anything. You don't know the cause. Your mind races. The smoke alarm is mains powered. The smoke alarm could have lost power. Did you do anything recently that might have caused the smoke alarm to have lost power? Has there been a power cut? I don't think so but so much runs on batteries. Could the battery have lost power? Does it have a battery? _Should_ the battery have lost power if it's been running off mains? How would the smoke alarm know the battery is dying if it mains powered, it isn't using it.
+The beeping could mean anything. You don't know the cause. Your mind races. The smoke alarm is mains powered. The smoke alarm could have lost power. Did you do anything recently that might have caused the smoke alarm to have lost power? Has there been a power cut? Could the battery have lost power? Does it have a battery? _Should_ the battery have lost power if it's been running off mains? How would the smoke alarm know the battery is dying if it mains powered, it isn't using it.
 
 You check online for anything else it could be. It's 3 am. You want to sleep, not diagnose a beeping smoke alarm that will wake up your family.
 
@@ -57,7 +57,7 @@ There are loads of websites giving you lots of options depending on the type of 
 Apparently it's common for batteries to start failing during the night when the tempurature drops, causing the battery to be less effective.
 
 <!--alex ignore hole fire just -->
-You know all the smoke alarms are on their own fuse. You could turn the whole thing off and worry about it in the morning. It seems unlikely there would happen to be a fire just then. But would that make things worse? Would the smoke alarm keep working off their batteries and drain them faster causing more of them to beep? Would it set all the smoke alarms off as a failsafe?
+All the smoke alarms are on their own circuit. You could turn the whole thing off and worry about it in the morning. It seems unlikely there would happen to be a fire just then. But would that make things worse? Would the smoke alarm keep working off their batteries and drain them faster causing more of them to beep? Would it set all the smoke alarms off as a failsafe?
 
 Your best bet is to replace the battery. [Often people don't know](https://www.bbc.co.uk/programmes/p0c2g9kr) that a beeping smoke alarm means the battery needs replacing.
 
@@ -67,7 +67,7 @@ It's also fortunate this is not one that needs a massive ladder to reach.
 
 Now how do you replace the battery? How do you open the smoke alarm?
 
-There is some obscure instruction about pushing a screwdriver in to a hole on the side. Looks like you'll need to find a screwdriver then. Why do you need to find a screwdriver at 3.30am? Fortunately you know where one is.
+Written on the smoke alarm is an obscure instruction about pushing a screwdriver in to a hole on the side. Looks like you'll need to find a screwdriver then. Why do you need to find a screwdriver at 3.30am? Fortunately you know where one is.
 
 You follow the instructions. The smoke alarm is slightly too close to the wall and the screwdriver almost doesn't fit. You still cannot work out how to get the old battery out. Your arms are so tired from holding them above my head for so long.
 
@@ -108,9 +108,9 @@ At least you know how to replace the battery now.
 
 Many people make poorly informed risk-based decisions by interfering with their smoke alarms. Covering them or taking the battery out if they go off too often such as when cooking, or if they want to smoke indoors.
 
-For the UK the regulations used to say that when adding a loft extension to your house, that all doors were replaced with firedoors that self close.
+For the UK the regulations used to say that, when adding a loft extension to your house, that all doors were replaced with firedoors that self close.
 
-This lead to people propping the doors open. So the regulations were changed to install smoke alarms that are linked on all floors.
+People found all the doors in your house being closed was inconvenient, this lead to people propping the doors open. So the regulations were changed to install smoke alarms in all rooms that are linked.
 
 This is incredibly sensible and pragmatic advice that responds to people's real-world usage of safety equipment.
 
@@ -118,7 +118,7 @@ When talking about security it's often useful to make analogies to the world of 
 
 Safety equipment is often tied to a regulations that can be complex and expensive to change. But safety equipment can also have the same failings as a lot of security products do. Poor documentation. Poor user experience, especially when things go really wrong. Poor quality alerts.
 
-If you want to build good, reliable, and accurate equipment you need to think about how they fail, and how your users will over-come them.
+If you want to build good, reliable, and accurate equipment you need to think about how they fail, and how your users will over-come the failure.
 
 Because right now I don't want smoke alarms in my house. I would rather have a relaxing and peaceful night sleep. I won't be alone in that motiviation.
 
