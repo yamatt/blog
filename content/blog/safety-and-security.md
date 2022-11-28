@@ -11,11 +11,10 @@ toc: false
 ---
 
 <!--alex disable shit fuck -->
-<!--alex disable he-she daughter-son -->
+<!--alex disable he-she daughter-son brother-sister dads-moms -->
 <!--alex disable of-course obvious -->
 <!--alex disable uk -->
 <!--alex disable failure -->
-<!--alex disable fire -->
 
 It is dark. You hear a beep.
 
@@ -57,6 +56,7 @@ There are loads of websites giving you multiple options depending on the type of
 
 Apparently it's common for batteries to start failing during the night when the tempurature drops, causing the battery to be less effective.
 
+<!--alex ignore hole fire just -->
 You know all the smoke alarms are on their own fuse. You could turn the whole thing off and worry about it in the morning. It seems unlikely there would happen to be a fire just then. But would that make things worse? Would the smoke alarm keep working off their batteries and drain them faster causing more of them to beep? Would it set all the smoke alarms off as a failsafe?
 
 Your best bet is to replace the battery. [Often people don't know](https://www.bbc.co.uk/programmes/p0c2g9kr) that a beeping smoke alarm means the battery needs replacing.
@@ -71,6 +71,7 @@ There is some obscure instruction about pushing a screwdriver in to a hole on th
 
 You follow the instructions. The smoke alarm is slightly too close to the wall and the screwdriver almost doesn't fit. You still cannot work out how to get the old battery out. Your arms are so tired from holding them above my head for so long.
 
+<!--alex ignore angry -->
 Your frustrated, angry. You lose it. You pull on the case. Maybe there is a way in. After easing it a bit, it comes away.
 
 No access to the battery.
@@ -123,7 +124,7 @@ Safety equipment is often tied to a regulations that can be complex and expensiv
 
 Safety equipment can also have the same failings as a lot of security products do. Poor documentation. Poor user experience, especially when things go really wrong. Poor quality alerts.
 
-If you want to build good, reliable, and accurate equipment you need to think about their failure states and how your users will over-come them.
+If you want to build good, reliable, and accurate equipment you need to think about how they fail, and how your users will over-come them.
 
 Because right now I don't want smoke alarms in my house. I would rather have a relaxing and peaceful night sleep. I won't be alone in that motiviation.
 
