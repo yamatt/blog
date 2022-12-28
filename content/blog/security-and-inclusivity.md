@@ -28,4 +28,4 @@ Imagine how this may feel for that person. Having to go through a support number
 
 This example is not the only one. Historically, before we called it Cyber Security, we would block quotes from form fields, or dashes. This was because of poorly coded database queries that could be used for SQL Injection. Ignoring the fact that many people have those characters in their names.
 
-Or more recently, geo blocking. Assuming that an IP equates to a location and saying we ban people from those countries. But does, or could your business operate in those countries? Are you going to end up blocking legitimate employees?
+Or more recently, geo blocking. Assuming that an IP equates to a location and saying we ban people from those countries. But does, or could your business operate in those countries? Are you going to end up blocking legitimate employees? Are those who are going to use your service just going to use a VPN anyway?
