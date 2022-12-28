@@ -29,3 +29,7 @@ This example is not the only one.
 Historically, before such things we even called it Cyber Security, we would prevent quotes or dashes from being used in form fields. This was usually because of poorly coded database queries that could be used for SQL Injection. Ignoring the fact that many people have those characters in their names.
 
 Or in more recent controls, geo blocking. Assuming that an IP equates to a location and saying we ban people from those countries. But does, or could your business operate in those countries? Those databases are not entirely accurate. Especially if they're not updated often. Are you going to end up blocking legitimate employees? Are those who are going to use your service just going to use a VPN anyway? What happens if that block also prevents them from being unblocked?
+
+When presented with a risk, the mitigation often seems obvious. But it takes time and research to identify the impact of it. Without that work you can lead to unintended concequences.
+
+The true responsibility of Cyber Security is to ensure that security controls are reasonable, equitable, and justified.
