@@ -26,4 +26,4 @@ This is far from the only control that has this kind of impact.
 <!--alex ignore obvious-->
 When presented with a risk, as IT people we think about the controls we have available to us and the mitigation may seem obvious. But it takes time and research to identify the impact of it. Although Without that work the change is to effect the culture of the business.
 
-This makes the true responsibility of Cyber Security to ensure that security controls are reasonable, equitable, and justified.
+This makes one of the true responsibility of Cyber Security to ensure that security controls are reasonable, equitable, and justified.
