@@ -19,7 +19,7 @@ Automatic blocking of accounts will always be inexact and this is the cause of i
 
 The true answer in this scenario is to get accounts blocked as part of the leavers process, making it as important as ensuring they're no-longer being paid. This will have a big impact on reducing the risk to your business.
 
-There will still be edge cases, and it's worth including additional steps to detect long-lived accounts, but apply an additional human action of verifying if the account is still needed. You could even automate this by sending an e-mail to a line manager and asking them to click a link if the account can be removed.
+There will still be edge cases, and it's worth including additional steps to detect long-lived accounts. You can also apply an human action of verifying if the account is still needed. You could even automate this by sending an e-mail to a line manager that explains the risks and impact, asking them to click a link if the account can be blocked.
 
 If you were that person coming back to work after time off from stress. Having to go through a support number, prove their identity, and get their account unlocked. Turning that excitement to disapointment. Does that represent your business? *Should* that represent your business?
 
