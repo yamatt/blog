@@ -24,7 +24,7 @@ Marketing is an often used technique that to me has a strong association with un
 
 I asked my friends in NCSC about this because they do exactly this, reach out to the general public to suggest ways to improve their security so that money and people's data doesn't get stolen.
 
-I was initially directed towards some academic research titled [Can we well security like soap?](https://www.semanticscholar.org/paper/Can-we-sell-security-like-soap%3A-a-new-approach-to-Ashenden-Lawrence/453101f65188b8f4bedafb3fe2fb267c969993e4#citing-papers) which is a wonderful analogy. 
+I was initially directed towards some academic research titled [Can we sell security like soap?](https://www.semanticscholar.org/paper/Can-we-sell-security-like-soap%3A-a-new-approach-to-Ashenden-Lawrence/453101f65188b8f4bedafb3fe2fb267c969993e4#citing-papers) which is a wonderful analogy. 
 
 The real call-out from that though is the concept of [Social Marketing](https://en.m.wikipedia.org/wiki/Social_marketing). Now I want to be clear this is different from Social Media Marketing and from searching on Amazon it also gets it mixed up.
 
