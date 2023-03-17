@@ -20,12 +20,12 @@ This then it makes Cyber Security's responsibility to educate engineers so that 
 
 I wanted to explore how to improve our impact with these kinds of early communications, and one area that I had never investigated was marketing.
 
-Marketing is an often used technique that to me has a strong association with unethical practices, but that doesn't mean that there aren't techniques there that can be re-used for good.
+Marketing is an often used technique that to me has a strong association with unethical practices, which felt to me that there might be some practices of value, but to be wary since something that works for a food delivery company, might not work for 'good'. But it doesn't mean that there aren't techniques there that can be re-used.
 
-I asked my friends in NCSC about this because they do exactly this, out-reach to the general public to suggest ways to improve their security so that money and people's data doesn't get stolen.
+I asked my friends in NCSC about this because they do exactly this, reach out to the general public to suggest ways to improve their security so that money and people's data doesn't get stolen.
 
-I was initially directed towards some academic research titled [Can we well security like soap?](https://www.semanticscholar.org/paper/Can-we-sell-security-like-soap%3A-a-new-approach-to-Ashenden-Lawrence/453101f65188b8f4bedafb3fe2fb267c969993e4#citing-papers) which is a wonderful analogy. I'm am a fan of academic research for Cyber Security, but in my experience it is often detached from the practical world of a functioning business, and dates quickly.
+I was initially directed towards some academic research titled [Can we well security like soap?](https://www.semanticscholar.org/paper/Can-we-sell-security-like-soap%3A-a-new-approach-to-Ashenden-Lawrence/453101f65188b8f4bedafb3fe2fb267c969993e4#citing-papers) which is a wonderful analogy. 
 
 The real call-out from that though is the concept of [Social Marketing](https://en.m.wikipedia.org/wiki/Social_marketing). Now I want to be clear this is different from Social Media Marketing and from searching on Amazon it also gets it mixed up.
 
-I'm not going to explain it better than Wikipedia can, but I guess I've got a lot of reading to do now.
+My concern though is that a lot of this exists in academia without much grounding in the practical working world. But isn't that the point? Our responsibility as people working in Cyber Security is to take what has been writen and turn it in to something digestible to make others more effective.
