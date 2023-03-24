@@ -31,3 +31,5 @@ The secondary issue to that is that secrets don't hold much data about themselve
 Secrets are often stored in things like a `.env` files or in environment variables. These are things that are trivial to get at by any malware. Your AWS creds file? It's one miss-click from walking out of your network. Doppler and some tooling for Vault does attempt to solve this by only loading them in when you need them, but this is not a widely used feature.
 
 My final point is a mention on versioning. Secrets are often stored in places that aren't versioned. You update the wrong field and your old secret is gone. Taking production with it. Now you need to go find a copy or request a new one.
+
+Another issue with secrets is that on the server side, they're hard to protect. You could hash them, in the same way we do with passwords, but to hash the secret for every request, potentially 1000s per second is going to be very process intensive, even before any action has taken place.
