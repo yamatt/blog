@@ -26,6 +26,8 @@ The advice has to be something that the audience is able to do. If your advice s
 
 It needs to be something that your audience is able to do. If it has a set of very complex instructions, is it likely they are going to follow it.
 
-## Universal
+## Doesn't encourage bad practice
+
+## Universal/Inclusive
 
 It has to be instructions that work for everyone in your audience. There's no point providing instructions if they only work for a small set of people. This includes accessability.
