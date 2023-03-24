@@ -10,7 +10,7 @@ math: false
 toc: false
 ---
 
-The weekend of March 18th was an interesting one for security communication.
+Communicating about vulnerabilities to users can be a complex problem. The weekend of March 18th was an interesting one for security communication. I wanted to explore my thinking process that got us good results.
 
 Towards the end of the working week [Google announced several bugs affecting Android baseband modems](https://googleprojectzero.blogspot.com/2023/03/multiple-internet-to-baseband-remote-rce.html), and it was a serious bug. Any Android device with a particular set of hardware could be forced to run remote code simply by knowing someone's phone number. This could lead to the another [Pegasus](https://en.wikipedia.org/wiki/Pegasus_(spyware)).
 
