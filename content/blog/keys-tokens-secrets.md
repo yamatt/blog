@@ -16,7 +16,7 @@ One of the things that was identified as part of this response was that as engin
 
 It is helpful when looking to solve a problem to have a common language. We needed a way of describing, without significant friction, a way to refer to values that are used by systems to interoperate (i.e.: not a password), are sensitive, and need careful management.
 
-I decided that the best word to encompass this was _Secret_. I felt this encompassed the meaning of the values more succinctly than any of the others.
+I decided that the best word to encompass this was _Secret_. It seemed like it had more meaning, in a more succinct way than any of the other terms available.
 
 I proposed this to our business via our usual engineering approvals board and it got accepted.
 
