@@ -22,15 +22,15 @@ A Cyber Security team within a business has to find ways to [convince the busine
 
 But an area that I don't see covered is now willing people within the business are to accept the training in the first place.
 
-I like to think of this as the reservoir of good will.
+I like to think of this as _The Reservoir of Good Will_.
 
-'Good will' is the concept of doing something with limited or no expectation in return. Most people have some level of good will, or trust, with people in their lives. A friend's car may be in for repair and is borrowing yours. They say it'll only for a few days. It's a week later. Your good will is starting to go. It starts to be more than an inconvenience. You make compromises and without careful communication between you, and the other team, you end up with ill will.
+'Good will' is the concept of doing something with limited or no expectation in return. In most relationships there is some level of good will, or trust. A friend's car may be in for repair and is borrowing yours. They say it'll only for a few days. It's a week later. Your good will is starting to go. It starts to be more than an inconvenience. You make compromises and without careful communication between you, and the other team, you end up with ill will.
 
-Your reservoir has been used up. Your friend has drained it. It will refill over time. The following Monday the car is repaired and everything goes back to how it was. You don't hold a grudge with your friend for the rest of your life.
+Your reservoir has been drained too far. The following Monday the car is repaired and everything goes back to how it was. It will refill over time. You don't hold a grudge with your friend for the rest of your life.
 
-When Cyber Security teams make a request of a business, you are draining a little bit from that reservoir. The reservoir tends to refill again over time, but every time we ask someone to take an action it drains that reservoir a little.
+When Cyber Security teams make a request of a business, it takes the person or team away from doing the thing they're supposed to be doing. It drains a bit from that reservoir.
 
-It's also a little more complicated. Each person can have their own reservoir, but those people talk, and people in their teams will notice it collectively. So each team has it's own reservoir too. Plus the business itself has a reservoir. If you give everyone a large long task to do. Let's say a week long ransomware exercise. That will impact the business from making money because people are doing that exercise and not their jobs.
+It's also a little more complicated. Each person can have their own reservoir, but those people talk, and people in their teams will notice the loss of a person doing something else. Maybe they find that an inconvenience and are less willing to help out in future. So each team has it's own reservoir too. Plus the business itself has a reservoir. If you give everyone a large long task to do. Let's say a week long ransomware exercise. That will impact the business from making money because people are doing that exercise and not their jobs.
 
 As Cyber Security our responsibility is to ensure we keep each reservoir topped up. We can take sips or gulps from the reservoir, but we must be mindful of letting it drain too far. On the other hand, if the reservoir gets too full, we are not keeping the business as secure as it could be. We need to dip in to that reservoir a bit.
 
