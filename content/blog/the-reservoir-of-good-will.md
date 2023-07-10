@@ -26,7 +26,7 @@ I like to think of this as the reservoir of good will.
 
 'Good will' is the concept of doing something with limited or no expectation in return. Most people have some level of good will, or trust, with people in their lives. A friend's car may be in for repair and is borrowing yours. They say it'll only for a few days. It's a week later. Your good will is starting to go. It starts to be more than an inconvenience. You make compromises and without careful communication between you, and the other team, you end up with ill will.
 
-Your reservoir has been used up. That other team have drained it. It will refill over time. A few months later, that person who was off is back, you manage to fend off the odd request. It naturally goes back to a state of good will with that other team.
+Your reservoir has been used up. Your friend has drained it. It will refill over time. The following Monday the car is repaired and everything goes back to how it was. You don't hold a grudge with your friend for the rest of your life.
 
 When Cyber Security teams make a request of a business, you are draining a little bit from that reservoir. The reservoir tends to refill again over time, but every time we ask someone to take an action it drains that reservoir a little.
 
