@@ -24,7 +24,7 @@ But an area that I don't see covered is now willing people within the business a
 
 I like to think of this as the reservoir of good will.
 
-'Good will' is the concept of doing something on faith. Maybe sometimes a team is down a person and you stand in for that person. A one off is fine. Then you find that person goes away a lot, and you find that team starts to depend on you. Your own work builds up. You make compromises and without careful communication between you, and the other team, you end up with ill will.
+'Good will' is the concept of doing something with limited or no expectation in return. Maybe sometimes a team is down a person and you stand in for that person. A one off is fine. Then you find that person goes away a lot, and you find that team starts to depend on you. Your own work builds up. You make compromises and without careful communication between you, and the other team, you end up with ill will.
 
 Your reservoir has been used up. That other team have drained it. It will refill over time. A few months later, that person who was off is back, you manage to fend off the odd request. It naturally goes back to a state of good will with that other team.
 
