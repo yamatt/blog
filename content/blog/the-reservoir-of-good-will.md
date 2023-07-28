@@ -28,7 +28,7 @@ Asking for, or mandating changes, like this can be well received. But a busy tea
 
 The amount that they are able to take on this additional work, I like to think of this as _The Reservoir of Good Will_.
 
-To explain in more detail, **Good will** is the concept of doing something with no expectation of getting something in return. In most interpersonal relationships there is some level of trust. Trust that someone isn't going to exploit you and is asking for help in good faith.
+To explain in more detail, **Good will** is the concept of doing something with no expectation of getting something in return. In most interpersonal relationships there is some level of trust. Trust that someone isn't going to exploit you and is asking for genuine help.
 
 A **reservoir** is a body of water, typically stored. Its water levels go up as more water enters it, and are drained as the water is used to produce a valuable resource, such as hydro-electric power or drinking water.
 
@@ -40,7 +40,7 @@ Your reservoir has been drained, perhaps too far. The following Monday the car i
 
 When Cyber Security teams make a request of a business, it takes the person or team away from doing the thing they're already doing. It drains something from that reservoir.
 
-Some teams have a bigger reserviour. They have more capacity to take on the inconvenience of the thing you ask. Some have a smaller reserviour.
+Some teams have a larger reserviour. They have more capacity to take on the inconvenience of the thing you ask. Some have a smaller reserviour.
 
 As Cyber Security our responsibility is to ensure we keep each reservoir topped up. We can take sips or gulps from the reservoir, but we must be mindful of letting it drain too far. However, if the reservoir gets too full, we are not keeping the business as secure as it could be. We need to dip in to that reservoir a bit.
 
