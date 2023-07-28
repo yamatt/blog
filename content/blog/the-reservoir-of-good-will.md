@@ -24,19 +24,19 @@ But an area that I don't see covered is now willing people within the business a
 
 By providing training or advice, making a person or team aware of the risks of their job, you are asking them to do more work. They will have to add more checks to their process, which increases time, and conative load.
 
-Asking for, or mandating changes, like this can be well received. But a busy team, who are struggling with their existing workload, and under stress, will likely not appreciate you cheerfully turning up and adding to their existing work. 
+Asking for, or mandating changes, like this can be well received. But a busy team, who are struggling with their existing workload, and under stress, may not appreciate you cheerfully turning up and adding to their existing work. 
 
-The amount that they are able to take on this additional work, I like to think of this as _The Reservoir of Good Will_.
+How much that they are able to take on this additional work, I like to think of this as _The Reservoir of Good Will_.
 
 To explain in more detail, **Good will** is the concept of doing something with no expectation of getting something in return. In most interpersonal relationships there is some level of trust. Trust that someone isn't going to exploit you and is asking for genuine help.
 
-A **reservoir** is a body of water, typically stored. Its water levels go up as more water enters it, and are drained as the water is used to produce a valuable resource, such as hydro-electric power or drinking water.
+A **reservoir** is a body of water, typically stored. Its water levels go up as more water enters it, and is drained to produce a valuable resource, such as hydro-electric power or drinking water.
 
-Therefore a Reservoir of Good Will is an analogy for how Cyber Secruty making requests to teams is a resource that can be drained and toppped up.
+A Reservoir of Good Will is an analogy for how Cyber Secruty making requests to teams is a resource that is drained and toppped up.
 
-An non-technical analogy. A friend's car may be in for repair and is borrowing yours. They say it'll only for a few days. It's a week later. Your good will is starting to wear out. It becomes more than an inconvenience. You make compromises and without careful communication between you, and the other team, you end up with **ill will**.
+An non-technical analogy. A friend's car may be in for repair and is borrowing yours. They say it'll only be for a few days. It's a week later. Your good will is starting to wear out. It becomes more than an inconvenience. You make compromises and without careful communication between you, and the other team, you end up with **ill will**.
 
-Your reservoir has been drained, perhaps too far. The following Monday the car is repaired and everything goes back to how it was. The reservoir refills over time. You don't hold a grudge with your friend for the rest of your life.
+Your reservoir has been drained, perhaps too far. The following Monday the car is repaired and everything goes back to before. The reservoir refills over time. You don't hold a grudge with your friend for the rest of your life.
 
 When Cyber Security teams make a request of a business, it takes the person or team away from doing the thing they're already doing. It drains something from that reservoir.
 
@@ -44,6 +44,6 @@ Some teams have a larger reserviour. They have more capacity to take on the inco
 
 As Cyber Security our responsibility is to ensure we keep each reservoir topped up. We can take sips or gulps from the reservoir, but we must be mindful of letting it drain too far. However, if the reservoir gets too full, we are not keeping the business as secure as it could be. We need to dip in to that reservoir a bit.
 
-We need to keep that reservoir at an optimum level, but we don’t know what that optimum is, how much of that reservoir that task will drain, and we don’t know where our levels are any one time.
+We need to keep that reservoir at a good level. But we don’t know what a good level is, how much of that reservoir a task will drain, and we don’t know where our levels are at any time.
 
-Therefore we should poll our levels regularly and make sure our actions are kept at the right amount for each person, team, and for the organisation. We need to measure our activities to see if they are going to take too big of a glug.
+Therefore we must poll our levels and make sure our actions are kept at the right amount to sustain each person and team, and we need to size our activities to see if they are going to take too big of a glug.
