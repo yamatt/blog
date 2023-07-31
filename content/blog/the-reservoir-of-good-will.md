@@ -24,7 +24,7 @@ To explain in more detail, a **reservoir** is a body of water used for storage. 
 
 The Reservoir of Good Will is an analogy to allow Cyber Secruty teams to think about how making requests on a team affects the relationship with that team.
 
-When a Cyber Security team makes a request of a business, it takes the person or team away from doing the thing they're already doing, leading to a level of frustration. It drains some good will from their reservoir.
+When a Cyber Security team makes a request of a business, it takes the team away from doing the thing they're expecting to do, leading to a level of frustration. It drains some good will from their reservoir.
 
 Some teams have a larger reserviour. They have more capacity to take on the inconvenience of the thing you ask. Some, have a smaller reserviour, and may struggle.
 
