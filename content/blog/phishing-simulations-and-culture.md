@@ -10,7 +10,7 @@ math: false
 toc: false
 ---
 
-My good friend Joel recently had a widely shared post on why phishing simulations just don't work. This itself follows on from many discussions from my good friend Emma on how phishing cannot be over-come by will-power.
+My good friend Joel recently wrote a widely shared post on [why phishing simulations just don't work](https://joelgsamuel.medium.com/what-i-mean-by-defence-in-depth-cybersecurity-6ac07f89ad89). This itself follows on from many discussions from my good friend Emma on how phishing cannot be over-come by will-power.
 
 But I wanted to dig in a bit on what phishing simlations mean for your business culture.
 
