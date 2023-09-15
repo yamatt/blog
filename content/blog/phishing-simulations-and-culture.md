@@ -1,6 +1,6 @@
 ---
 title: "Phishing Simulations and Culture"
-date: 2023-08-18T18:10:32+00:00
+date: 2023-09-15T18:10:32+00:00
 slug: ""
 description: ""
 keywords: []
@@ -14,20 +14,30 @@ My good friend Joel recently wrote a widely shared post on [why phishing simulat
 
 But the area I think has also been missing from the discussion so far is what phishing simlations mean for your business culture.
 
-Many business these days will strive for inclusivity and diversity. Done successfully this will increase innovation, and improve adaptation within the business. But to make it effective means providing employees with psychological safety to identiy exclusionary thinking, and report toxic culuture throughout the business.
+Many business these days will strive for inclusivity and diversity. When done well this increases innovation, and improves your buisness ability to adapt. But making a business diverse doesn't just happen. It's supported by providing employees with the psychological safety, the ability to identiy exclusionary thinking, and tools to report and respond to it.
 
-[This is important to Cyber Security too](https://cyberempathy.org/episodes/creating-psychological-safety-in-cybersecurity). We must create a culture where people feel safe to report suspicious activity, even in cases of uncertainty.
+[This culture is important to Cyber Security too](https://cyberempathy.org/episodes/creating-psychological-safety-in-cybersecurity). We must create a culture where people feel safe to report suspicious activity, even (or especially) in cases of uncertainty.
 
-I wanted to contrast this with the way phishing simulations are often managed, and give a sense about the effects, particularly to those subjected to them.
+I wanted to contrast this with the way phishing simulations are often managed, and give a sense about the effects on employees, particularly to those subjected to them.
 
-Phishing simulations are effective when someone slips up and clicks on a link in an e-mail. Joel and Emma have very effectively discussed the reasons for this, what happens after this is also important.
+Phishing simulations first of create a culture of fear about their e-mail. This expresses itself as stress. I think this is particuarly accute where your role requires you to be exposed to more risks. This stress does not help with the feeling of  psychological safety within a business.
+
+A phishing simulation is also only effective when someone slips up and clicks on a link in an e-mail. Joel and Emma have very effectively discussed the reasons for this, but what happens after this is also important.
 
 Typically the individual user will be sent to a page advising them of their mistake, and possibly offer some advice. That's the best case scenario.
 
-I know in some businesses maybe you get a talking to from a manager, or sent on mandatory training.
+I know in some businesses the follow-on is getting a talking to from a manager, or sent on mandatory training. Perhaps different people or teams within the business, are ranked against each other in the hope that this will cause them to perform better.
 
-Let's take email out of this entirely. This is the equivalent of working in a post room. You get post in. You put it in the right pigeon holes, and you deliver it to the people who need it. Your line manager decides to put in some dummy post, to check how _effective_ you're being.
+Really this pits one group of people against another creating a sense of 'otherness', adding to stress and lack of inclusivity.
 
-I hope no one has experienced this, but it's distrustful. I would call this micro-managing.
+This is additional stress. Stress makes people more liable to make mistakes. The stress of an exam does not make you better able to do well at the exam. Except the exam is happening every time you open your inbox.
 
-I know from being my own experience in phishing simulations, it's like working with the fear of an axe able to jump out at you at any time. We should be looking at ways of reducing that fear, and increasing trust, not having Cyber Security teams adding to the collective anxiety.
+Think I'm exagerating? Let's take email out of this entirely. This is the equivalent of working in a post room. You get post in. You put it in the right pigeon holes, and you deliver it to the people who need it. Your line manager decides to put in some dummy post, to check how _effective_ you're being. They check if the dummy post is delivered correctly and in a way the manager is happy with.
+
+I hope no one has experienced this, but it's disrespectful and distrustful. I would call this micro-managing.
+
+I know from being my own experience in phishing simulations, it's like working with the fear of an axe jumping out at you at any time.
+
+We should be looking at ways of reducing that fear, and increasing trust. Allowing people to come forward with concerns about their e-mail. Not having a distrustful relationship with their Cyber Security that are supposed to be helping them.
+
+Let's allow people to make mistakes, and give them the clarity of thought to idenify the mistake and learn from it. Not telling them off a whiff of something going wrong.
