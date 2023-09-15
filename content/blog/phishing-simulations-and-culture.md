@@ -40,4 +40,4 @@ I know from being my own experience in phishing simulations, it's like working w
 
 We should be looking at ways of reducing that fear, and increasing trust. Allowing people to come forward with concerns about their e-mail. Not having a distrustful relationship with their Cyber Security that are supposed to be helping them.
 
-Let's allow people to make mistakes, and give them the clarity of thought to idenify the mistake and learn from it. Not telling them off a whiff of something going wrong.
+Let's allow people to make mistakes, and give them the clarity of thought to idenify the mistake and learn from it. Not telling them off a the chance of something going wrong.
