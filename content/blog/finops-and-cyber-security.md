@@ -1,6 +1,6 @@
 ---
 title: "FinOps and Cyber Security"
-date: 2023-11-01T18:10:32+00:00
+date: 2023-11-01T16:10:32+00:00
 slug: ""
 description: ""
 keywords: []
