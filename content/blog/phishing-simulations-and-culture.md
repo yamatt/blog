@@ -40,6 +40,6 @@ I hope no one has experienced this, but it's disrespectful and distrustful. I wo
 
 I know from my own experience in phishing simulations, it's like working with a chance of an axe jumping out at you at any time.
 
-We should be looking at ways of reducing that stress, and increasing trust. Allowing people to come forward with concerns about their e-mail. Not having a distrustful relationship with their Cyber Security that are supposed to be helping them.
+We should be looking at ways of reducing that stress, and increasing trust. Allowing people to come forward with concerns about their e-mail. Not having a distrustful relationship with their Cyber Security team, that should be helping them.
 
 Let's allow people to make mistakes, and give them the clarity of thought to idenify the mistake and learn from it. Not telling them off for something doing wrong.
