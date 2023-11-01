@@ -23,6 +23,7 @@ I'm ok with that too. Security is it's own journey and, being pragmatic, it need
 
 What I enjoyed most about the talk is that the language used is not tainted by years of treating humans as the problem rather than the solution.
 
+<!--alex ignore fear-->
 Securing IT systems has been around a long time and has it's roots and language in the military and academia which aren't neceserily reflective of how a business operates. For security to be effective we need to reduce the fear of security, and using agressive language is one way to improve adoption.
 
 FinOps does not have any of this baggage being at most [a few decades old](https://web.archive.org/web/20121005123855/http://aws.amazon.com/about-aws/). So it's refreshing to see how a relatively clean slate can work and inspire developers to care about the thing that you care about.
