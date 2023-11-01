@@ -21,7 +21,7 @@ Business these days will strive for inclusivity and diversity. When done well th
 I wanted to contrast this with the way phishing simulations are often managed, and give a sense about the effects on employees, focusing on those subjected to them.
 
 <!--alex ignore fear-->
-Phishing simulations first of create a culture of fear with people accessing their e-mail. This expresses itself as stress. I think this is particuarly accute where your role requires you to have access to more systems. This stress does not help with the feeling of psychological safety within a business.
+Phishing simulations, first off, create a culture of fear with people accessing their e-mail. This expresses itself as stress. I think this is particuarly accute where your role requires you to have access to more systems. This stress does not help with the feeling of psychological safety within a business.
 
 Also a phishing simulation is most effective when someone slips up and clicks on a link in an e-mail. Joel and Emma have discussed the reasons for this, but what happens after this is also important.
 
