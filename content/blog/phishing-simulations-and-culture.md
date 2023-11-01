@@ -10,20 +10,20 @@ math: false
 toc: false
 ---
 
-My good friend Joel wrote a widely shared post on [why phishing simulations don't work](https://joelgsamuel.medium.com/what-i-mean-by-defence-in-depth-cybersecurity-6ac07f89ad89). This itself follows on from discussions with [our good friend Emma](https://twitter.com/EmmaWicksCyber) on how phishing cannot be over-come by will-power.
+My good friend Joel wrote a widely shared post on [why phishing simulations don't work](https://joelgsamuel.medium.com/what-i-mean-by-defence-in-depth-cybersecurity-6ac07f89ad89). This itself follows on from excellent discussions with [our good friend Emma](https://twitter.com/EmmaWicksCyber), on how phishing cannot be over-come by will-power.
 
-But the area I think has also been missing from the discussion so far is what phishing simlations mean for your business culture.
+But the area I think has also been missing from the discussion so far is, what phishing simlations mean for your business culture.
 
-Business these days will strive for inclusivity and diversity. When done well this increases innovation, and improves your buisness ability to adapt. But improving diversity in a business happen in isolation. It's supported by providing employees with the psychological safety, the ability to identiy exclusionary thinking, and tools to report and respond to it.
+Business these days will strive for inclusivity and diversity. When done well this increases innovation, and improves your buisness ability to adapt. But improving diversity in a business doesn't happen in isolation. It's supported by providing employees with the psychological safety, the ability to identiy exclusionary thinking, and tools to report and respond to it.
 
 [This culture is important to Cyber Security too](https://cyberempathy.org/episodes/creating-psychological-safety-in-cybersecurity). We must create a culture where people feel safe to report suspicious activity, even (or especially) in cases of uncertainty.
 
-I wanted to contrast this with the way phishing simulations are often managed, and give a sense about the effects on employees, focusing to those subjected to them.
+I wanted to contrast this with the way phishing simulations are often managed, and give a sense about the effects on employees, focusing on those subjected to them.
 
 <!--alex ignore fear-->
-Phishing simulations first of create a culture of fear with people accessing their e-mail. This expresses itself as stress. I think this is particuarly accute where your role requires you to have access to more systems. This stress does not help with the feeling of  psychological safety within a business.
+Phishing simulations first of create a culture of fear with people accessing their e-mail. This expresses itself as stress. I think this is particuarly accute where your role requires you to have access to more systems. This stress does not help with the feeling of psychological safety within a business.
 
-Also a phishing simulation is effective when someone slips up and clicks on a link in an e-mail. Joel and Emma have discussed the reasons for this, but what happens after this is also important.
+Also a phishing simulation is most effective when someone slips up and clicks on a link in an e-mail. Joel and Emma have discussed the reasons for this, but what happens after this is also important.
 
 Typically the user will be directed to a page advising them of their mistake, and possibly offer some advice. That's the best case scenario.
 
