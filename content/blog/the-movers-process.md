@@ -14,3 +14,5 @@ I was speaking to my team recently about the JML process, and how while the leav
 
 But I realised two things. One is you should be able to record the access that was given to someone, and be able to see that access, making it much easier to know what to remove them from.
 
+But also each team needs its own leavers process. If we can ensure each team has an up to date leavers process this makes moving much easier
+
