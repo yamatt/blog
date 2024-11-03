@@ -4,33 +4,34 @@ name: Deploy The Broader Picture Blog
 on:
   push:
     branches:
-    - main
+      - main
+
+permissions:
+  pages: write
+  id-token: write # to verify the deployment originates from an appropriate source
 
 jobs:
   build:
     name: Build
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          submodules: true # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.74.1'
+          hugo-version: "0.136.5"
           extended: true
       - name: Build
         run: hugo --minify
-      - name: Recreate CNAME file
-        run: echo "matt.copperwaite.net" > ./public/CNAME
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Upload static files as artifact
+        uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-      - name: Wait for GitHub cache to update
-        run: sleep 60
+          path: ./public/
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
       - name: Add published pages to WayBack Machine
         run: |
           curl 'https://web.archive.org/save/https://matt.copperwaite.net' -X POST -H 'Content-Type: application/x-www-form-urlencoded' --data-raw 'url=https%3A%2F%2Fmatt.copperwaite.net&capture_all=on'
