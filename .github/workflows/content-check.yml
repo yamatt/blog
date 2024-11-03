@@ -15,7 +15,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Use Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
           node-version: 16.13.0
       - name: Install Alex
@@ -33,7 +33,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Use Node.js 12
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
           node-version: 16.13.0
       - name: Install Alex
@@ -87,7 +87,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Use Node.js 12
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
           node-version: 16.13.0
       - name: Install write-good
