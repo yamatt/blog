@@ -11,7 +11,7 @@ jobs:
     name: Check markdown
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: Use Node.js
@@ -29,7 +29,7 @@ jobs:
     name: Test for biased language
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: Use Node.js 12
@@ -47,7 +47,7 @@ jobs:
     name: Get report on language complexity
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: Set up Python 3.7
@@ -65,7 +65,7 @@ jobs:
     name: Use GrammarBot to check for spelling and grammar
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: Set up Python 3.7
@@ -83,7 +83,7 @@ jobs:
     name: Use write-good to check usage of language
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: Use Node.js 12
