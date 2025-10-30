@@ -164,23 +164,35 @@ uglyURLs = false
        pre = "internal"
        post = "home"
     [[menu.main]]
-        url = "/blog/"
-        name = "Blog"
+        name = "Blogs"
+        identifier = "blogs"
         weight = 2
+    [[menu.main]]
+        url = "/blog/"
+        name = "Security"
+        weight = 1
+        parent = "blogs"
+        pre = "internal"
+        post = "archive"
+    [[menu.main]]
+        url = "/personal/"
+        name = "Personal"
+        weight = 2
+        parent = "blogs"
+        pre = "internal"
+        post = "archive"
+    [[menu.main]]
+        url = "/showcase/"
+        name = "Showcase"
+        weight = 3
         pre = "internal"
         post = "archive"
      [[menu.main]]
-         url = "/showcase/"
-         name = "Showcase"
-         weight = 3
+         url = "/about-me/"
+         name = "About Me"
+         weight = 4
          pre = "internal"
          post = "archive"
-      [[menu.main]]
-          url = "/about-me/"
-          name = "About Me"
-          weight = 4
-          pre = "internal"
-          post = "archive"
 
 
 
