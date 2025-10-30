@@ -9,7 +9,7 @@ on:
 jobs:
   markdownlint:
     name: Check markdown
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
         with:
@@ -17,7 +17,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: 16.13.0
+          node-version: 24.11.0
       - name: Install Alex
         run: npm install markdownlint-cli@0.30.0 --global
       - name: Test content with markdownlint
@@ -27,15 +27,15 @@ jobs:
           done
   test-language:
     name: Test for biased language
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
         with:
           fetch-depth: 0
-      - name: Use Node.js 12
+      - name: Use Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: 16.13.0
+          node-version: 24.11.0
       - name: Install Alex
         run: npm install alex@10.0.0 --global
       - name: Test content with alex
@@ -45,7 +45,7 @@ jobs:
           done
   test-complexity:
     name: Get report on language complexity
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
         with:
@@ -53,7 +53,7 @@ jobs:
       - name: Set up Python 3.7
         uses: actions/setup-python@v6
         with:
-          python-version: 3.7
+          python-version: 3.12
       - name: Install language complexity tools
         run: python3 -m pip install textstat-cli==1.1.3
       - name: Get language complexity report
@@ -63,7 +63,7 @@ jobs:
           done
   test-spelling:
     name: Use GrammarBot to check for spelling and grammar
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
         with:
@@ -71,7 +71,7 @@ jobs:
       - name: Set up Python 3.7
         uses: actions/setup-python@v6
         with:
-          python-version: 3.7
+          python-version: 3.12
       - name: Install grammaerbot CLI tool
         run: python3 -m pip install hemoglobin==0.0.11
       - name: Get grammarbot report
@@ -81,15 +81,15 @@ jobs:
           done
   grammar-check:
     name: Use write-good to check usage of language
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
         with:
           fetch-depth: 0
-      - name: Use Node.js 12
+      - name: Use Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: 16.13.0
+          node-version: 24.11.0
       - name: Install write-good
         run: npm install write-good@1.0.8 --global
       - name: Test content with write-good
