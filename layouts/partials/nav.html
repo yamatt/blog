@@ -1,0 +1,25 @@
+<nav class="nav" id="navigation">
+  <ul class="nav__list">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+      {{ if .HasChildren }}
+        <li class="nav__item--parent">
+          <span class="nav__parent">{{ .Name }}</span>
+          <ul class="nav__sublist">
+            {{ range .Children }}
+              <li>
+                <a {{ if or ($currentPage.IsMenuCurrent "main" .) (eq $currentPage.Section .Identifier) }} class="active"
+                {{end}} href="{{ .URL }}">{{ .Name }}</a>
+              </li>
+            {{ end }}
+          </ul>
+        </li>
+      {{ else }}
+        <li>
+          <a {{ if or ($currentPage.IsMenuCurrent "main" .) (eq $currentPage.Section .Identifier) }} class="active"
+          {{end}} href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</nav>
