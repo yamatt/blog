@@ -1,6 +1,6 @@
 ---
 title: "Welcome to My Personal Blog"
-date: 2024-10-30T08:50:00+00:00
+date: 2025-10-30T08:50:00+00:00
 slug: "welcome-to-personal-blog"
 description: "First post in my personal blog section"
 keywords: ["personal", "welcome"]
