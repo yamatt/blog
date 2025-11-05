@@ -8,6 +8,10 @@
 <div class="post-list__container">
   <div>
     <h1>{{ .Title }}</h1>
+    {{- /* Render section/branch content (e.g. content/personal/_index.md) */ -}}
+    <div class="section-content">
+      {{ partial "anchored-headings.html" .Content }}
+    </div>
     <ul class="post-list">
       {{ range .Pages }}
       <li class="post">
