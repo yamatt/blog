@@ -1,3 +1,6 @@
 Blog Post:
   - changed-files:
-      - any-glob-to-any-file: content/**.md
+      - any-glob-to-any-file: content/blog/**.md
+Personal:
+  - changed-files:
+      - any-glob-to-any-file: content/personal/**.md
