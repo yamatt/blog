@@ -10,6 +10,8 @@ math: false
 toc: false
 ---
 
+<!--alex disable attacks-->
+
 I love a blog post where I learn something new about a product I thought I was familiar with.
 
 I use Dependabot every day. I've even got GitHub Workflows setup to automatically merge changes raised by Dependabot.

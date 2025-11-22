@@ -10,8 +10,6 @@ math: false
 toc: false
 ---
 
-<!--alex disable attacks-->
-
 Providing security advice to someone can be very difficult, particularly when unsolicited. This is because IT security is entirely context based. I use the term _Armchair Security Experts_ to describe people who provide security advice, often wrong, as if they had expertise in the subject area.
 
 Wikipedia explains the term Armchair Expert (or [Armchair Theorizing](https://en.wikipedia.org/wiki/Armchair_theorizing)) well enough, and the security aspect is much the same. Someone with limited practical expertise in the field. Or more generously, someone whose responsibilities doesn't include owning any risk.
