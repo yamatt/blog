@@ -1,0 +1,94 @@
+name: Create Blog Post PR
+on:
+    workflow_dispatch:
+        inputs:
+            title:
+                description: "Blog Post Title"
+                required: true
+            content:
+                description: "Blog Post Body"
+                required: true
+            blog:
+                description: "The blog type"
+                required: true
+                type: choice
+                options:
+                    - blog
+                    - personal
+            draft:
+                description: "Is Draft"
+                required: false
+                default: false
+                type: boolean
+
+permissions:
+    contents: write
+
+jobs:
+    create-pr:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v6
+
+            - name: Create Slug
+              id: slug
+              run: |
+                  SLUG=$(echo "${{ github.event.inputs.title }}" | sed -e 's/[^[:alnum:]]/-/g' | tr '[:upper:]' '[:lower:]' | sed 's/--/-/g' | sed 's/^-//' | sed 's/-$//')
+                  echo "slug=$SLUG" >> $GITHUB_OUTPUT
+
+            - name: Create Branch Name
+              id: branch_name
+              run: |
+                  echo "branch_name="blog-post/$SLUG" >> $GITHUB_OUTPUT
+
+            - name: Create date
+              id: date
+              run: |
+                  DATE=$(date +'%Y-%m-%d')
+                  echo "date=$DATE" >> $GITHUB_OUTPUT
+            - name: Create datetime
+              id: datetime
+              run: |
+                  DATETIME=$(date -Iseconds)
+                  echo "datetime=$DATETIME" >> $GITHUB_OUTPUT
+            - name: Create blog directory path
+              id: blogdir
+              env:
+                  TYPE: ${{ github.event.inputs.blog }}
+              run: |
+                  BLOGDIR="content/${{ env.TYPE}}"
+                  echo "blogdir=$BLOGDIR" >> $GITHUB_OUTPUT
+            - name: Create file name
+              id: filename
+              run: |
+                  FILENAME="${{ steps.date.outputs.date }}-${{ steps.slug.outputs.slug }}.md"
+                  echo "filename=$FILENAME" >> $GITHUB_OUTPUT
+
+            - name: Process Content and Create File
+              id: file
+              env:
+                  BLOGDIR: ${{ steps.blogdir.outputs.blogdir }}
+                  FILENAME: ${{ steps.filename.outputs.filename }}
+                  BRANCH: ${{ steps.branch_name.outputs.branch_name }}
+              run: |
+                  mkdir -p $BLOGDIR
+                  cat <<EOF > $FILENAME
+                  ---
+                  title: "${{ github.event.inputs.title }}"
+                  date: "${{ steps.datetime.outputs.datetime }}"
+                  draft: ${{ github.event.inputs.draft }}
+                  ---
+
+                  ${{ github.event.inputs.content }}
+                  EOF
+            - name: Create Pull Request
+              uses: peter-evans/create-pull-request@v8
+              with:
+                  # Use the default GitHub token provided by Actions
+                  branch: ${{ steps.branch_name.outputs.branch_name }}
+                  delete-branch: true
+                  assignees: |
+                      yamatt
+                  labels: |
+                      Blog Post
