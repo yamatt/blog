@@ -9,6 +9,10 @@ updates:
     directory: ".github/workflows" # Location of package manifests
     schedule:
       interval: "weekly"
+    cooldown:
+      default-days: 5
+    assignees:
+      - yamatt
     labels:
       - dependabot
       - github-actions
