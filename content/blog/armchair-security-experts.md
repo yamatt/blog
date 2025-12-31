@@ -19,6 +19,7 @@ Security is all about context. If you make broad bold statements about security 
 The security advice Armchair Security Experts sometimes provide I call these Security Grenades. This would often be in the middle of a big important meeting and someone semi senior would throw in something like "I have heard that S3 is insecure". This is so bafflingly bad information that it de-rails the purpose of the meeting.
 
 <!--alex ignore dead-->
+
 This is closely related to the [dead cat strategy](https://en.wikipedia.org/wiki/Dead_cat_strategy) (which is more or less as horrible as it sounds) but instead of drawing attention away from a dangerous line of discussion it diverts the delivery team in to trying to handle this knowledge asymmetry.
 
 This is where in an Agile delivery that taking all stakeholders on the journey with you is so important.
