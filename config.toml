@@ -203,15 +203,17 @@ uglyURLs = false
 
     name = "Matt Copperwaite"
 
-    # social networks
-    github = "https://github.com/yaMatt"
-    linkedin = "https://www.linkedin.com/in/matthew-copperwaite-44319b26"
-    keybase = "https://keybase.io/mattcopp"
-    stackoverflow = "https://meta.stackoverflow.com/users/421159/matt-copperwaite"
-    steam = "https://steamcommunity.com/id/yaMatt/home/"
+matrix = "https://matrix.to/#/@yaMatt:matrix.org"
 
 
-    iconOrder = ["GitHub", "LinkedIn", "Keybase", "StackOverflow", "Steam"]
+iconOrder = [
+    "GitHub",
+    "LinkedIn",
+    "Matrix",
+    "Keybase",
+    "StackOverflow",
+    "Steam",
+]
 
 
     ######################################
