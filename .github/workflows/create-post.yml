@@ -25,6 +25,10 @@ permissions:
     contents: write
     pull-requests: write
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}-${{ github.event.inputs.title }}
+  cancel-in-progress: true
+
 jobs:
     create-pr:
         runs-on: ubuntu-latest
