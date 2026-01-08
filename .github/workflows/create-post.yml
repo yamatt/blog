@@ -11,6 +11,7 @@ on:
             blog:
                 description: "The blog type"
                 required: true
+                default: personal
                 type: choice
                 options:
                     - blog
@@ -26,8 +27,8 @@ permissions:
     pull-requests: write
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}-${{ github.event.inputs.title }}
-  cancel-in-progress: true
+    group: ${{ github.workflow }}-${{ github.ref }}-${{ github.event.inputs.title }}
+    cancel-in-progress: true
 
 jobs:
     create-pr:
