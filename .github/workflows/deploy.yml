@@ -34,3 +34,7 @@ jobs:
           curl 'https://web.archive.org/save/https://matt.copperwaite.net' -X POST -H 'Content-Type: application/x-www-form-urlencoded' --data-raw 'url=https%3A%2F%2Fmatt.copperwaite.net&capture_all=on'
           curl 'https://web.archive.org/save/https://matt.copperwaite.net/blog' -X POST -H 'Content-Type: application/x-www-form-urlencoded' --data-raw 'url=https%3A%2F%2Fmatt.copperwaite.net%2Fblog&capture_all=on'
           curl 'https://web.archive.org/save/https://matt.copperwaite.net/showcase' -X POST -H 'Content-Type: application/x-www-form-urlencoded' --data-raw 'url=https%3A%2F%2Fmatt.copperwaite.net%2Fshowcase&capture_all=on'
+      - name: Webmention
+        run: |
+          curl -X POST \
+            https://webmention.app/check?token=${{ secrets.WEBMENTION_APP_TOKEN }}&limit=1&url=https://matt.copperwaite.net/rss.xml
