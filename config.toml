@@ -51,6 +51,8 @@ uglyURLs = false
 
 # URL structure
 [permalinks]
+blog = "/:year/:month/:day/:title"
+personal = "/:year/:month/:day/:title"
 categories = "/categories/:slug/"
 tags = "/tags/:slug/"
 
