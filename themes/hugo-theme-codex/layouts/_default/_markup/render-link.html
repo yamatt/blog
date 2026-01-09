@@ -1,4 +1,7 @@
 <a href="{{ .Destination | safeURL }}" {{ with .Title}} title="{{ . }}" {{ end }}
   {{ if strings.HasPrefix .Destination "mailto" }} target="_blank" {{ end }}
   {{ if strings.HasPrefix .Destination "http" }} target="_blank" rel="noreferrer noopener" {{ end }}
+  {{ if .Page.Params.reply_to }}
+    {{ if eq .Destination .Page.Params.reply_to }} class="u-in-reply-to" {{ end }}
+  {{ end }}
 >{{ .Text | safeHTML }}</a>

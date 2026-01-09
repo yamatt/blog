@@ -201,6 +201,10 @@ post = "archive"
 
 name = "Matt Copperwaite"
 
+
+[Webmention]
+reply_to = "https://webmention-mc.fly.dev"
+
 # social networks
 github = "https://github.com/yaMatt"
 linkedin = "https://www.linkedin.com/in/matthew-copperwaite-44319b26"

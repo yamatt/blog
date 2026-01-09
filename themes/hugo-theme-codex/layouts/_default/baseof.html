@@ -40,6 +40,9 @@
   {{ end }} 
   {{ block "links" . }} {{ end }}
   {{ partial "seo-schema.html" .}}
+  {{ with .Site.Webmention.reply_to }}
+  <link rel="webmention" href="{{ . }}" />
+  {{ end }}
 </head>
 
 <body>
