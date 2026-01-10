@@ -2,10 +2,7 @@
 # Site Settings
 baseURL = "https://matt.copperwaite.net"
 languageCode = "en-gb"
-title = "Matt Copperwaite"
-
-hasCJKLanguage = false
-# Copyright information (Markdown supported)
+title = "Matt Copperwaite Blog"
 copyright = "CC BY-SA 4.0"
 
 # Name of theme
@@ -72,28 +69,40 @@ post = "archive"
 ##########################################
 # Theme Settings
 
-[params]
+[Params]
 
-name = "Matt Copperwaite"
+subtitle = "Secure IT through Agile delivery."
 
-
-[Webmention]
+[Params.Webmention]
 reply_to = "https://webmention-mc.fly.dev"
 
-# social networks
-github = "https://github.com/yaMatt"
-linkedin = "https://www.linkedin.com/in/matthew-copperwaite-44319b26"
-keybase = "https://keybase.io/mattcopp"
-stackoverflow = "https://meta.stackoverflow.com/users/421159/matt-copperwaite"
-steam = "https://steamcommunity.com/id/yaMatt/home/"
-matrix = "https://matrix.to/#/@yamatt:matrix.org"
+[Params.SocialNetworks]
+[[Params.SocialNetworks.Social]]
+name = "GitHub"
+icon = "github"
+link = "https://github.com/yaMatt"
 
+[[Params.SocialNetworks.Social]]
+name = "LinkedIn"
+icon = "linkedin"
+link = "https://www.linkedin.com/in/matthew-copperwaite-44319b26"
 
-socialNetworksOrder = [
-    "GitHub",
-    "LinkedIn",
-    "Matrix",
-    "Keybase",
-    "StackOverflow",
-    "Steam",
-]
+[[Params.SocialNetworks.Social]]
+name = "Keybase"
+icon = "keybase"
+link = "https://keybase.io/mattcopp"
+
+[[Params.SocialNetworks.Social]]
+name = "StackOverflow"
+icon = "stackoverflow"
+link = "https://meta.stackoverflow.com/users/421159/matt-copperwaite"
+
+[[Params.SocialNetworks.Social]]
+name = "Steam"
+icon = "steam"
+link = "https://steamcommunity.com/id/yaMatt/home/"
+
+[[Params.SocialNetworks.Social]]
+name = "Matrix"
+icon = "matrix"
+link = "https://matrix.to/#/@yamatt:matrix.org"
