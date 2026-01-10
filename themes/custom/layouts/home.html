@@ -1,9 +1,9 @@
 {{ define "main" }}
-  {{ .Content }}
-  <section class="content">
-    <div class="center middle">
-      <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
-      <p>Foo bar<p>
-    </div>
-  </section>
+<section class="content">
+  <div class="middle">
+    <h1 class="title">{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</h1>
+    {{ if .IsHome }}<h2>{{ .Site.Params.subtitle }}</h2>{{ end }}
+    {{ partial "socials.html" .Site.Params.socialnetworks.social }}
+  </div>
+</section>
 {{ end }}

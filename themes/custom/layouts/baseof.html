@@ -4,11 +4,13 @@
   {{ partial "head.html" . }}
 </head>
 <body>
-  <header>
-    {{ partial "header.html" . }}
-  </header>
-  <main>
-    {{ block "main" . }}{{ end }}
-  </main>
+  <div class="container">
+    <nav class="main">
+      {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+    </nav>
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+  </div>
 </body>
 </html>

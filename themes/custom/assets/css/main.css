@@ -2,4 +2,46 @@ body {
   color: #222;
   font-family: sans-serif;
   line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+
+nav.main {
+  width: 10vw;
+  text-align: right;
+}
+
+ul {
+  padding: 0;
+}
+
+nav.main li {
+  list-style-type: none;
+  display: block;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.title::after {
+  content: ".";
+  color: #d98f00;
+}
+
+.socials .social {
+  padding: 1em;
+  display: inline-block;
+}
+
+.socials .social img {
+  width: 3em;
 }
