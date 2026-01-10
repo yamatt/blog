@@ -1,0 +1,55 @@
+name: Process Webmention
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: "The URL of the blog post mentioning you"
+        required: true
+      target:
+        description: "The URL of your post being mentioned"
+        required: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: "webmention-${{ github.event.inputs.source }}"
+  cancel-in-progress: false
+
+jobs:
+  parse-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
+      - name: Set up Python
+        run: uv python install
+      - name: Get Microformat data
+        run: |
+          uv run scripts/get-microformat-data.py '${{ inputs.source }}' '${{ inputs.target }}' 'microformat-data.json'
+      - name: Get Local Blog File Path
+        id: blog-post-file-path
+        run: |
+          uv run scripts/get_blog_path.py '${{ inputs.source }}' > post-file-path
+          echo "FILE_PATH=$(cat post-file-path)" >> $GITHUB_OUTPUT
+      - name: Get webmention file name
+        id: webmention-file-name
+        run: |
+          echo "WEBMENTION_FILE_NAME=$(date +'%Y%m%d%H%M%S')" >> $GITHUB_OUTPUT
+      - name: Save to Hugo Data
+        run: |
+          mkdir -p data/webmentions/${{ steps.blog-post-file-path.outputs.FILE_PATH }}
+          mv microformat-data.json data/webmentions/${{ steps.blog-post-file-path.outputs.FILE_PATH }}/${{ steps.webmention-file-name.outputs.WEBMENTION_FILE_NAME }}.json
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: "New webmention from ${{ github.event.inputs.source }}"
+          branch: "webmention/${{ github.run_id }}"
+          title: "Webmention: ${{ github.event.inputs.source }}"
+          labels: |
+            webmention
+          assignees: |
+            yamatt
