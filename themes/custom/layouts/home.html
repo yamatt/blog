@@ -1,0 +1,9 @@
+{{ define "main" }}
+  {{ .Content }}
+  <section class="content">
+    <div class="center middle">
+      <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+      <p>Foo bar<p>
+    </div>
+  </section>
+{{ end }}
