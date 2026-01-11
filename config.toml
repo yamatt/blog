@@ -2,7 +2,7 @@
 # Site Settings
 baseURL = "https://matt.copperwaite.net"
 languageCode = "en-gb"
-title = "Matt Copperwaite Blog"
+title = "Matt Copperwaite"
 copyright = "CC BY-SA 4.0"
 
 # Name of theme
