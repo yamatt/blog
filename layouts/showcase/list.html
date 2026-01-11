@@ -1,35 +1,26 @@
-{{ define "styles" }}
-    {{ $.Scratch.Set "style_opts" (dict "src" "scss/pages/posts.scss" "dest" "css/posts.css") }}
-{{ end }}
-
 {{ define "main" }}
-
-{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}
-<div class="post-list__container">
-  <div>
+<main class="showcase">
     <h1>{{ .Title }}</h1>
-    <div class="showcase">
+    <div class="flex">
       {{ range .Pages }}
-      <div class="showcase-item">
-        <h2 class="post__title">
+      <div class="item">
+        <h2>
           <a href="{{.RelPermalink}}">{{ .Title }}</a>
         </h2>
         <a href="{{.RelPermalink}}">
-        <div class="showcase-image" style="background-image:url(' {{- .Params.imageurl }} ')"></div>
+          <img src="{{- .Params.imageurl }}" title="{{ .Title }}" class="width">
         </a>
           <p>{{ .Description }}</p>
           <ul class="pills">
             <li class="pill">{{ .Params.License }}</li>
             <li class="pill">
               <a href="{{ .Params.Link }}" rel="noopener" title="Open link to {{ .Title }} project">
-                <div class="link-icon" style="background-image:url(/svg/link.svg)"></div>
+                <img src="/svg/link.svg" class="link">
               </a>
             </li>
           </ul>
       </div>
       {{ end }}
     </div>
-  </div>
-</div>
-
+  </main>
 {{ end }}

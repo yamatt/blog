@@ -77,7 +77,43 @@ a:hover {
     width: 3em;
   }
 
-  main.section {
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .item {
+    flex: 0 0 20vw;
+    width: 20vw;
+    margin: 0 2em 2em 0;
+  }
+
+  .flex img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .pills {
+    display: inline;
+    padding-left: 0;
+  }
+
+  .pill {
+    background-color: #ddd;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.2em;
+    margin-right: 1em;
+    border-radius: 1em;
+    vertical-align: middle;
+  }
+
+  .pill .link {
+    height: 1.4rem;
+    width: auto;
   }
 }
 
