@@ -8,7 +8,11 @@ body {
 
 a {
   color: #000;
-  font-style: underline;
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 @media (orientation: landscape) {
@@ -32,6 +36,21 @@ a {
     line-height: 2;
   }
 
+  nav.main ul li>a:not([href]) {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    color: #666;
+    display: block;
+    margin-top: 10px;
+    cursor: default;
+    text-decoration: none;
+  }
+
+  nav.main ul li ul {
+    font-size: 0.85rem;
+  }
+
   .content {
     display: flex;
     justify-content: center;
@@ -53,4 +72,7 @@ a {
   .socials .social img {
     width: 3em;
   }
+}
+
+@media (orientation: horizontal) {
 }
