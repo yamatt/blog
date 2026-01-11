@@ -65,6 +65,21 @@ weight = 4
 pre = "internal"
 post = "archive"
 
+##########################################
+# Outputs
+
+[outputFormats]
+[outputFormats.Markdown]
+mediaType = "text/markdown"
+isPlainText = true
+fileKind = "page"
+baseName = "index"
+rel = "alternate"
+
+[outputs]
+home = ["HTML"]
+page = ["HTML", "Markdown"]
+section = ["HTML", "RSS"]
 
 ##########################################
 # Theme Settings
