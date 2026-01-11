@@ -93,6 +93,11 @@ icon = "keybase"
 link = "https://keybase.io/mattcopp"
 
 [[Params.SocialNetworks.Social]]
+name = "Mastodon"
+icon = "mastodon"
+link = "https://mastodon.social/@yayamatt"
+
+[[Params.SocialNetworks.Social]]
 name = "StackOverflow"
 icon = "stackoverflow"
 link = "https://meta.stackoverflow.com/users/421159/matt-copperwaite"
