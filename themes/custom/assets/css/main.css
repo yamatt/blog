@@ -51,10 +51,14 @@ a:hover {
     font-size: 0.85rem;
   }
 
-  .content {
+  main {
+    width: 80vw;
+    padding: 0 3em;
+  }
+
+  main.home {
     display: flex;
     justify-content: center;
-    width: 80vw;
     align-items: center;
     min-height: 100vh;
   }
@@ -71,6 +75,9 @@ a:hover {
 
   .socials .social img {
     width: 3em;
+  }
+
+  main.section {
   }
 }
 

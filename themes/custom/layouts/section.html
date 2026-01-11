@@ -1,4 +1,5 @@
 {{ define "main" }}
+<main class="section">
   <h1>{{ .Title }}</h1>
   {{ .Content }}
   {{ range .Pages }}
@@ -7,4 +8,5 @@
       {{ .Summary }}
     </section>
   {{ end }}
+</main>
 {{ end }}
