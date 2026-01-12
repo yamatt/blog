@@ -1,0 +1,5 @@
+{{ partial "datetime.html" .Date }}
+<div class="e-content">
+    {{ .Content }}
+</div>
+{{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}

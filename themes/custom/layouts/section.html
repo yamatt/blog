@@ -5,11 +5,7 @@
   {{ range .Pages }}
     <article class="h-entry">
       <h2><a href="{{ .RelPermalink }}" class="p-name">{{ .LinkTitle }}</a></h2>
-      {{ partial "datetime.html" .Date }}
-      <div class="e-content">
-        {{ .Content }}
-      </div>
-      {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+      {{ partial "post.html" . }}
     </article>
   {{ end }}
 </main>

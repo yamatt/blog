@@ -1,13 +1,8 @@
 {{ define "main" }}
 <main class="page">
-  <article class="h-entry">
-    <h1 class="p-name">{{ .Title }}</h1>
-
-    {{ partial "datetime.html" .Date }}
-    <div class="e-content">
-      {{ .Content }}
-    </div>
-    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
-  </article>
+      <article class="h-entry">
+        <h1><a href="{{ .RelPermalink }}" class="p-name">{{ .LinkTitle }}</a></h1>
+        {{ partial "post.html" . }}
+      </article>
 </main>
 {{ end }}
