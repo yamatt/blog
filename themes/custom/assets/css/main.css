@@ -15,6 +15,16 @@ a:hover {
   text-decoration: underline;
 }
 
+.categories {
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.categories li {
+  display: inline-block;
+}
+
 @media (orientation: landscape) {
   .container {
     display: flex;
