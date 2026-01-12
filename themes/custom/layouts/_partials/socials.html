@@ -2,7 +2,7 @@
     <ul class="socials">
         {{ range . -}}
         <li class="social">
-            <a href="{{ .link }}" title="{{ .name }}"><img src="{{ printf "svg/%s.svg" .icon | absURL }}" /></a>
+            <a rel="me" href="{{ .link }}" title="{{ .name }}"><img src="{{ printf "svg/%s.svg" .icon | absURL }}" /></a>
         </li>
         {{- end }}
     </ul>

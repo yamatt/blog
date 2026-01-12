@@ -3,11 +3,14 @@
   <h1>{{ .Title }}</h1>
   {{ .Content }}
   {{ range .Pages }}
-    <section>
-      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    <article class="h-entry">
+      <h2><a href="{{ .RelPermalink }}" class="p-name">{{ .LinkTitle }}</a></h2>
       {{ partial "datetime.html" .Date }}
-      {{ .Content }}
-    </section>
+      <div class="e-content">
+        {{ .Content }}
+      </div>
+      {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    </article>
   {{ end }}
 </main>
 {{ end }}
