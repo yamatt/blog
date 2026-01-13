@@ -31,7 +31,7 @@ a:hover {
   }
 
   nav.main {
-    height: 20vw;
+    width: 20vw;
     text-align: right;
   }
 
@@ -136,6 +136,7 @@ a:hover {
     display: inline-block;
     margin: 0 1em;
   }
+
   nav.main ul li>a:not([href]) {
     font-weight: bold;
     text-transform: uppercase;
