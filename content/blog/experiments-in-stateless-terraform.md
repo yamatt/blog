@@ -22,11 +22,13 @@ I do recognise that what I'm attempting to do is a hack, Terraform and AWS are n
 
 The concept is that everything you need is first built in to one AWS Account and when you want to release a new instance, re-create everything in a second AWS Account and fail over to it. The first AWS Account can then be removed. A separate AWS Account with a load balancer can then perform the switching when the new infrastructure is up and running. This is a form of [Green/Blue Deployment](https://www.redhat.com/en/topics/devops/what-is-blue-green-deployment).
 
-## MEMBER_ACCOUNT_PAYMENT_INSTRUMENT_REQUIRED
+## Payment Required
 
 There are a some limitations with this, and this is where I think it gets interesting.
 
 My first thought to clearing out the old resources is to delete the AWS Account. However, the deletion of AWS Accounts from an AWS Organization requires the sub-account to have credit card details associated to the Account. That makes it a manual step. A manual step means no automated Green/Blue deployment.
+
+> MEMBER_ACCOUNT_PAYMENT_INSTRUMENT_REQUIRED
 
 <!--alex ignore black hole-->
 There is an alternative. I call it the "black hole". This is an OU in your AWS Organization that has a policy on it that prevents all roles from being assumed in that Account. That way your resources cannot run and your cost will reach zero.
