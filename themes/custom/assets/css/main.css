@@ -172,4 +172,8 @@ a:hover {
   main {
     padding: 1em;
   }
+
+  article img {
+    max-width: 80%;
+  }
 }
