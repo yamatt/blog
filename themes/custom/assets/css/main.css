@@ -32,7 +32,7 @@ a:hover {
   }
 
   nav.main {
-    width: 10vw;
+    width: 20%;
     text-align: right;
   }
 
@@ -63,7 +63,7 @@ a:hover {
   }
 
   main {
-    width: 90vw;
+    width: 80%;
     padding: 0 3em;
   }
 
