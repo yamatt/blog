@@ -1,20 +1,19 @@
 {{ with .Site.Params.Webmention.reply_to -}}
     <link rel="webmention" href="{{ . }}" />
 
-    {{ if .IsHome }}
+    {{ if $.IsHome }}
     <script type="application/ld+json">
     {
     "@context": "https://schema.org",
     "@type": "Blog",
-    "name": {{ .Site.Title | jsonify }},
-    "description": {{ .Site.Params.description | jsonify }},
-    "url": {{ .Site.BaseURL | jsonify }},
+    "name": {{ $.Site.Title | jsonify }},
+    "url": {{ $.Site.BaseURL | jsonify }},
     "publisher": {
         "@type": "Organization",
-        "name": {{ .Site.Title | jsonify }},
+        "name": {{ $.Site.Title | jsonify }},
     }
     "blogPost": [
-        {{ $posts := where .Site.RegularPages "Section" "in" (slice "blog" "personal") }}
+        {{ $posts := where $.Site.RegularPages "Section" "in" (slice "blog" "personal") }}
         {{ range first 5 $posts }}
         {
         "@type": "BlogPosting",
@@ -26,7 +25,7 @@
     ]
     }
     </script>
-    {{ else if .IsPage }}
+    {{ else if $.IsPage }}
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
