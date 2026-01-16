@@ -32,10 +32,14 @@ I could take quite a few approaches. I thought about looking at yesterdays posts
 
 But then I realised the rabbit hole I'm going down is the exact same thing all these social media companies are trying to do to keep you on the site for longer, and they have got in trouble for.
 
-Not that I expect to get in to trouble, but I realised I'm ok with missing a few posts, and I believe that's a healthier place to be.
+Not that I expect to get in to trouble, and I'm not trying to keep myself on my feed reader for longer. I just want to kill 10 minutes when I have the time to.
 
-I'm recording some data about the posts I am putting in my RSS feed. I know that there are about 140 new posts per day on the Lemmy communities I'm following, and I publish about 15% of the daily posts.
+I'm ok with missing a few posts, and I believe that's a healthier place to be.
 
-But I realised my silly little side project has lead me to have more of an understanding of what social media companies are doing, why they are doing it, and I have more empathy for how hard it is to do what they're doing.
+I'm recording some data about the posts I am putting in my RSS feed, so I could use that later if I want. I know that there are about 140 new posts per day on the Lemmy communities I'm following, and I re-publish about 15% of the daily posts.
 
-And I hope you do too.
+Butwhat I found really interesting was that my silly little side project has lead me to have more of an understanding of what social media companies are doing, why they are doing it.
+
+We tend to think these algoithms are mystical black boxes designed to enslave us. But really they're hard problems with multiple solutions, and none of them right.
+
+Hopefully when you next think of these alogithems you, like I, will have more insights in to what that means.
