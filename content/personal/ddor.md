@@ -38,7 +38,9 @@ I'm ok with missing a few posts, and I believe that's a healthier place to be.
 
 I'm recording some data about the posts I am putting in my RSS feed, so I could use that later if I want. I know that there are about 140 new posts per day on the Lemmy communities I'm following, and I re-publish about 15% of the daily posts.
 
-Butwhat I found really interesting was that my silly little side project has lead me to have more of an understanding of what social media companies are doing, why they are doing it.
+I have also designed DDOR to be flexible so I can implement other alogithems at some point.
+
+But what I found really interesting was that my silly little side project has lead me to have more of an understanding of what social media companies are doing, why they are doing it.
 
 We tend to think these algoithms are mystical black boxes designed to enslave us. But really they're hard problems with multiple solutions, and none of them right.
 
