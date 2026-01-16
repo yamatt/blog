@@ -10,11 +10,11 @@ I always regret it.
 
 The enshittification, the infinite scroll, and the sore neck I get for killing hours on there.
 
-I also really like the format of [Daily Dose of Internet on YouTube](https://www.youtube.com/@DailyDoseOfInternet), every few days a sub 10 minute video of the best social media videos. No "reactions", no filler.
+I also really like the format of [Daily Dose of Internet on YouTube](https://www.youtube.com/@DailyDoseOfInternet), where  every few days they publish a sub 10 minute video of the best social media videos. No "reactions", no filler.
 
 I was thinking, well maybe I could do that for Reddit. Scrape the best 20 or so posts every day, and put it in an RSS feed.
 
-So I built DDOR.
+So I built [DDOR](https://github.com/yamatt/ddor/).
 
 One limitation, the enshittification of Reddit means there is no longer an open API.
 
@@ -33,6 +33,8 @@ I could take quite a few approaches. I thought about looking at yesterdays posts
 But then I realised the rabbit hole I'm going down is the exact same thing all these social media companies are trying to do to keep you on the site for longer, and they have got in trouble for.
 
 Not that I expect to get in to trouble, but I realised I'm ok with missing a few posts, and I believe that's a healthier place to be.
+
+I'm recording some data about the posts I am putting in my RSS feed. I know that there are about 140 new posts per day on the Lemmy communities I'm following, and I publish about 15% of the daily posts.
 
 But I realised my silly little side project has lead me to have more of an understanding of what social media companies are doing, why they are doing it, and I have more empathy for how hard it is to do what they're doing.
 
