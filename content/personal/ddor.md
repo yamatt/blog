@@ -34,6 +34,6 @@ But then I realised the rabbit hole I'm going down is the exact same thing all t
 
 Not that I expect to get in to trouble, but I realised I'm ok with missing a few posts, and I believe that's a healthier place to be.
 
-But I realised my silly little side project, has lead me to have more of an understanding of what social media companies are doing, why they are doing and more empathy for how hard it is to do what they're doing.
+But I realised my silly little side project has lead me to have more of an understanding of what social media companies are doing, why they are doing it, and I have more empathy for how hard it is to do what they're doing.
 
 And I hope you do too.
