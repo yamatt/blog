@@ -4,6 +4,6 @@
 {{ range .AlternativeOutputFormats -}}
 <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
 {{ end -}}
-{{ partialCached "head/mf2.html" . }}
+{{ partial "head/mf2.html" .  }}
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
