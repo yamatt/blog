@@ -86,6 +86,7 @@ section = ["HTML", "RSS"]
 
 [Params]
 
+author = "Matt Copperwaite"
 subtitle = "Secure IT through Agile delivery."
 
 [Params.Webmention]
