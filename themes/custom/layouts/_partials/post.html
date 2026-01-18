@@ -1,4 +1,7 @@
 {{ partial "datetime.html" .Date }}
+{{ if .Site.Params.mastodon -}}
+<meta name="fediverse:creator" content="@yayamatt@mastodon.social">
+{{- end }}
 <div class="e-content">
     {{ .Content }}
 </div>

@@ -93,6 +93,8 @@ section = ["HTML", "RSS"]
 author = "Matt Copperwaite"
 subtitle = "Secure IT through Agile delivery."
 
+mastodon = "@yayamatt@mastodon.social"
+
 [Params.Webmention]
 reply_to = "https://webmention-mc.fly.dev"
 
