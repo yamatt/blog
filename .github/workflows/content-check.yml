@@ -4,12 +4,12 @@ name: Check any new content
 on:
   push:
     paths:
-      - 'content/**.md'
+      - "content/**.md"
 
 jobs:
   markdownlint:
     name: Check markdown
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7.0.1
         with:
@@ -17,9 +17,9 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v7
         with:
-          node-version: 24.11.0
-      - name: Install Alex
-        run: npm install markdownlint-cli@0.30.0 --global
+          node-version-file: package.json
+      - name: Install dependencies
+        run: npm ci --include dev
       - name: Test content with markdownlint
         run: |
           for file_path in $(git diff --name-only origin/main | grep '^content/'); do
@@ -27,7 +27,7 @@ jobs:
           done
   test-language:
     name: Test for biased language
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7.0.1
         with:
@@ -35,9 +35,9 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v7
         with:
-          node-version: 24.11.0
-      - name: Install Alex
-        run: npm install alex@10.0.0 --global
+          node-version-file: package.json
+      - name: Install dependencies
+        run: npm ci --include dev
       - name: Test content with alex
         run: |
           for file_path in $(git diff --name-only origin/main | grep '^content/'); do
@@ -45,43 +45,47 @@ jobs:
           done
   test-complexity:
     name: Get report on language complexity
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7.0.1
         with:
           fetch-depth: 0
-      - name: Set up Python 3.7
+      - name: Install uv
+        uses: astral-sh/setup-uv@v10.0.1
+        with:
+          enable-cache: "auto"
+      - name: Set up Python
         uses: actions/setup-python@v7
         with:
-          python-version: 3.12
-      - name: Install language complexity tools
-        run: python3 -m pip install textstat-cli==1.1.3
+          python-version-file: ".python-version"
       - name: Get language complexity report
-        run:  |
+        run: |
           for file_path in $(git diff --name-only origin/main | grep '^content/'); do
-            python3 -m textstat_cli "$file_path"
+            uv run textstat_cli "$file_path"
           done
   test-spelling:
     name: Use GrammarBot to check for spelling and grammar
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7.0.1
         with:
           fetch-depth: 0
-      - name: Set up Python 3.7
+      - name: Install uv
+        uses: astral-sh/setup-uv@v10.0.1
+        with:
+          enable-cache: "auto"
+      - name: Set up Python
         uses: actions/setup-python@v7
         with:
-          python-version: 3.12
-      - name: Install grammaerbot CLI tool
-        run: python3 -m pip install hemoglobin==0.0.11
+          python-version-file: ".python-version"
       - name: Get grammarbot report
         run: |
           for file_path in $(git diff --name-only origin/main | grep '^content/'); do
-            python3 -m hemoglobin ${{ secrets.GRAMMARBOT_APIKEY }} "$file_path"
+            uv run hemoglobin ${{ secrets.GRAMMARBOT_APIKEY }} "$file_path"
           done
   grammar-check:
     name: Use write-good to check usage of language
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7.0.1
         with:
@@ -89,9 +93,9 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v7
         with:
-          node-version: 24.11.0
-      - name: Install write-good
-        run: npm install write-good@1.0.8 --global
+          node-version-file: package.json
+      - name: Install dependencies
+        run: npm ci --include dev
       - name: Test content with write-good
         continue-on-error: true
         run: |

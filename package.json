@@ -1,0 +1,24 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "This is a site I built using Hugo to generate me a static blog in GitHub.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamatt/blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yamatt/blog/issues"
+  },
+  "homepage": "https://github.com/yamatt/blog#readme",
+  "dependencies": {
+    "alex": "^11.0.1",
+    "markdownlint-cli": "^0.49.1",
+    "write-good": "^1.0.8"
+  }
+}

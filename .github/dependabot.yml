@@ -16,3 +16,25 @@ updates:
     labels:
       - dependabot
       - github-actions
+  - package-ecosystem: "uv" # See documentation for possible values
+    directory: "." # Location of package manifests
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 5
+    assignees:
+      - yamatt
+    labels:
+      - dependabot
+      - github-actions
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "." # Location of package manifests
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 5
+    assignees:
+      - yamatt
+    labels:
+      - dependabot
+      - github-actions
