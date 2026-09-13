@@ -22,6 +22,7 @@ jobs:
           hugo-version: "0.166.0"
           extended: true
       - name: Build
+        timeout-minutes: 5
         run: hugo --minify
       - name: Upload static files as artifact
         uses: actions/upload-pages-artifact@v5 # or specific "vX.X.X" version tag for this action
