@@ -1,7 +1,7 @@
 ##########################################
 # Site Settings
 baseURL = "https://matt.copperwaite.net"
-languageCode = "en-gb"
+locale = "en-gb"
 title = "Matt Copperwaite"
 copyright = "CC BY-SA 4.0"
 
@@ -88,8 +88,10 @@ section = ["HTML", "RSS"]
 ##########################################
 # Theme Settings
 
-[Params]
+[author]
+name = "Matt Copperwaite"
 
+[Params]
 author = "Matt Copperwaite"
 subtitle = "Secure IT through Agile delivery."
 
