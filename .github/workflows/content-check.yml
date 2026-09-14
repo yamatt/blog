@@ -1,8 +1,10 @@
 ---
-name: Check any new content
+name: Check New Posts
 
 on:
-  push:
+  pull_request:
+    branches:
+      - main
     paths:
       - "content/**.md"
 
@@ -22,9 +24,7 @@ jobs:
         run: npm ci --include dev
       - name: Test content with markdownlint
         run: |
-          for file_path in $(git diff --name-only origin/main | grep '^content/'); do
-            markdownlint --disable MD013 MD041 "$file_path";
-          done
+          npx markdownlint --config ./markdownlint.config.json content/**.md
   test-language:
     name: Test for biased language
     runs-on: ubuntu-latest
@@ -40,9 +40,7 @@ jobs:
         run: npm ci --include dev
       - name: Test content with alex
         run: |
-          for file_path in $(git diff --name-only origin/main | grep '^content/'); do
-            alex "$file_path";
-          done
+          alex content/**.md
   test-complexity:
     name: Get report on language complexity
     runs-on: ubuntu-latest
@@ -99,6 +97,4 @@ jobs:
       - name: Test content with write-good
         continue-on-error: true
         run: |
-          for file_path in $(git diff --name-only origin/main | grep '^content/'); do
-            write-good --parse "$file_path"
-          done
+          write-good --parse content/**.md
