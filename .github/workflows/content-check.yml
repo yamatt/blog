@@ -115,6 +115,24 @@ jobs:
         with:
           message-id: complexity-report
           message: ${{ steps.complexity-report.outputs.report }}
+  test-spelling:
+    name: Use GrammarBot to check for spelling and grammar
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          fetch-depth: 0
+      - name: Install uv
+        uses: astral-sh/setup-uv@v10.0.1
+        with:
+          enable-cache: "auto"
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version-file: ".python-version"
+      - name: Get grammarbot report
+        run: |
+          uv run hemoglobin ${{ secrets.GRAMMARBOT_APIKEY }} content/**.md
   grammar-check:
     name: Use write-good to check usage of language
     runs-on: ubuntu-latest
