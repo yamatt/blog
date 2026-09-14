@@ -5,6 +5,12 @@ on:
   push:
     branches:
       - main
+    paths:
+      - content/**.md
+      - .github/workflows/deploy.yml
+      - themes/**
+      - static/**
+      - layouts/**
 
 permissions:
   pages: write
