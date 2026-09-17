@@ -44,6 +44,8 @@ jobs:
   test-complexity:
     name: Get report on language complexity
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
     steps:
       - uses: actions/checkout@v7.0.1
         with:
@@ -56,9 +58,21 @@ jobs:
         uses: actions/setup-python@v7
         with:
           python-version-file: ".python-version"
+      - name: Find changed files
+        id: changed-files
+        uses: dorny/paths-filter@v3
+        with:
+          filters: |
+            content:
+              - 'content/**.md'
       - name: Get language complexity report
+        id: complexity-report
         run: |
-          uv run textstat_cli content/**.md
+          uv run textstat_cli ${{ steps.changed-files.outputs.content_files }}
+      - name: Add comment to PR
+        uses: mshick/add-pr-comment@v3
+        with:
+          message: ${{ steps.complexity-report.outputs.stdout }}
   grammar-check:
     name: Use write-good to check usage of language
     runs-on: ubuntu-latest
