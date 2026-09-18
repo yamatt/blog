@@ -123,3 +123,39 @@ jobs:
         continue-on-error: true
         run: |
           write-good --parse ${{ steps.changed-files.outputs.content_files }}
+  offline-llm-check:
+    name: Check grammar, spelling with offline LLM
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - name: Install uv
+        uses: astral-sh/setup-uv@v10.0.1
+        with:
+          enable-cache: "auto"
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version-file: ".python-version"
+      - name: Find changed files
+        id: changed-files
+        uses: dorny/paths-filter@v4
+        with:
+          list-files: shell
+          base: main
+          filters: |
+            content:
+              - added|modified: 'content/**/*.md'
+      - name: Generate BAML
+        run: |
+          uv run baml-cli generate --files ${{ steps.changed-files.outputs.content_files }} --output baml.json
+      - name: Install Ollama
+        run: |
+          curl -sSL https://ollama.com/download | sh
+      - name: Setup Ollama in background with cached model
+        background: true
+        run: |
+          ollama pull ollama/llama2-7b-chat
+          ollama serve --model ollama/llama2-7b-chat --cache-dir ~/.ollama/cache
+      - name: Run check on changed files
+        run: |
+          uv run baml-check --files ${{ steps.changed-files.outputs.content_files }} --model ollama/llama2-7b-chat --cache-dir ~/.ollama/cache

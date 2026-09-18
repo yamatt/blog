@@ -7,9 +7,27 @@ resolution-markers = [
 ]
 
 [[package]]
+name = "baml-py"
+version = "0.226.2"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/12/a3/961a5b13b87c5f25a5e74095da75cb9d6a72deb84fdff0d2467934b66848/baml_py-0.226.2-cp38-abi3-macosx_10_12_x86_64.whl", hash = "sha256:43a23c170fccd62b75ac47e23f73fe7d79eaa357b2f9990790439ae5fac8c832", size = 21781932, upload-time = "2026-09-01T04:43:11.587Z" },
+    { url = "https://files.pythonhosted.org/packages/c7/6c/f2aed78d198e10c72cb3cb9e586bc77048b53c0d0d4352966d5a48bfc98c/baml_py-0.226.2-cp38-abi3-macosx_11_0_arm64.whl", hash = "sha256:28b5625618d46ab216e884cd323687226a7c939535d0d93bf2605cac91befe38", size = 20657236, upload-time = "2026-09-01T04:43:15.95Z" },
+    { url = "https://files.pythonhosted.org/packages/cc/3d/f359d42e20e767e7883114c76bdf2047b572fa32abcdf323c343762b9edd/baml_py-0.226.2-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:fe6bfd6ed3ad4ae2756e76dcc80a04c074f82fbae8edec7955ae2a87f68dc40f", size = 22170634, upload-time = "2026-09-01T04:43:18.898Z" },
+    { url = "https://files.pythonhosted.org/packages/12/13/db9bd01232161613bdae533eda25c9208199fdba9ef7ad665070c9e2bcb2/baml_py-0.226.2-cp38-abi3-manylinux_2_24_aarch64.whl", hash = "sha256:77eb0cd4146762f477ff40697cd1badfdb477590953aa9b98a835e827fbec5ab", size = 21395101, upload-time = "2026-09-01T04:43:22.162Z" },
+    { url = "https://files.pythonhosted.org/packages/e5/99/ae01264bd452469fb376dead9e69d88e5d7ed7e3b0dba86122ac8189d5ba/baml_py-0.226.2-cp38-abi3-musllinux_1_1_aarch64.whl", hash = "sha256:072779775c121f07867fcb7418789621e8a58177394e6f1e31d198cbefa74a46", size = 21569210, upload-time = "2026-09-01T04:43:25.567Z" },
+    { url = "https://files.pythonhosted.org/packages/0a/d2/0d86b99e8a73a2c59d72a6e48666b8625bcd3a083db9021da65baffeae93/baml_py-0.226.2-cp38-abi3-musllinux_1_1_x86_64.whl", hash = "sha256:08c3ce33aa5e59019f75cbafdef4f551c889359186528e9d82272d8396b000fc", size = 22434374, upload-time = "2026-09-01T04:43:29.073Z" },
+    { url = "https://files.pythonhosted.org/packages/03/7e/701119ebd0089340f118dab6de991da884ba0167ce7b7b47df93ce4a0e70/baml_py-0.226.2-cp38-abi3-win_amd64.whl", hash = "sha256:c728ceb641eee5b81fc8eada9f6efab43b66bb9dce28edf729eb626fde8345d5", size = 22034589, upload-time = "2026-09-01T04:43:32.804Z" },
+    { url = "https://files.pythonhosted.org/packages/95/33/21e9a02cbcd2c78392ed28dcde9b11253f1d002bd333d2cb024eb696b224/baml_py-0.226.2-cp38-abi3-win_arm64.whl", hash = "sha256:ab095dc07be878ed24ab0d802fc18dd61d8e25ac2e1b617f383ea3d58173d2b2", size = 20417663, upload-time = "2026-09-01T04:43:36.041Z" },
+]
+
+[[package]]
 name = "blog"
 version = "0.1.0"
 source = { virtual = "." }
+dependencies = [
+    { name = "baml-py" },
+]
 
 [package.dev-dependencies]
 dev = [
@@ -19,6 +37,7 @@ dev = [
 ]
 
 [package.metadata]
+requires-dist = [{ name = "baml-py", specifier = ">=0.226.2" }]
 
 [package.metadata.requires-dev]
 dev = [
@@ -238,7 +257,7 @@ name = "joblib"
 version = "1.6.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "cloudpickle", marker = "python_full_version >= '3.13'" },
+    { name = "cloudpickle" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/d5/1d/537ab090f302b838943a1b56497dd53059b9a9b46a074936470173a2e207/joblib-1.6.0.tar.gz", hash = "sha256:2ccc96785b12046c08fd6d55839c12857831b54a3c1673ffadd2f04bfc4eda03", size = 327903, upload-time = "2026-08-31T09:39:04.122Z" }
 wheels = [
@@ -250,11 +269,11 @@ name = "nltk"
 version = "3.10.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "click", marker = "python_full_version >= '3.13'" },
-    { name = "defusedxml", marker = "python_full_version >= '3.13'" },
-    { name = "joblib", marker = "python_full_version >= '3.13'" },
-    { name = "regex", marker = "python_full_version >= '3.13'" },
-    { name = "tqdm", marker = "python_full_version >= '3.13'" },
+    { name = "click" },
+    { name = "defusedxml" },
+    { name = "joblib" },
+    { name = "regex" },
+    { name = "tqdm" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/e0/e6/fe51d2bb1a3b446f59c5c8165999a9fee208bc346af90a7cbf7657bc0d75/nltk-3.10.3.tar.gz", hash = "sha256:bb9327a461c3811c2fa4900e03840401f2126adfb30c0072827c433bd2444ea4", size = 5137152, upload-time = "2026-08-12T23:46:37.258Z" }
 wheels = [
@@ -415,7 +434,7 @@ resolution-markers = [
     "python_full_version < '3.13'",
 ]
 dependencies = [
-    { name = "pyphen", marker = "python_full_version < '3.13'" },
+    { name = "pyphen" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/80/f1/3e7ed8932456ac3bdad1b3feeeb4a1c544191622db2acc43ab83df05310c/textstat-0.6.2.tar.gz", hash = "sha256:fa290f43713d41e44ce28227349763147c161052258db704ca84206d5b5b861e", size = 104583, upload-time = "2020-04-23T16:40:51.123Z" }
 wheels = [
@@ -430,9 +449,9 @@ resolution-markers = [
     "python_full_version >= '3.13'",
 ]
 dependencies = [
-    { name = "nltk", marker = "python_full_version >= '3.13'" },
-    { name = "pyphen", marker = "python_full_version >= '3.13'" },
-    { name = "setuptools", marker = "python_full_version >= '3.13'" },
+    { name = "nltk" },
+    { name = "pyphen" },
+    { name = "setuptools" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/8c/0f/b673fcec5ad6e976b2e8368ef3651fe0fea3348a1191bacfcd41a17ddec6/textstat-0.7.13.tar.gz", hash = "sha256:a88d1da76287cd27ca4ce7bcba1ebaf2890544a5f0bb6a5758fa84cef3bceccb", size = 138932, upload-time = "2026-02-18T21:07:39.525Z" }
 wheels = [
@@ -447,7 +466,7 @@ resolution-markers = [
     "python_full_version < '3.13'",
 ]
 dependencies = [
-    { name = "textstat", version = "0.6.2", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.13'" },
+    { name = "textstat", version = "0.6.2", source = { registry = "https://pypi.org/simple" } },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/79/bf/157f3babe0a4d4dc74ab3130021d4b765f42a8b831c9907f533c176fc3e9/textstat-cli-1.1.3.tar.gz", hash = "sha256:391d7b4e9a1905ea29e7abb08d643b375862c0a10fa8a71963b1cfe6913db1b3", size = 4354, upload-time = "2020-11-17T21:43:56.206Z" }
 
@@ -459,8 +478,8 @@ resolution-markers = [
     "python_full_version >= '3.13'",
 ]
 dependencies = [
-    { name = "click", marker = "python_full_version >= '3.13'" },
-    { name = "textstat", version = "0.7.13", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.13'" },
+    { name = "click" },
+    { name = "textstat", version = "0.7.13", source = { registry = "https://pypi.org/simple" } },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/79/f0/f0d436e4281284fc3d7aa3f4a3534c931824732d680b4b83bd9aa76f4395/textstat_cli-2.0.0.tar.gz", hash = "sha256:81ded8fccf79a9704c6a78db32b50bb5b00739832c41b5da4a4256fc5c318c56", size = 37370, upload-time = "2026-09-17T19:51:35.263Z" }
 wheels = [
@@ -472,7 +491,7 @@ name = "tqdm"
 version = "4.70.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "colorama", marker = "python_full_version >= '3.13' and sys_platform == 'win32'" },
+    { name = "colorama", marker = "sys_platform == 'win32'" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/0d/ea/b2a5bd54b28a324dae8211928b2d730b6547500342c7e6c6dea08bd0a485/tqdm-4.70.1.tar.gz", hash = "sha256:cefd0eca11b2a37a3aee776544d4f4ae913f02688135b5556b8788dfa474afc4", size = 171846, upload-time = "2026-09-11T07:25:16.601Z" }
 wheels = [
