@@ -22,9 +22,18 @@ jobs:
           node-version-file: package.json
       - name: Install dependencies
         run: npm ci --include dev
+      - name: Find changed files
+        id: changed-files
+        uses: dorny/paths-filter@v4
+        with:
+          list-files: shell
+          base: main
+          filters: |
+            content:
+              - added|modified: 'content/**/*.md'
       - name: Test content with markdownlint
         run: |
-          npx markdownlint --config ./markdownlint.config.json content/**.md
+          npx markdownlint --config ./markdownlint.config.json ${{ steps.changed-files.outputs.content_files }}
   test-language:
     name: Test for biased language
     runs-on: ubuntu-latest
@@ -38,9 +47,18 @@ jobs:
           node-version-file: package.json
       - name: Install dependencies
         run: npm ci --include dev
+      - name: Find changed files
+        id: changed-files
+        uses: dorny/paths-filter@v4
+        with:
+          list-files: shell
+          base: main
+          filters: |
+            content:
+              - added|modified: 'content/**/*.md'
       - name: Test content with alex
         run: |
-          alex content/**.md
+          npm exec -- alex ${{ steps.changed-files.outputs.content_files }}
   test-complexity:
     name: Get report on language complexity
     runs-on: ubuntu-latest
@@ -60,19 +78,25 @@ jobs:
           python-version-file: ".python-version"
       - name: Find changed files
         id: changed-files
-        uses: dorny/paths-filter@v3
+        uses: dorny/paths-filter@v4
         with:
+          list-files: shell
+          base: main
           filters: |
             content:
-              - 'content/**.md'
+              - added|modified: 'content/**/*.md'
       - name: Get language complexity report
         id: complexity-report
         run: |
-          uv run textstat_cli ${{ steps.changed-files.outputs.content_files }}
+            {
+              echo "report<<EOF"
+                  uv run textstat_cli ${{ steps.changed-files.outputs.content_files }}
+              echo "EOF"
+            } >> "$GITHUB_OUTPUT"
       - name: Add comment to PR
         uses: mshick/add-pr-comment@v3
         with:
-          message: ${{ steps.complexity-report.outputs.stdout }}
+          message: ${{ steps.complexity-report.outputs.report }}
   grammar-check:
     name: Use write-good to check usage of language
     runs-on: ubuntu-latest
@@ -86,7 +110,16 @@ jobs:
           node-version-file: package.json
       - name: Install dependencies
         run: npm ci --include dev
+      - name: Find changed files
+        id: changed-files
+        uses: dorny/paths-filter@v4
+        with:
+          list-files: shell
+          base: main
+          filters: |
+            content:
+              - added|modified: 'content/**/*.md'
       - name: Test content with write-good
         continue-on-error: true
         run: |
-          write-good --parse content/**.md
+          write-good --parse ${{ steps.changed-files.outputs.content_files }}
