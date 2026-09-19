@@ -34,14 +34,42 @@ Yes there are robots and electronics, but also knitting, star gazing, foraging, 
 
 But that doesn't do it justice. It's actually about creativity. And more than that, if you're interested in something, even though you didn't know you were interested in it, there's probably a group of people gathering to do it.
 
-## Be Yourself
+But, again, it goes deeper than that. People are showing the product of their efforts, and it's an incredibly inclusive space.
 
-## The Reality
+I bumped in to a couple (which I later discovered had just got married) and the bride was wearing a light-up veil, which was incredibly similar to my reverse-engineered LED cape. And it's not about what we did, but our experiences of what lead us to there.
 
-I would love to say EMFCamp is this idealic weekend. But I did meet people who were not having a good time.
+It's about the achievements, not the end result.
 
-It is overwhealming
-
-I also experienced a derisive shushing when attending the Q&A tent after a talk, and the people who were there from a different talk were trying to listen to someone who had lost their voice.
+This is amplified by the talks. In my opinion, the best talks I went to were about how people got to where they were, not about the thing itself.
 
 ## Euphoria
+
+The other thing that makes EMFCamp so great is that everyone is so comfortable with being themselves. The inclusion aspect of EMFCamp is so strong that it's almost like a different world.
+
+It's like everyone is going around complimenting each other on the things that they've done, rather than who they are. It's an incredible feeling. Not being judged on who you are.
+
+Which I think is where the crush comes from, when you leave and rediscover that people are in a rush, and had a bad night sleep, and didn't have breakfast, and you watch the news and people are doing awful things to each other.
+
+Being released back in to that feels like overwhealming loss.
+
+It reminds me of those stories you hear [from astronaughts who come back from space and realise how delicate and fragile the world is](https://en.wikipedia.org/wiki/Overview_effect), and they want everyone to love each other and get along. And it seems so achievable and possible.
+
+I'm avoiding the term 'reality'.
+
+I posited on social media that EMFCamp is the reality, it's the rest of the world that hasn't caught up yet.
+
+Leaving EMFCamp is removing yourself from a place where everyone can be themselves and get along.
+
+And the pain is that you realise that it is possible for the world to exist like that, but it isn't.
+
+Until 2028.
+
+## Favourite Memory
+
+I was wearing my LED cape in Null Sector (an ourdoor nightclub) and I had my first BuzzBall delivered to me through a tube in a cyber-punk style shipping container, and I was drinking it and enjoying the music.
+
+And someone came up to me and very politely asked if they could take a photo of me. And I was delighted that someone would want a picture of me and my hard work.
+
+I hope that picture exists online somewhere.
+
+For me, that sums up EMFCamp.
