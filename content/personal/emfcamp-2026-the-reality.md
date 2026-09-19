@@ -4,7 +4,13 @@ draft: true
 date: 2026-09-13T19:00:47+00:00
 ---
 
-I think it's important to mention the things that didn't go so well. Because if you're reading this and thinking you want to go. I think you need to understand what you also should expect.
+I had an incredible time at EMFCamp. Likely one of the best times of my life.
+
+I've written about that [feeling of euphoria you get](./emfcamp-2026-the-reality.md).
+
+Everyone I've spoken to said they want to go.
+
+But I also think it's important to mention the things that didn't go so well. Because if you're reading this and thinking you want to go. I think you need to understand what you also should expect.
 
 ## Overwhealming
 
