@@ -88,11 +88,11 @@ jobs:
       - name: Get language complexity report
         id: complexity-report
         run: |
-            {
-              echo "report<<EOF"
-                  uv run textstat_cli ${{ steps.changed-files.outputs.content_files }}
-              echo "EOF"
-            } >> "$GITHUB_OUTPUT"
+          {
+            echo "report<<EOF"
+                uv run textstat_cli ${{ steps.changed-files.outputs.content_files }}
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
       - name: Add comment to PR
         uses: mshick/add-pr-comment@v3
         with:
@@ -147,15 +147,15 @@ jobs:
               - added|modified: 'content/**/*.md'
       - name: Generate BAML
         run: |
-          uv run baml-cli generate --files ${{ steps.changed-files.outputs.content_files }} --output baml.json
+          uv run baml-cli generate
       - name: Install Ollama
         run: |
-          curl -sSL https://ollama.com/download | sh
+          curl -fsSL https://ollama.com/install.sh | sh
       - name: Setup Ollama in background with cached model
         background: true
         run: |
-          ollama pull ollama/llama2-7b-chat
-          ollama serve --model ollama/llama2-7b-chat --cache-dir ~/.ollama/cache
+          ollama pull ollama/llama3.2:3b
+          ollama serve --model ollama/llama3.2:3b --cache-dir ~/.ollama/cache
       - name: Run check on changed files
         run: |
-          uv run baml-check --files ${{ steps.changed-files.outputs.content_files }} --model ollama/llama2-7b-chat --cache-dir ~/.ollama/cache
+          uv run copyeditor ${{ steps.changed-files.outputs.content_files }}

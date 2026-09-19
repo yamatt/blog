@@ -1,10 +1,10 @@
 // Learn more about clients at https://docs.boundaryml.com/docs/snippets/clients/overview
 
-client<llm> OllamaQwen {
+client<llm> Ollama {
 provider openai-generic
   options {
       base_url "http://localhost:11434/v1"
-      model "llama4"
+      model "llama3.2:3b"
       default_role "user" // Most local models prefer the user role
   }
 }
