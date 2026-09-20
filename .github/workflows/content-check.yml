@@ -177,6 +177,8 @@ jobs:
       - name: Get language complexity report
         timeout-minutes: 5
         id: complexity-report
+        env:
+          BAML_LOG: off
         run: |
           {
             echo "report<<EOF"
