@@ -145,10 +145,20 @@ jobs:
           key: ${{ runner.os }}-ollama-${{ hashFiles('**/Modelfile') }}
           restore-keys: |
             ${{ runner.os }}-ollama-
+      - name: Cache Ollama Binary
+        id: ollama-binary-cache
+        uses: actions/cache@v6
+        with:
+          path: ~/.local/ollama
+          key: ${{ runner.os }}-ollama-binary-v1
+          restore-keys: |
+            ${{ runner.os }}-ollama-binary-
       - name: Install Ollama Locally
         run: |
           mkdir -p ~/.local/ollama
-          curl -fsSL https://ollama.com/download/ollama-linux-amd64.tar.zst | tar --zstd -xvf - -C ~/.local/ollama
+          if [ ! -x "$HOME/.local/ollama/bin/ollama" ]; then
+            curl -fsSL https://ollama.com/download/ollama-linux-amd64.tar.zst | tar --zstd -xvf - -C ~/.local/ollama
+          fi
           echo "$HOME/.local/ollama/bin" >> $GITHUB_PATH
       - name: Setup Ollama in background with cached model
         run: |
@@ -190,3 +200,23 @@ jobs:
         with:
           message-id: copyeditor-report
           message: ${{ steps.complexity-report.outputs.report }}
+  meta-data:
+    name: Check meta data
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - name: Find changed files
+        id: changed-files
+        uses: dorny/paths-filter@v4
+        with:
+          list-files: shell
+          base: main
+          filters: |
+            content:
+              - added|modified: 'content/**/*.md'
+      - name: Check that the post has been set to publish
+        run: |
+          grep --ignore-case --regexp='^draft\:\s\+false$' ${{ steps.changed-files.outputs.content_files }};
+      - name: Check that the date is today or later
+        run: |
+          [[ $(date --date="$1" +$(grep --regexp='^date\:\s\+' ${{ steps.changed-files.outputs.content_files }} | cut --delimiter=' ' --fields=2)) > $(date +"%Y-%m-%d") ]]
