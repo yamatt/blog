@@ -12,7 +12,8 @@ from baml_client.sync_client import b
 
 @click.command()
 @click.argument("file_path", type=click.Path(exists=True))
-def main(file_path: str):
+@click.option("--language", default="US English", help="Language of the blog post")
+def main(file_path: str, language: str):
     """
     Main entry point for the copyeditor CLI.
     """
@@ -21,7 +22,7 @@ def main(file_path: str):
     with open(file_path, "r") as f:
         blog_post = f.read()
 
-    findings = b.Find(blog_post=blog_post)
+    findings = b.Find(blog_post=blog_post, language=language)
     click.echo("Findings:")
     for finding in findings.grammar:
         click.echo(f" - {finding.original_text} -> {finding.suggested_text}")

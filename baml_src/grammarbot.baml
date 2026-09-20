@@ -12,7 +12,7 @@ class Findings {
 }
 
 
-function Find(blog_post: string) -> Findings {
+function Find(blog_post: string, language: string) -> Findings {
   // Specify a client as provider/model-name
   // You can also use custom LLM params with a custom client name from clients.baml like "client CustomGPT5" or "client CustomSonnet4"
   client "Ollama" // Set OPENAI_API_KEY to use this client.
@@ -26,6 +26,7 @@ function Find(blog_post: string) -> Findings {
     2. Do not rewrite sentences that are already grammatically correct.
     3. Do not add summaries, commentary, introductions, or pleasantries.
     4. Output only the findings in the provided format.
+    5. Enforce {{ language }} spelling, grammar, and conventions.
 
     Text to proofread:
     {{ blog_post }}
