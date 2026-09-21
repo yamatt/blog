@@ -1,7 +1,7 @@
 ---
 title: EMFCamp 2026
-draft: true
-date: 2026-09-13T19:00:47+00:00
+draft: false
+date: 2026-09-21T19:00:47+00:00
 ---
 
 I was fortunate enough to go to [EMFCamp 2026](https://www.emfcamp.org/about) this year.
