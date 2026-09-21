@@ -64,7 +64,7 @@ jobs:
             echo "report<<EOF"
               echo "# Biased Language"
               status=0
-              npm exec -- alex ${{ steps.changed-files.outputs.content_files }} || status=$?
+              npm exec -- alex ${{ steps.changed-files.outputs.content_files }} 2>&1 || status=$?
             echo "EOF"
             exit "$status"
           } >> "$GITHUB_OUTPUT"
