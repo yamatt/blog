@@ -34,7 +34,7 @@ jobs:
       - name: Test content with markdownlint
         run: |
           npx markdownlint --config ./markdownlint.config.json ${{ steps.changed-files.outputs.content_files }}
-  test-language:
+  biased-language:
     name: Test for biased language
     runs-on: ubuntu-latest
     steps:
@@ -57,8 +57,18 @@ jobs:
             content:
               - added|modified: 'content/**/*.md'
       - name: Test content with alex
+        id: biased-language
         run: |
-          npm exec -- alex ${{ steps.changed-files.outputs.content_files }}
+          {
+            echo "report<<EOF"
+              npm exec -- alex ${{ steps.changed-files.outputs.content_files }}
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+      - name: Add comment to PR
+        uses: mshick/add-pr-comment@v3
+        with:
+          message-id: biased-language
+          message: ${{ steps.biased-language.outputs.report }}
   test-complexity:
     name: Get report on language complexity
     runs-on: ubuntu-latest
