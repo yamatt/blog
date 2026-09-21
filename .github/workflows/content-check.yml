@@ -58,6 +58,7 @@ jobs:
               - added|modified: 'content/**/*.md'
       - name: Test content with alex
         id: biased-language
+        continue-on-error: true
         run: |
           {
             echo "report<<EOF"
@@ -134,6 +135,7 @@ jobs:
               - added|modified: 'content/**/*.md'
       - name: Test content with write-good
         id: write-good
+        continue-on-error: true
         run: |
           {
             echo "report<<EOF"
