@@ -138,7 +138,7 @@ jobs:
           {
             echo "report<<EOF"
                 echo "# Write Good"
-                write-good --parse ${{ steps.changed-files.outputs.content_files }}
+                npm exec -- write-good --parse ${{ steps.changed-files.outputs.content_files }}
             echo "EOF"
           } >> "$GITHUB_OUTPUT"
       - name: Add comment to PR
