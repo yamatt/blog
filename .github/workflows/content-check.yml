@@ -184,6 +184,7 @@ jobs:
           echo "$HOME/.local/ollama/bin" >> $GITHUB_PATH
       - name: Setup Ollama in background with cached model
         background: true
+        id: ollama-serve
         run: |
           ollama serve
       - name: Check ollama is running
@@ -224,6 +225,8 @@ jobs:
         with:
           message-id: copyeditor-report
           message: ${{ steps.complexity-report.outputs.report }}
+      - name: Stop Ollama
+        cancel: ollama-serve
   meta-data:
     name: Check meta data
     runs-on: ubuntu-latest
