@@ -9,7 +9,7 @@ on:
       - "content/**.md"
 
 jobs:
-  markdownlint:
+  markdown-lint:
     name: Check markdown
     runs-on: ubuntu-latest
     steps:
@@ -154,8 +154,8 @@ jobs:
         with:
           message-id: write-good
           message: ${{ steps.write-good.outputs.report }}
-  offline-llm-check:
-    name: Check grammar, spelling with offline LLM
+  grammar-bot:
+    name: Offline LLM GrammarBot
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7.0.1
@@ -195,12 +195,14 @@ jobs:
         id: ollama-serve
         run: |
           ollama serve
-      - name: Check ollama is running
+      - name: Check ollama is Available
         timeout-minutes: 1
         run: |
           until curl -s http://localhost:11434/api/tags > /dev/null; do
+            echo "Checked."
             sleep 1
           done
+          echo "Available."
       - name: Pull Ollama Model
         run: |
           ollama pull ollama/llama3.2:3b
@@ -216,9 +218,9 @@ jobs:
       - name: Generate BAML
         run: |
           uv run baml-cli generate
-      - name: Get language complexity report
+      - name: Get GrammarBot report
         timeout-minutes: 5
-        id: complexity-report
+        id: grammabr-bot
         env:
           BAML_LOG: off
         run: |
@@ -234,7 +236,7 @@ jobs:
         uses: mshick/add-pr-comment@v3
         with:
           message-id: copyeditor-report
-          message: ${{ steps.complexity-report.outputs.report }}
+          message: ${{ steps.grammabr-bot.outputs.report }}
       - name: Stop Ollama
         cancel: ollama-serve
   meta-data:
