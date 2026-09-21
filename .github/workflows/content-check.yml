@@ -63,8 +63,10 @@ jobs:
           {
             echo "report<<EOF"
               echo "# Biased Language"
-              npm exec -- alex ${{ steps.changed-files.outputs.content_files }}
+              status=0
+              npm exec -- alex ${{ steps.changed-files.outputs.content_files }} || status=$?
             echo "EOF"
+            exit "$status"
           } >> "$GITHUB_OUTPUT"
       - name: Add comment to PR
         uses: mshick/add-pr-comment@v3
@@ -103,8 +105,10 @@ jobs:
           {
             echo "report<<EOF"
                 echo "# Text Stats"
-                uv run textstat_cli ${{ steps.changed-files.outputs.content_files }}
+                status=0
+                uv run textstat_cli ${{ steps.changed-files.outputs.content_files }} || status=$?
             echo "EOF"
+            exit "$status"
           } >> "$GITHUB_OUTPUT"
       - name: Add comment to PR
         uses: mshick/add-pr-comment@v3
@@ -140,14 +144,16 @@ jobs:
           {
             echo "report<<EOF"
                 echo "# Write Good"
-                npm exec -- write-good --parse ${{ steps.changed-files.outputs.content_files }}
+                status=0
+                npm exec -- write-good --parse ${{ steps.changed-files.outputs.content_files }} || status=$?
             echo "EOF"
+            exit "$status"
           } >> "$GITHUB_OUTPUT"
       - name: Add comment to PR
         uses: mshick/add-pr-comment@v3
         with:
           message-id: write-good
-          message: ${{ steps.complexity-report.outputs.report }}
+          message: ${{ steps.write-good.outputs.report }}
   offline-llm-check:
     name: Check grammar, spelling with offline LLM
     runs-on: ubuntu-latest
@@ -219,8 +225,10 @@ jobs:
           {
             echo "report<<EOF"
                 echo "# Copy Editor"
-                uv run copyeditor ${{ steps.changed-files.outputs.content_files }} "British English"
+                status=0
+                uv run copyeditor ${{ steps.changed-files.outputs.content_files }} "British English" || status=$?
             echo "EOF"
+            exit "$status"
           } >> "$GITHUB_OUTPUT"
       - name: Add comment to PR
         uses: mshick/add-pr-comment@v3
