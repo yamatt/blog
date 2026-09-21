@@ -240,7 +240,7 @@ jobs:
       - name: Stop Ollama
         cancel: ollama-serve
   meta-data:
-    name: Check meta data
+    name: Can be Published
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7.0.1
