@@ -171,6 +171,7 @@ jobs:
           fi
           echo "$HOME/.local/ollama/bin" >> $GITHUB_PATH
       - name: Setup Ollama in background with cached model
+        background: true
         run: |
           ollama serve
       - name: Check ollama is running
