@@ -228,7 +228,7 @@ jobs:
             echo "report<<EOF"
                 echo "# Copy Editor"
                 status=0
-                uv run copyeditor ${{ steps.changed-files.outputs.content_files }} "British English" || status=$?
+                uv run copyeditor ${{ steps.changed-files.outputs.content_files }} --language "British English" || status=$?
             echo "EOF"
             exit "$status"
           } >> "$GITHUB_OUTPUT"
