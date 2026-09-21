@@ -205,7 +205,7 @@ jobs:
           echo "Available."
       - name: Pull Ollama Model
         run: |
-          ollama pull ollama/llama3.2:3b
+          ollama pull llama3.2:3b
       - name: Find changed files
         id: changed-files
         uses: dorny/paths-filter@v4
