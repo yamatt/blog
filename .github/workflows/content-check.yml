@@ -88,14 +88,15 @@ jobs:
       - name: Get language complexity report
         id: complexity-report
         run: |
-            {
-              echo "report<<EOF"
-                  uv run textstat_cli ${{ steps.changed-files.outputs.content_files }}
-              echo "EOF"
-            } >> "$GITHUB_OUTPUT"
+          {
+            echo "report<<EOF"
+                uv run textstat_cli ${{ steps.changed-files.outputs.content_files }}
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
       - name: Add comment to PR
         uses: mshick/add-pr-comment@v3
         with:
+          message-id: complexity-report
           message: ${{ steps.complexity-report.outputs.report }}
   grammar-check:
     name: Use write-good to check usage of language
@@ -123,3 +124,99 @@ jobs:
         continue-on-error: true
         run: |
           write-good --parse ${{ steps.changed-files.outputs.content_files }}
+  offline-llm-check:
+    name: Check grammar, spelling with offline LLM
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - name: Install uv
+        uses: astral-sh/setup-uv@v10.0.1
+        with:
+          enable-cache: "auto"
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version-file: ".python-version"
+      - name: Cache Ollama Models
+        id: ollama-cache
+        uses: actions/cache@v6
+        with:
+          path: ~/.ollama/models
+          key: ${{ runner.os }}-ollama-${{ hashFiles('**/Modelfile') }}
+          restore-keys: |
+            ${{ runner.os }}-ollama-
+      - name: Cache Ollama Binary
+        id: ollama-binary-cache
+        uses: actions/cache@v6
+        with:
+          path: ~/.local/ollama
+          key: ${{ runner.os }}-ollama-binary-v1
+          restore-keys: |
+            ${{ runner.os }}-ollama-binary-
+      - name: Install Ollama Locally
+        run: |
+          mkdir -p ~/.local/ollama
+          if [ ! -x "$HOME/.local/ollama/bin/ollama" ]; then
+            curl -fsSL https://ollama.com/download/ollama-linux-amd64.tar.zst | tar --zstd -xvf - -C ~/.local/ollama
+          fi
+          echo "$HOME/.local/ollama/bin" >> $GITHUB_PATH
+      - name: Setup Ollama in background with cached model
+        run: |
+          ollama serve
+      - name: Check ollama is running
+        timeout-minutes: 1
+        run: |
+          until curl -s http://localhost:11434/api/tags > /dev/null; do
+            sleep 1
+          done
+      - name: Pull Ollama Model
+        run: |
+          ollama pull ollama/llama3.2:3b
+      - name: Find changed files
+        id: changed-files
+        uses: dorny/paths-filter@v4
+        with:
+          list-files: shell
+          base: main
+          filters: |
+            content:
+              - added|modified: 'content/**/*.md'
+      - name: Generate BAML
+        run: |
+          uv run baml-cli generate
+      - name: Get language complexity report
+        timeout-minutes: 5
+        id: complexity-report
+        env:
+          BAML_LOG: off
+        run: |
+          {
+            echo "report<<EOF"
+                uv run copyeditor ${{ steps.changed-files.outputs.content_files }} "British English"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+      - name: Add comment to PR
+        uses: mshick/add-pr-comment@v3
+        with:
+          message-id: copyeditor-report
+          message: ${{ steps.complexity-report.outputs.report }}
+  meta-data:
+    name: Check meta data
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - name: Find changed files
+        id: changed-files
+        uses: dorny/paths-filter@v4
+        with:
+          list-files: shell
+          base: main
+          filters: |
+            content:
+              - added|modified: 'content/**/*.md'
+      - name: Check that the post has been set to publish
+        run: |
+          grep --ignore-case --regexp='^draft\:\s\+false$' ${{ steps.changed-files.outputs.content_files }};
+      - name: Check that the date is today or later
+        run: |
+          [[ $(date --date="$1" +$(grep --regexp='^date\:\s\+' ${{ steps.changed-files.outputs.content_files }} | cut --delimiter=' ' --fields=2)) > $(date +"%Y-%m-%d") ]]
