@@ -61,6 +61,7 @@ jobs:
         run: |
           {
             echo "report<<EOF"
+              echo "# Biased Language"
               npm exec -- alex ${{ steps.changed-files.outputs.content_files }}
             echo "EOF"
           } >> "$GITHUB_OUTPUT"
@@ -100,6 +101,7 @@ jobs:
         run: |
           {
             echo "report<<EOF"
+                echo "# Text Stats"
                 uv run textstat_cli ${{ steps.changed-files.outputs.content_files }}
             echo "EOF"
           } >> "$GITHUB_OUTPUT"
@@ -131,9 +133,19 @@ jobs:
             content:
               - added|modified: 'content/**/*.md'
       - name: Test content with write-good
-        continue-on-error: true
+        id: write-good
         run: |
-          write-good --parse ${{ steps.changed-files.outputs.content_files }}
+          {
+            echo "report<<EOF"
+                echo "# Write Good"
+                write-good --parse ${{ steps.changed-files.outputs.content_files }}
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+      - name: Add comment to PR
+        uses: mshick/add-pr-comment@v3
+        with:
+          message-id: write-good
+          message: ${{ steps.complexity-report.outputs.report }}
   offline-llm-check:
     name: Check grammar, spelling with offline LLM
     runs-on: ubuntu-latest
@@ -203,6 +215,7 @@ jobs:
         run: |
           {
             echo "report<<EOF"
+                echo "# Copy Editor"
                 uv run copyeditor ${{ steps.changed-files.outputs.content_files }} "British English"
             echo "EOF"
           } >> "$GITHUB_OUTPUT"
