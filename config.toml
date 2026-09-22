@@ -4,12 +4,12 @@ baseURL = "https://matt.copperwaite.net"
 locale = "en-gb"
 title = "Matt Copperwaite"
 copyright = "CC BY-SA 4.0"
+theme = "custom"
 
 [author]
 name = "Matt Copperwaite"
 
 # Name of theme
-theme = "custom"
 
 [minify]
 [minify.tdewolff.html]
