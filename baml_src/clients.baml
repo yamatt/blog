@@ -4,7 +4,7 @@ client<llm> Ollama {
 provider openai-generic
   options {
       base_url "http://localhost:11434/v1"
-      model "llama3.2:3b"
+      model "llama3.2:3b-text-q8_0"
       default_role "user" // Most local models prefer the user role
   }
 }
