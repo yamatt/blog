@@ -21,9 +21,13 @@ updates:
     schedule:
       interval: "weekly"
     cooldown:
-      default-days: 5
+      default-days: 7
     assignees:
       - yamatt
+    groups:
+      minor-patch:
+        patterns: ["*"]
+        update-types: ["minor", "patch"]
     labels:
       - dependabot
       - github-actions
@@ -32,9 +36,13 @@ updates:
     schedule:
       interval: "weekly"
     cooldown:
-      default-days: 5
+      default-days: 7
     assignees:
       - yamatt
+    groups:
+      minor-patch:
+        patterns: ["*"]
+        update-types: ["minor", "patch"]
     labels:
       - dependabot
       - github-actions
